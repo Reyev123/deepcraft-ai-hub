@@ -36,6 +36,10 @@ jobs:
           chmod +x .github/scripts/master.sh
           .github/scripts/master.sh
 
+      - name: Invalidate Bucket Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id E6312ZA9FCXWU --paths "/*"    
+
       # Upload a file to AWS S3
       - name: Copy master.json to S3
         run: |

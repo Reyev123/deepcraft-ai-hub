@@ -33,4 +33,4 @@ jobs:
       # Upload a file to AWS S3
       - name: Copy master.json to S3
         run: |
-          aws s3 cp ./master.json s3://${{ env.BUCKET_NAME }}/ --acl public-read 
+          cat ./master.json 

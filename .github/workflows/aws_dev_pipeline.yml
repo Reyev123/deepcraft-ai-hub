@@ -1,12 +1,9 @@
-name: AWS AI HUB workflow
+name: Development AWS AI HUB workflow 
 
 on:
   workflow_dispatch:
     inputs:
-      my_input:
-        description: 'Update AI HUB Development'
-        required: false
-        default: 'default_value'
+      # Optional inputs can be defined here   
 
 env:
   BUCKET_NAME : "aihub-dev-ui"

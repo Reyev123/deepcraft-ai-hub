@@ -7,6 +7,7 @@ on:
 
 env:
   BUCKET_NAME : "aihub-dev-ui"
+  BUCKET_NAME_IMAGES : "aihub-dev-images"
   AWS_REGION : "us-east-1"
 
 permissions:
@@ -44,3 +45,7 @@ jobs:
       - name: Copy master.json to S3
         run: |
           aws s3 cp ./master.json s3://${{ env.BUCKET_NAME }}/ --acl public-read 
+
+      - name: Upload images folder to S3
+        run: |
+          aws s3 sync ./images s3://${{ env.BUCKET_NAME_IMAGES }}/images --acl public-read

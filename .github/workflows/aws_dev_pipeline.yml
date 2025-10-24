@@ -25,6 +25,10 @@ jobs:
           role-session-name: aihubsession
           aws-region: ${{ env.AWS_REGION }}
 
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive
+
       - name: Convert metadata.json files to .json in ModelJsons
         run: |
           chmod +x .github/scripts/master.sh

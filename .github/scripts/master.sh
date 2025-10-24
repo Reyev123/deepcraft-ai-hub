@@ -3,7 +3,7 @@
 set -e
 touch master.json
 echo "{" >> master.json
-for d in */ ; do
+for d in */*/ ; do
   if [ -f "$d/metadata.json" ]; then
     name=$(basename "$d")
     echo "    \"$name\":" >> master.json

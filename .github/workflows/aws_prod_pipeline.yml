@@ -1,0 +1,42 @@
+name: Production AWS AI HUB workflow 
+
+on:
+  workflow_dispatch:
+    inputs:
+      # Optional inputs can be defined here   
+
+env:
+  BUCKET_NAME : "aihub-prod-ui"
+  AWS_REGION : "us-east-1"
+
+permissions:
+  id-token: write   # This is required for requesting the JWT
+  contents: read    # This is required for actions/checkout
+
+jobs:
+  S3PackageUploadDevelopment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git clone the repository
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::425515537310:role/AI-HUB-GIT-HUB
+          role-session-name: aihubsession
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive
+
+      - name: Convert metadata.json files to .json in ModelJsons
+        run: |
+          chmod +x .github/scripts/master.sh
+          .github/scripts/master.sh
+
+      # Upload a file to AWS S3
+      - name: Copy master.json to S3
+        run: |
+          aws s3 cp ./master.json s3://${{ env.BUCKET_NAME }}/ --acl public-read 

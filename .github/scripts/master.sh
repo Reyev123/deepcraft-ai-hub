@@ -13,4 +13,4 @@ for d in */*/ ; do
 done
 echo "}" >> master.json
 # Optionally, remove all .json files except master.json if any exist from previous runs
-#find . -maxdepth 1 -type f -name '*.json' ! -name 'master.json' -delete
+find . -maxdepth 1 -type f -name '*.json' ! -name 'master.json' -delete

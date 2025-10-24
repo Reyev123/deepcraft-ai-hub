@@ -4,7 +4,7 @@ on:
   push
 
 env:
-  BUCKET_NAME : "itsi-ifx-dev-app-ui"
+  BUCKET_NAME : "aihub-dev-ui"
   AWS_REGION : "us-east-1"
 
 permissions:

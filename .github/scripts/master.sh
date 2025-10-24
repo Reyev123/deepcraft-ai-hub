@@ -38,12 +38,9 @@ for root, dirs, files in os.walk('.'):
             except Exception as e:
                 print(f'Warning: Error processing {metadata_path}: {e}')
 
-# Create the master JSON structure
-master_data = {'cards': cards}
-
-# Write to master.json with proper formatting
+# Write cards directly to master.json (no 'cards' wrapper)
 with open('master.json', 'w') as f:
-    json.dump(master_data, f, indent=2, ensure_ascii=False)
+    json.dump(cards, f, indent=2, ensure_ascii=False)
 
 print(f'Successfully created master.json with {len(cards)} cards')
 "

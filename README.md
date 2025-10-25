@@ -40,7 +40,6 @@ deepcraft-ai-hub/
 ├── deepcraft-model-zoo-for-psoc/  # Submodule: PSoC™ Edge models
 ├── deepcraft-studio-accelerators/ # Submodule: Ready-to-use solutions
 ├── images/                        # Shared image assets
-├── images.sh                      # Image downloading script
 └── README.md                      # This file
 ```
 

@@ -113,21 +113,6 @@ Generates a unified `master.json` file containing metadata from all submodules.
 - Creates a flat JSON structure for easy access
 - Validates JSON output
 
-**Usage:**
-```bash
-./_master.sh
-# Output: master.json with 50+ model entries
-```
-
-### `images.sh`
-Downloads brand assets and images from Infineon's brand portal.
-
-**Usage:**
-```bash
-./images.sh
-# Downloads images to images/ folder
-```
-
 ## 🤝 Contributing
 
 ### Adding New Submodules

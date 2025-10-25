@@ -40,8 +40,6 @@ deepcraft-ai-hub/
 ├── deepcraft-model-zoo-for-psoc/  # Submodule: PSoC™ Edge models
 ├── deepcraft-studio-accelerators/ # Submodule: Ready-to-use solutions
 ├── images/                        # Shared image assets
-├── master.json                    # Unified metadata catalog
-├── _master.sh                     # Local metadata generation script
 ├── images.sh                      # Image downloading script
 └── README.md                      # This file
 ```
@@ -148,11 +146,6 @@ Downloads brand assets and images from Infineon's brand portal.
    ```
 
 3. **Update workflows** if needed to include the new submodule
-
-4. **Run metadata generation**:
-   ```bash
-   ./_master.sh
-   ```
 
 ### Updating Submodules
 

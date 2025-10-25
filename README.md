@@ -104,7 +104,7 @@ The repository includes two automated deployment workflows:
 
 ## 🛠️ Scripts
 
-### `master.sh` / `_master.sh`
+### `master.sh`
 Generates a unified `master.json` file containing metadata from all submodules.
 
 **Features:**

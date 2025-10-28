@@ -63,17 +63,6 @@ cd deepcraft-ai-hub
 git submodule update --init --recursive
 ```
 
-### Generate Unified Metadata
-
-```bash
-# Generate master.json with all model metadata
-chmod +x _master.sh
-./_master.sh
-
-# Verify the generated JSON
-python3 -m json.tool master.json > /dev/null && echo "✅ Valid JSON generated"
-```
-
 ## 🔄 Workflows
 
 The repository includes two automated deployment workflows:

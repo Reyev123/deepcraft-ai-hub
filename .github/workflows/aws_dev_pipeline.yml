@@ -38,7 +38,7 @@ jobs:
 
       - name: Invalidate Bucket Cache
         run: |
-          aws cloudfront create-invalidation --distribution-id E2H556H06EWTSH --paths "/*"
+          aws cloudfront create-invalidation --distribution-id E7SSIXL1BHMVE --paths "/*"
 
       # Upload a file to AWS S3
       - name: Copy master.json to S3

@@ -1,9 +1,12 @@
 [submodule "deepcraft-studio-accelerators"]
 	path = deepcraft-studio-accelerators
 	url = https://github.com/Infineon/deepcraft-studio-accelerators
+	branch = main
 [submodule "deepcraft-model-zoo-for-psoc"]
 	path = deepcraft-model-zoo-for-psoc
 	url = https://github.com/Infineon/deepcraft-model-zoo-for-psoc
+	branch = main
 [submodule "deepcraft-model-zoo-for-aurix"]
 	path = deepcraft-model-zoo-for-aurix
 	url = https://github.com/Infineon/deepcraft-model-zoo-for-aurix
+	branch = main

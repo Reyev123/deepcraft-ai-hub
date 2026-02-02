@@ -10,3 +10,6 @@
 	path = deepcraft-model-zoo-for-aurix
 	url = https://github.com/Infineon/deepcraft-model-zoo-for-aurix
 	branch = main
+[submodule "images"]
+	path = images
+	url = https://github.com/Reyev123/images

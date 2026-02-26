@@ -5,22 +5,50 @@ set -e
 # Use Python to create valid JSON structure
 python3 -c "
 import json
-from pathlib import Path
 import os
+
+TITLE_PREFIX = 'DEEPCRAFT\u2122 '
+GITHUB_BASE_URL = os.environ.get('GITHUB_BASE_URL', 'https://github.com').rstrip('/')
+
+
+def has_excluded_prefix(path_parts):
+    return any(part.startswith('_') or part.startswith('*') for part in path_parts)
+
+
+def normalize_metadata(obj, repo_url):
+    if isinstance(obj, dict):
+        if obj.get('label') == 'GitHub':
+            obj['url'] = repo_url
+
+        for k, v in list(obj.items()):
+            if k == 'title' and isinstance(v, str):
+                if not v.startswith(TITLE_PREFIX):
+                    obj[k] = f'{TITLE_PREFIX}{v}'
+            else:
+                normalize_metadata(v, repo_url)
+    elif isinstance(obj, list):
+        for item in obj:
+            normalize_metadata(item, repo_url)
+
 
 cards = {}
 # Search for metadata.json files in subdirectories (pattern */*/metadata.json)
 for root, dirs, files in os.walk('.'):
+    # Prune excluded directories while walking
+    dirs[:] = [d for d in dirs if not (d.startswith('_') or d.startswith('*'))]
+
     if 'metadata.json' in files:
         # Get the directory path relative to current directory
         rel_path = os.path.relpath(root, '.')
         # Skip if it's in current directory or too deep
         path_parts = rel_path.split(os.sep)
-        if len(path_parts) == 2:  # Only process paths like 'parent/child'
+        if len(path_parts) == 2 and not has_excluded_prefix(path_parts):  # Only process paths like 'parent/child'
             try:
                 metadata_path = os.path.join(root, 'metadata.json')
                 with open(metadata_path, 'r') as f:
                     metadata = json.load(f)
+
+                repo_url = f'{GITHUB_BASE_URL}/{rel_path.replace(os.sep, '/')}'
                 
                 # Use the leaf directory name as the key
                 key = os.path.basename(root)
@@ -29,10 +57,12 @@ for root, dirs, files in os.walk('.'):
                 if isinstance(metadata, list):
                     # If it's an array, create separate entries for each item
                     for i, item in enumerate(metadata):
+                        normalize_metadata(item, repo_url)
                         entry_key = f'{key}_{i+1}' if len(metadata) > 1 else key
                         cards[entry_key] = item
                 else:
                     # If it's a single object, use directory name as key
+                    normalize_metadata(metadata, repo_url)
                     cards[key] = metadata
                     
             except Exception as e:

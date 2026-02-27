@@ -28,7 +28,8 @@ def get_module_title_prefix(path_parts, cache):
                 config_data = json.load(config_file)
             config_prefix = config_data.get('title_prefix')
             if isinstance(config_prefix, str):
-                module_title_prefix = config_prefix
+                normalized_prefix = config_prefix.strip()
+                module_title_prefix = normalized_prefix if normalized_prefix else ''
             elif config_prefix is not None:
                 print(f'Warning: title_prefix in {config_path} is not a string, ignoring it')
         except Exception as e:

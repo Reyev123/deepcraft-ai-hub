@@ -28,8 +28,7 @@ def get_module_title_prefix(path_parts, cache):
                 config_data = json.load(config_file)
             config_prefix = config_data.get('title_prefix')
             if isinstance(config_prefix, str):
-                normalized_prefix = config_prefix.strip()
-                module_title_prefix = normalized_prefix if normalized_prefix else ''
+                module_title_prefix = config_prefix if config_prefix.strip() != '' else ''
             elif config_prefix is not None:
                 print(f'Warning: title_prefix in {config_path} is not a string, ignoring it')
         except Exception as e:
@@ -40,7 +39,7 @@ def get_module_title_prefix(path_parts, cache):
 
 
 def has_non_empty_prefix(value):
-    return isinstance(value, str) and value != ''
+    return isinstance(value, str) and value.strip() != ''
 
 
 def get_prefixed_object_name(existing_name, module_title_prefix):

@@ -15,14 +15,13 @@ def has_excluded_prefix(path_parts):
     return any(part.startswith('_') or part.startswith('*') for part in path_parts)
 
 
-def get_module_title_prefix(path_parts, cache):
-    module_root = path_parts[0] if path_parts else ''
-    if module_root in cache:
-        return cache[module_root]
+def get_module_title_prefix(rel_path, cache):
+    if rel_path in cache:
+        return cache[rel_path]
 
     module_title_prefix = ''
-    config_path = os.path.join('.', module_root, 'config.json')
-    if module_root and os.path.isfile(config_path):
+    config_path = os.path.join('.', rel_path, 'config.json')
+    if rel_path and os.path.isfile(config_path):
         try:
             with open(config_path, 'r') as config_file:
                 config_data = json.load(config_file)
@@ -35,7 +34,7 @@ def get_module_title_prefix(path_parts, cache):
         except Exception as e:
             print(f'Warning: Error reading {config_path}: {e}')
 
-    cache[module_root] = module_title_prefix
+    cache[rel_path] = module_title_prefix
     return module_title_prefix
 
 
@@ -84,7 +83,7 @@ for root, dirs, files in os.walk('.'):
                     metadata = json.load(f)
 
                 repo_url = f'{GITHUB_BASE_URL}/{rel_path.replace(os.sep, '/')}'
-                module_title_prefix = get_module_title_prefix(path_parts, module_title_prefix_cache)
+                module_title_prefix = get_module_title_prefix(rel_path, module_title_prefix_cache)
                 
                 # Use the leaf directory name as the key
                 key = os.path.basename(root)

@@ -7,7 +7,7 @@ python3 -c "
 import json
 import os
 
-TITLE_PREFIX = 'DEEPCRAFT\u2122 '
+TITLE_PREFIX = 'DEEPCRAFT\\u2122 '
 GITHUB_BASE_URL = os.environ.get('GITHUB_BASE_URL', 'https://github.com').rstrip('/')
 
 

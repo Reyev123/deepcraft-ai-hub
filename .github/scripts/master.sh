@@ -40,6 +40,9 @@ def get_module_title_prefix(path_parts, cache):
 
 
 def get_prefixed_object_name(existing_name, module_title_prefix):
+    if module_title_prefix == '':
+        return existing_name
+
     if not module_title_prefix:
         return existing_name
 

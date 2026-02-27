@@ -9,7 +9,7 @@ import os
 
 TITLE_PREFIX = 'DEEPCRAFT\\u2122 '
 GITHUB_BASE_URL = os.environ.get('GITHUB_BASE_URL', 'https://github.com').rstrip('/')
-
+TITLE_OBJECT_PREFIX = 'DEEPCRAFT'
 
 def has_excluded_prefix(path_parts):
     return any(part.startswith('_') or part.startswith('*') for part in path_parts)
@@ -36,6 +36,14 @@ def get_module_title_prefix(path_parts, cache):
 
     cache[module_root] = module_title_prefix
     return module_title_prefix
+
+
+def get_prefixed_object_name(existing_name, module_title_prefix):
+    if not module_title_prefix:
+        return existing_name
+
+    key_prefix = f'{TITLE_OBJECT_PREFIX}{module_title_prefix}'.replace(' ', '')
+    return f'{key_prefix}{existing_name}'
 
 
 def normalize_metadata(obj, repo_url, base_title_prefix, module_title_prefix):
@@ -79,18 +87,19 @@ for root, dirs, files in os.walk('.'):
                 
                 # Use the leaf directory name as the key
                 key = os.path.basename(root)
+                prefixed_key = get_prefixed_object_name(key, module_title_prefix)
                 
                 # Handle both single objects and arrays of objects
                 if isinstance(metadata, list):
                     # If it's an array, create separate entries for each item
                     for i, item in enumerate(metadata):
                         normalize_metadata(item, repo_url, TITLE_PREFIX, module_title_prefix)
-                        entry_key = f'{key}_{i+1}' if len(metadata) > 1 else key
+                        entry_key = f'{prefixed_key}_{i+1}' if len(metadata) > 1 else prefixed_key
                         cards[entry_key] = item
                 else:
                     # If it's a single object, use directory name as key
                     normalize_metadata(metadata, repo_url, TITLE_PREFIX, module_title_prefix)
-                    cards[key] = metadata
+                    cards[prefixed_key] = metadata
                     
             except Exception as e:
                 print(f'Warning: Error processing {metadata_path}: {e}')

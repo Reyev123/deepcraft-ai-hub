@@ -58,6 +58,9 @@ def normalize_metadata(obj, repo_url, base_title_prefix, module_title_prefix):
 
         for k, v in list(obj.items()):
             if k == 'title' and isinstance(v, str):
+                if not has_non_empty_prefix(module_title_prefix):
+                    continue
+
                 title_value = v[len(base_title_prefix):] if v.startswith(base_title_prefix) else v
                 if has_non_empty_prefix(module_title_prefix) and not title_value.startswith(module_title_prefix):
                     title_value = f'{module_title_prefix}{title_value}'

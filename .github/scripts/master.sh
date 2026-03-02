@@ -118,6 +118,7 @@ for root, dirs, files in os.walk('.'):
                     metadata = json.load(f)
 
                 repo_url = f'{GITHUB_BASE_URL}/{rel_path.replace(os.sep, '/')}'
+                repo_url = repo_url + "tree/main/"
                 module_title_prefix = get_module_title_prefix(path_parts, module_title_prefix_cache)
                 
                 # Use the leaf directory name as the key

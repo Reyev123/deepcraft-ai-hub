@@ -6,6 +6,7 @@ set -e
 python3 -c "
 import json
 import os
+import re
 
 TITLE_PREFIX = 'DEEPCRAFT\u2122 '
 GITHUB_BASE_URL = os.environ.get('GITHUB_BASE_URL', 'https://github.com').rstrip('/')
@@ -71,6 +72,33 @@ def normalize_metadata(obj, repo_url, base_title_prefix, module_title_prefix):
             normalize_metadata(item, repo_url, base_title_prefix, module_title_prefix)
 
 
+def sanitize_key_from_title(title):
+    sanitized = title.replace('™', '').replace('\\u2122', '')
+    sanitized = re.sub(r'\s+', '', sanitized)
+    return sanitized
+
+
+def rewrite_top_level_keys_from_title(data):
+    rewritten = {}
+    for original_key, value in data.items():
+        if isinstance(value, dict) and isinstance(value.get('title'), str) and value['title'].strip() != '':
+            base_key = sanitize_key_from_title(value['title'])
+            if base_key == '':
+                base_key = original_key
+        else:
+            base_key = original_key
+
+        unique_key = base_key
+        suffix = 2
+        while unique_key in rewritten:
+            unique_key = f'{base_key}_{suffix}'
+            suffix += 1
+
+        rewritten[unique_key] = value
+
+    return rewritten
+
+
 cards = {}
 module_title_prefix_cache = {}
 # Search for metadata.json files in subdirectories (pattern */*/metadata.json)
@@ -110,6 +138,10 @@ for root, dirs, files in os.walk('.'):
                     
             except Exception as e:
                 print(f'Warning: Error processing {metadata_path}: {e}')
+
+# Last step: overwrite all top-level keys using sanitized title values
+# (remove whitespace and trademark marker).
+cards = rewrite_top_level_keys_from_title(cards)
 
 # Write cards directly to master.json (no 'cards' wrapper)
 with open('master.json', 'w') as f:

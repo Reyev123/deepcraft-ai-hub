@@ -9,7 +9,7 @@ import os
 import re
 
 TITLE_PREFIX = 'DEEPCRAFT\u2122 '
-GITHUB_BASE_URL = os.environ.get('GITHUB_BASE_URL', 'https://github.com').rstrip('/')
+GITHUB_BASE_URL = os.environ.get('GITHUB_BASE_URL', 'https://github.com/Infineon').rstrip('/')
 TITLE_OBJECT_PREFIX = 'DEEPCRAFT'
 
 def has_excluded_prefix(path_parts):

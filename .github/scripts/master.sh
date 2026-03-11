@@ -51,6 +51,22 @@ def get_prefixed_object_name(existing_name, module_title_prefix):
     return f'{key_prefix}{existing_name}'
 
 
+def rename_top_level_type_key(obj):
+    if not isinstance(obj, dict) or 'type' not in obj:
+        return obj
+
+    renamed = {}
+    for key, value in obj.items():
+        if key == 'type':
+            if 'Type' not in obj:
+                renamed['Type'] = value
+            continue
+
+        renamed[key] = value
+
+    return renamed
+
+
 def normalize_metadata(obj, repo_url, base_title_prefix, module_title_prefix):
     if isinstance(obj, dict):
         if obj.get('label') == 'GitHub':
@@ -130,11 +146,13 @@ for root, dirs, files in os.walk('.'):
                 if isinstance(metadata, list):
                     # If it's an array, create separate entries for each item
                     for i, item in enumerate(metadata):
+                        item = rename_top_level_type_key(item)
                         normalize_metadata(item, repo_url, TITLE_PREFIX, module_title_prefix)
                         entry_key = f'{prefixed_key}_{i+1}' if len(metadata) > 1 else prefixed_key
                         cards[entry_key] = item
                 else:
                     # If it's a single object, use directory name as key
+                    metadata = rename_top_level_type_key(metadata)
                     normalize_metadata(metadata, repo_url, TITLE_PREFIX, module_title_prefix)
                     cards[prefixed_key] = metadata
                     

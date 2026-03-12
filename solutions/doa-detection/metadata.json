@@ -1,0 +1,20 @@
+{
+  "title": "DEEPCRAFT\u2122 Ready Model for Direction of Arrival (Sound)",
+  "description": "Detect the direction of an incoming sound based on a 4 microphone array",
+  "long_description": "The DEEPCRAFT\u2122 Ready Model for Direction of Arrival (Sound) is a production-ready Edge AI model that detects the direction of an incoming sound based on a 4 microphone array and outputs one of the 8 cardinal directions.",
+  "sensors": ["Microphone"],
+  "domain": ["Audio"],
+  "application": ["Residential Aircon","Alarm & Security","Collaborative Robot (cobot)","Domestic Robot","Humanoid Robot","Security Camera & Video Doorbell","Smart Thermostat"],
+  "use_case": ["Sound Event Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_21871_EmergencyComp.webp",
+  "main_image_id": "lowres_21871_EmergencyComp.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [{"label": "Learn More", "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-direction-of-arrival-Sound", "heading": "Product Details", "sub-heading": "Find details on features, benefits and use cases"},
+			{"label": "Try Today", "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelfordirectionofarrivalsoundevaluation", "heading": "Evaluation Model", "sub-heading": "Download and evaluate the Ready Model today"}],
+  "metrics": [{"label": "RW Memory Usage (KB)", "value": "826", "note": "Measured on Cortex-A72"},
+              {"label": "RO Memory Usage (KB)", "value": "186", "note": "Measured on Cortex-A72"},
+              {"label": "Inference Time (ms)", "value": "82", "note": "Measured on Cortex-A72"}]
+}

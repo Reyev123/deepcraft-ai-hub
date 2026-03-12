@@ -1,0 +1,16 @@
+{
+  "title": "DEEPCRAFT\u2122 Audio Enhancement",
+  "description": "Enhance speech quality for voice products at the edge",
+  "long_description": "Edge AI solution that enhances speech quality by removing unwanted noise, optimized for power-efficiency on Infineon PSOC\u2122 Edge MCUs",
+  "sensors": ["Microphone"],
+  "domain": ["Audio","Voice"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
+  "use_case": ["Voice Recognition"],
+  "kit": ["PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_24560_Man_cutting_carrot_in_smart_kitchen.webp",
+  "main_image_id": "lowres_24560_Man_cutting_carrot_in_smart_kitchen.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+"links": [{"label": "Learn More", "url": "https://www.infineon.com/deepcraft-audio-enhancement", "heading": "Product Details", "sub-heading": "Find user guides, kits, software and demos to get started"}]
+}

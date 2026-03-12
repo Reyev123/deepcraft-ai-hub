@@ -1,0 +1,27 @@
+{
+  "title": "DEEPCRAFT\u2122 Model Converter",
+  "description": "Converts, optimizes and validates AI models for Infineon MCUs",
+  "long_description": "The DEEPCRAFT\u2122 Model Converter is a software application that supports the Bring Your Own Model concept (BYOM), which allows users to bring their own AI model and run it on edge devices. This application helps machine learning engineers work more efficiently, by streamlining the processes for running their models on their target hardware. Models are converted so they can run on the edge. Models are optimized, which means they will become highly compact and high-performance models, designed to run on Infineon MCUs. Models are validated with a dataset to check that the generated code matches the performance in the original models. Validation is done on the desktop, it has an easy-to-use Graphical User Interface (GUI) and runs on Windows, Linux and Mac. It also includes a Command Line Interface (CLI) to enable integration into Continuous Integration (CI)/Continuous Delivery (CD) pipelines and workflows.",
+  "sensors": ["Vibration", "Voltage", "Microphone", "ToF", "Radar", "IMU", "Camera", "Capacitive Sensing", "Current", "Inductive Sensing","Accelerometer","Gyroscope","Magnetometer","Temperature","Humidity","Pressure"],
+  "domain": ["Motion", "Touch", "Vibration", "Audio", "Vision", "Radar", "Trajectory Control", "Voice", "Sensing"],
+  "application": ["Collaborative Robot (cobot)", "ADAS", "Home Health Monitoring", "Healthcare Wearable & Consumable", "Industrial Automation", "Wearables", "Trajectory Control", "Commercial, Residential and Industrial Lighting", "Alarm & Security", "AR Devices / Smart Glasses", "Industrial Sensor System", "Safety Monitoring", "Smart Manufacturing", "Smart Home", "Security Camera & Video Doorbell", "Smart Manufacturing", "Smart Thermostat", "Environmental Protection", "Automotive", "Appliances", "Smart Watch & Wristband", "Clinical & Hospital Equipment", "Games", "Drone & Multicopter", "Domestic Robot", "Humanoid Robot", "Commercial Building Automation", "Industrial IoT", "Residential Aircon", "Forest Monitoring", "Smart Forest/Environment", "Healthcare", "Baby Monitor", "Audio & Speaker"],
+  "kit": ["PSOC\u2122 Edge AI Kit", "PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit", "PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 6", "PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_25677_DEEPCRAFT_Model_Converter_previewed_on_Laptop.webp",
+  "main_image_id": "lowres_25677_DEEPCRAFT_Model_Converter_previewed_on_Laptop.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [
+  {
+  "label": "Learn More",
+  "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-model-converter",
+  "heading": "Learn More",
+  "sub-heading": "Learn more details about the DEEPCRAFT\u2122 Model Converter on Infineon.com"
+  },
+  {
+  "label": "Download",
+  "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftmodelconverter",
+  "heading": "Try Today",
+  "sub-heading": "Download the DEEPCRAFT\u2122 Model Converter and get started"
+  }]
+}

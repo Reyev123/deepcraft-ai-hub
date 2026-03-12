@@ -1,0 +1,17 @@
+{
+  "title": "DEEPCRAFT\u2122 Voice Assistant",
+  "description": "Build natural voice interfaces for edge devices",
+  "long_description": "Edge AI solution that enables natural voice interfaces to run locally on edge devices, optimized for power and performance on Infineon PSOC\u2122 Edge MCUs.",
+  "sensors": ["Microphone"],
+  "domain": ["Audio","Voice"],
+  "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
+  "use_case": ["Voice Recognition"],
+  "kit": ["PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_19905_Man_using_smartwatch.webp",
+  "main_image_id": "lowres_19905_Man_using_smartwatch.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [{"label": "Learn More", "url": "https://www.infineon.com/deepcraft-voice-assistant","heading": "Product Details", "sub-heading": "Find user guides, kits, software and demos to get started"},
+			{"label": "Try Today", "url": "https://deepcraft-voice-assistant.infineon.com","heading": "Voice Assistant", "sub-heading": "Build your first AI-powered voice interface today"}]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "DEEPCRAFT\u2122 Ready Model for Fall Detection",
+  "description": "Detect a person falling via a wrist-worn device",
+  "long_description": "The DEEPCRAFT\u2122 Ready Model for Fall Detection is a production-ready Edge AI model that detects a person falling via a wrist-worn device.",
+  "sensors": ["IMU"],
+  "domain": ["Sensing","Vibration"],
+  "application": ["Healthcare Wearable & Consumable", "Humanoid Robot"],
+  "use_case": ["Motion Detection"],
+  "kit": ["PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
+  "device": ["PSOC\u2122 6", "PSOC\u2122 Edge"],
+  "thumbnail_image_id": "lowres_20099_fallen_woman_with_smart_speaker.webp",
+  "main_image_id": "lowres_20099_fallen_woman_with_smart_speaker.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [{"label": "Learn More", "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-fall-detection", "heading": "Product Details", "sub-heading": "Find details on features, benefits and use cases"},
+			{"label": "Try Today", "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforfalldetectionevaluation", "heading": "Evaluation Model", "sub-heading": "Download and evaluate the Ready Model today"}],
+  "metrics": [{"label": "RW Memory Usage (KB)", "value": "6", "note": "Measured on PSOC\u2122 6"},
+              {"label": "RO Memory Usage (KB)", "value": "15", "note": "Measured on PSOC\u2122 6"},
+              {"label": "Inference Time (ms)", "value": "1", "note": "Measured on PSOC\u2122 6"},
+              {"label": "Active Power (mW)", "value": "0.0396", "note": "Measured on PSOC\u2122 6"}]
+}

@@ -8,6 +8,7 @@
   "use_case": ["Voice Recognition"],
   "kit": ["PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 Edge"],
+  "type": "Solutions",
   "thumbnail_image_id": "lowres_24560_Man_cutting_carrot_in_smart_kitchen.webp",
   "main_image_id": "lowres_24560_Man_cutting_carrot_in_smart_kitchen.webp",
   "brand_image_id": "deepcraft.webp",

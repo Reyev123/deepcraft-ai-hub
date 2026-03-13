@@ -8,6 +8,7 @@
   "use_case": ["Sound Event Detection"],
   "kit": ["PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
   "device": ["PSOC\u2122 6"],
+  "type": "Solutions",
   "thumbnail_image_id": "lowres_20098_Woman_sleeping_smart_watch.webp",
   "main_image_id": "lowres_20098_Woman_sleeping_smart_watch.webp",
   "brand_image_id": "deepcraft.webp",

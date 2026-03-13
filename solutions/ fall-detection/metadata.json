@@ -8,6 +8,7 @@
   "use_case": ["Motion Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
   "device": ["PSOC\u2122 6", "PSOC\u2122 Edge"],
+  "type": "Solutions",
   "thumbnail_image_id": "lowres_20099_fallen_woman_with_smart_speaker.webp",
   "main_image_id": "lowres_20099_fallen_woman_with_smart_speaker.webp",
   "brand_image_id": "deepcraft.webp",

@@ -8,6 +8,7 @@
   "use_case": ["Gesture Detection"],
   "kit": ["KIT_CSK_BGT60TR13C","PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
   "device": ["PSOC\u2122 6", "PSOC\u2122 Edge","BGT60TR13C"],
+  "type": "Solutions",
   "thumbnail_image_id": "20135_cropped.webp",
   "main_image_id": "20135_cropped.webp",
   "brand_image_id": "deepcraft.webp",

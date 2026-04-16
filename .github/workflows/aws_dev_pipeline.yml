@@ -35,6 +35,11 @@ jobs:
         run: |
           chmod +x .github/scripts/master.sh
           .github/scripts/master.sh
+       
+      - name: Print metadata.json cards priority order
+        run: |
+          chmod +x .github/scripts/print_master_priority_order.sh
+          .github/scripts/print_master_priority_order.sh   
 
       - name: Invalidate Bucket Cache
         run: |

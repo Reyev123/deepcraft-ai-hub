@@ -16,24 +16,20 @@ def has_excluded_prefix(path_parts):
     return any(part.startswith('_') or part.startswith('*') for part in path_parts)
 
 
-def get_module_config(path_parts, cache):
-    module_root = path_parts[0] if path_parts else ''
-    if module_root in cache:
-        return cache[module_root]
-
-    module_config = {
+def load_config(config_path):
+    config = {
         'title_prefix': '',
         'title_order': []
     }
-    config_path = os.path.join('.', module_root, 'config.json')
-    if module_root and os.path.isfile(config_path):
+
+    if os.path.isfile(config_path):
         try:
             with open(config_path, 'r') as config_file:
                 config_data = json.load(config_file)
 
             config_prefix = config_data.get('title_prefix')
             if isinstance(config_prefix, str):
-                module_config['title_prefix'] = config_prefix if config_prefix.strip() != '' else ''
+                config['title_prefix'] = config_prefix if config_prefix.strip() != '' else ''
             elif config_prefix is not None:
                 print(f'Warning: title_prefix in {config_path} is not a string, ignoring it')
 
@@ -42,13 +38,39 @@ def get_module_config(path_parts, cache):
                 non_string_items = [item for item in config_order if not isinstance(item, str)]
                 if non_string_items:
                     print(f'Warning: title_order in {config_path} contains non-string values, ignoring them')
-                module_config['title_order'] = [item for item in config_order if isinstance(item, str)]
+                config['title_order'] = [item for item in config_order if isinstance(item, str)]
             elif config_order is not None:
                 print(f'Warning: title_order in {config_path} is not an array, ignoring it')
         except Exception as e:
             print(f'Warning: Error reading {config_path}: {e}')
 
-    cache[module_root] = module_config
+    return config
+
+
+def get_root_config(cache):
+    root_cache_key = '__root__'
+    if root_cache_key in cache:
+        return cache[root_cache_key]
+
+    root_config = load_config(os.path.join('.', 'config.json'))
+    cache[root_cache_key] = root_config
+    return root_config
+
+
+def get_module_config(path_parts, cache):
+    module_root = path_parts[0] if path_parts else ''
+    cache_key = module_root if module_root else '__module_root__'
+    if cache_key in cache:
+        return cache[cache_key]
+
+    module_config = {
+        'title_prefix': '',
+        'title_order': []
+    }
+    if module_root:
+        module_config = load_config(os.path.join('.', module_root, 'config.json'))
+
+    cache[cache_key] = module_config
     return module_config
 
 
@@ -57,7 +79,11 @@ def get_module_title_prefix(path_parts, cache):
 
 
 def get_module_title_order(path_parts, cache):
-    return get_module_config(path_parts, cache).get('title_order', [])
+    module_title_order = get_module_config(path_parts, cache).get('title_order', [])
+    if module_title_order:
+        return module_title_order
+
+    return get_root_config(cache).get('title_order', [])
 
 
 def has_non_empty_prefix(value):
@@ -115,15 +141,25 @@ def sanitize_key_from_title(title):
     return sanitized
 
 
+def split_type_tokens(value):
+    if not isinstance(value, str):
+        return []
+
+    return [part.strip() for part in value.split(',') if part.strip() != '']
+
+
 def get_type_values(obj):
     if not isinstance(obj, dict):
         return []
 
     raw_type = obj.get('type', obj.get('Type'))
     if isinstance(raw_type, list):
-        return [item for item in raw_type if isinstance(item, str)]
+        type_values = []
+        for item in raw_type:
+            type_values.extend(split_type_tokens(item))
+        return type_values
     if isinstance(raw_type, str):
-        return [raw_type]
+        return split_type_tokens(raw_type)
 
     return []
 
@@ -137,12 +173,13 @@ def get_card_sort_key(original_title, type_values, title_order, fallback_key):
     if not title_order:
         return (0, 0, normalized_title, fallback_key.casefold())
 
-    order_lookup = {value: index for index, value in enumerate(title_order)}
+    normalized_title_order = [value.strip() for value in title_order if isinstance(value, str) and value.strip() != '']
+    order_lookup = {value: index for index, value in enumerate(normalized_title_order)}
     matching_priorities = [order_lookup[type_value] for type_value in type_values if type_value in order_lookup]
     if matching_priorities:
         return (0, min(matching_priorities), normalized_title, fallback_key.casefold())
 
-    return (0, len(title_order), normalized_title, fallback_key.casefold())
+    return (0, len(normalized_title_order), normalized_title, fallback_key.casefold())
 
 
 def sort_cards(cards, card_sort_keys):

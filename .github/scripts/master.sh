@@ -16,27 +16,48 @@ def has_excluded_prefix(path_parts):
     return any(part.startswith('_') or part.startswith('*') for part in path_parts)
 
 
-def get_module_title_prefix(path_parts, cache):
+def get_module_config(path_parts, cache):
     module_root = path_parts[0] if path_parts else ''
     if module_root in cache:
         return cache[module_root]
 
-    module_title_prefix = ''
+    module_config = {
+        'title_prefix': '',
+        'title_order': []
+    }
     config_path = os.path.join('.', module_root, 'config.json')
     if module_root and os.path.isfile(config_path):
         try:
             with open(config_path, 'r') as config_file:
                 config_data = json.load(config_file)
+
             config_prefix = config_data.get('title_prefix')
             if isinstance(config_prefix, str):
-                module_title_prefix = config_prefix if config_prefix.strip() != '' else ''
+                module_config['title_prefix'] = config_prefix if config_prefix.strip() != '' else ''
             elif config_prefix is not None:
                 print(f'Warning: title_prefix in {config_path} is not a string, ignoring it')
+
+            config_order = config_data.get('title_order')
+            if isinstance(config_order, list):
+                non_string_items = [item for item in config_order if not isinstance(item, str)]
+                if non_string_items:
+                    print(f'Warning: title_order in {config_path} contains non-string values, ignoring them')
+                module_config['title_order'] = [item for item in config_order if isinstance(item, str)]
+            elif config_order is not None:
+                print(f'Warning: title_order in {config_path} is not an array, ignoring it')
         except Exception as e:
             print(f'Warning: Error reading {config_path}: {e}')
 
-    cache[module_root] = module_title_prefix
-    return module_title_prefix
+    cache[module_root] = module_config
+    return module_config
+
+
+def get_module_title_prefix(path_parts, cache):
+    return get_module_config(path_parts, cache).get('title_prefix', '')
+
+
+def get_module_title_order(path_parts, cache):
+    return get_module_config(path_parts, cache).get('title_order', [])
 
 
 def has_non_empty_prefix(value):
@@ -94,6 +115,44 @@ def sanitize_key_from_title(title):
     return sanitized
 
 
+def get_type_values(obj):
+    if not isinstance(obj, dict):
+        return []
+
+    raw_type = obj.get('type', obj.get('Type'))
+    if isinstance(raw_type, list):
+        return [item for item in raw_type if isinstance(item, str)]
+    if isinstance(raw_type, str):
+        return [raw_type]
+
+    return []
+
+
+def get_card_sort_key(original_title, type_values, title_order, fallback_key):
+    normalized_title = original_title.casefold() if isinstance(original_title, str) and original_title.strip() != '' else fallback_key.casefold()
+
+    if not type_values:
+        return (1, float('inf'), normalized_title, fallback_key.casefold())
+
+    if not title_order:
+        return (0, 0, normalized_title, fallback_key.casefold())
+
+    order_lookup = {value: index for index, value in enumerate(title_order)}
+    matching_priorities = [order_lookup[type_value] for type_value in type_values if type_value in order_lookup]
+    if matching_priorities:
+        return (0, min(matching_priorities), normalized_title, fallback_key.casefold())
+
+    return (0, len(title_order), normalized_title, fallback_key.casefold())
+
+
+def sort_cards(cards, card_sort_keys):
+    ordered = {}
+    for key, value in sorted(cards.items(), key=lambda item: card_sort_keys.get(item[0], (1, float('inf'), item[0].casefold(), item[0].casefold()))):
+        ordered[key] = value
+
+    return ordered
+
+
 def rewrite_top_level_keys_from_title(data):
     rewritten = {}
     for original_key, value in data.items():
@@ -116,7 +175,8 @@ def rewrite_top_level_keys_from_title(data):
 
 
 cards = {}
-module_title_prefix_cache = {}
+card_sort_keys = {}
+module_config_cache = {}
 # Search for metadata.json files in subdirectories (pattern */*/metadata.json)
 for root, dirs, files in os.walk('.'):
     # Prune excluded directories while walking
@@ -136,7 +196,8 @@ for root, dirs, files in os.walk('.'):
                 normalized_rel_path = rel_path.replace(os.sep, '/')
                 parent_path, leaf_path = normalized_rel_path.rsplit('/', 1)
                 repo_url = '{}/{}/tree/main/{}'.format(GITHUB_BASE_URL, parent_path, leaf_path)
-                module_title_prefix = get_module_title_prefix(path_parts, module_title_prefix_cache)
+                module_title_prefix = get_module_title_prefix(path_parts, module_config_cache)
+                module_title_order = get_module_title_order(path_parts, module_config_cache)
                 
                 # Use the leaf directory name as the key
                 key = os.path.basename(root)
@@ -146,18 +207,33 @@ for root, dirs, files in os.walk('.'):
                 if isinstance(metadata, list):
                     # If it's an array, create separate entries for each item
                     for i, item in enumerate(metadata):
+                        original_title = item.get('title') if isinstance(item, dict) else ''
+                        type_values = get_type_values(item)
                         item = rename_top_level_type_key(item)
                         normalize_metadata(item, repo_url, TITLE_PREFIX, module_title_prefix)
                         entry_key = f'{prefixed_key}_{i+1}' if len(metadata) > 1 else prefixed_key
                         cards[entry_key] = item
+                        card_sort_keys[entry_key] = get_card_sort_key(original_title, type_values, module_title_order, entry_key)
                 else:
                     # If it's a single object, use directory name as key
+                    original_title = metadata.get('title') if isinstance(metadata, dict) else ''
+                    type_values = get_type_values(metadata)
                     metadata = rename_top_level_type_key(metadata)
                     normalize_metadata(metadata, repo_url, TITLE_PREFIX, module_title_prefix)
                     cards[prefixed_key] = metadata
+                    card_sort_keys[prefixed_key] = get_card_sort_key(original_title, type_values, module_title_order, prefixed_key)
                     
             except Exception as e:
                 print(f'Warning: Error processing {metadata_path}: {e}')
+
+# Sort cards before rewriting top-level keys so insertion order is preserved in the output file.
+# Ordering rules:
+# 1. Cards with a type come before cards without a type.
+# 2. If the module config defines title_order, the lowest matching type index wins.
+# 3. If a card has multiple types, the best-ranked type determines its priority.
+# 4. Cards with the same priority are ordered alphabetically by the original metadata title.
+# 5. Typed cards not listed in title_order are placed after configured types but before untyped cards.
+cards = sort_cards(cards, card_sort_keys)
 
 # Last step: overwrite all top-level keys using sanitized title values
 # (remove whitespace and trademark marker).

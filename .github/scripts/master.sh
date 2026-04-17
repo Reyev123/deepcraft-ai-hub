@@ -166,25 +166,26 @@ def get_type_values(obj):
 
 def get_card_sort_key(original_title, type_values, title_order, fallback_key):
     normalized_title = original_title.casefold() if isinstance(original_title, str) and original_title.strip() != '' else fallback_key.casefold()
+    type_group_key = ','.join(sorted(type_values)) if len(type_values) > 1 else ''
 
     if not type_values:
-        return (1, float('inf'), normalized_title, fallback_key.casefold())
+        return (1, float('inf'), '', normalized_title, fallback_key.casefold())
 
     if not title_order:
-        return (0, 0, normalized_title, fallback_key.casefold())
+        return (0, 0, type_group_key, normalized_title, fallback_key.casefold())
 
     normalized_title_order = [value.strip() for value in title_order if isinstance(value, str) and value.strip() != '']
     order_lookup = {value: index for index, value in enumerate(normalized_title_order)}
     matching_priorities = [order_lookup[type_value] for type_value in type_values if type_value in order_lookup]
     if matching_priorities:
-        return (0, min(matching_priorities), normalized_title, fallback_key.casefold())
+        return (0, min(matching_priorities), type_group_key, normalized_title, fallback_key.casefold())
 
-    return (0, len(normalized_title_order), normalized_title, fallback_key.casefold())
+    return (0, len(normalized_title_order), type_group_key, normalized_title, fallback_key.casefold())
 
 
 def sort_cards(cards, card_sort_keys):
     ordered = {}
-    for key, value in sorted(cards.items(), key=lambda item: card_sort_keys.get(item[0], (1, float('inf'), item[0].casefold(), item[0].casefold()))):
+    for key, value in sorted(cards.items(), key=lambda item: card_sort_keys.get(item[0], (1, float('inf'), '', item[0].casefold(), item[0].casefold()))):
         ordered[key] = value
 
     return ordered
@@ -268,6 +269,8 @@ for root, dirs, files in os.walk('.'):
 # 1. Cards with a type come before cards without a type.
 # 2. If the module config defines title_order, the lowest matching type index wins.
 # 3. If a card has multiple types, the best-ranked type determines its priority.
+#    Cards sharing the same set of multiple types are grouped together and ordered
+#    alphabetically by the original metadata title within that group.
 # 4. Cards with the same priority are ordered alphabetically by the original metadata title.
 # 5. Typed cards not listed in title_order are placed after configured types but before untyped cards.
 cards = sort_cards(cards, card_sort_keys)

@@ -53,3 +53,7 @@ jobs:
       - name: Upload images folder to S3
         run: |
           aws s3 sync ./images s3://${{ env.BUCKET_NAME }}/images
+
+      - name: Upload ai-hub-default-images folder to S3
+        run: |
+          aws s3 sync ./ai-hub-default-images s3://${{ env.BUCKET_NAME }}/images

@@ -39,7 +39,8 @@ deepcraft-ai-hub/
 ├── deepcraft-model-zoo-for-aurix/ # Submodule: AURIX™ models
 ├── deepcraft-model-zoo-for-psoc/  # Submodule: PSoC™ Edge models
 ├── deepcraft-studio-accelerators/ # Submodule: Ready-to-use solutions
-├── images/                        # Shared image assets
+├── ai-hub-default-images/         # Submodule: Default/fallback image assets
+├── images/                        # Submodule: Shared image assets
 └── README.md                      # This file
 ```
 
@@ -137,6 +138,8 @@ git submodule update --remote deepcraft-model-zoo-for-aurix
 | [deepcraft-model-zoo-for-aurix](https://github.com/Infineon/deepcraft-model-zoo-for-aurix) | AI models for AURIX™ microcontrollers | AURIX™ TC3x/TC4x |
 | [deepcraft-model-zoo-for-psoc](https://github.com/Infineon/deepcraft-model-zoo-for-psoc) | AI models for PSoC™ Edge devices | PSoC™ Edge |
 | [deepcraft-studio-accelerators](https://github.com/Infineon/deepcraft-studio-accelerators) | Ready-to-use AI solutions | Multi-platform |
+| [images](https://github.com/Reyev123/images) | Shared image assets used across the hub | N/A |
+| [ai-hub-default-images](https://github.com/Reyev123/ai-hub-default-images) | Default/fallback image assets for the AI Hub | N/A |
 
 ## 🔧 Maintenance
 

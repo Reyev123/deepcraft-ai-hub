@@ -45,10 +45,11 @@ jobs:
         run: |
           aws s3 cp ./master.json s3://${{ env.BUCKET_NAME }}/ 
           
+      - name: Merge ai-hub-default-images into images (no override)
+        run: |
+          cp -rn ./ai-hub-default-images/. ./images/
+
       - name: Upload images folder to S3
         run: |
           aws s3 sync ./images s3://${{ env.BUCKET_NAME }}/images
-
-      - name: Upload ai-hub-default-images folder to S3
-        run: |
-          aws s3 sync ./ai-hub-default-images s3://${{ env.BUCKET_NAME }}/images    
+    

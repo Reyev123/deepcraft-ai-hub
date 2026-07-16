@@ -13,7 +13,7 @@
 [submodule "images"]
 	path = images
 	url = https://github.com/Reyev123/images
-        branch = main
+    branch = main
 [submodule "ai-hub-default-images"]
 	path = ai-hub-default-images
 	url = https://github.com/Reyev123/ai-hub-default-images

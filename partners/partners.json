@@ -1,0 +1,97 @@
+{
+  "partners": [
+    {
+      "id": "embedur",
+      "title": "EmbedUR systems",
+      "description": "Silicon Valley–based embedded systems and edge AI company with decades of experience bringing intelligent devices from prototype to high-volume production.",
+      "long_description": "Vision models in the DEEPCRAFT™ Model Zoo for PSOC—helping developers evaluate and deploy production-grade computer vision on PSOC™ Edge without building models from scratch.",
+      "sensors": ["Camera", "Microphone", "Radar"],
+      "domain": ["Vision", "Audio", "Radar"],
+      "application": ["Consumer", "Industrial IoT", "Wearables"],
+      "use_case": [
+        "Keyword spotting & speaker detection",
+        "Audio denoising & event recognition",
+        "Vision & object classification",
+        "Radar motion & micro-motion sensing",
+        "Presence & child-presence detection"
+      ],
+      "kit": [],
+      "device": ["PSOC™ MCUs", "DEEPCRAFT™ Model Zoo for PSOC"],
+      "type": "Partners",
+      "thumbnail_image_id": "images/embedur-ai-overview.webp",
+      "main_image_id": "images/embedur-ai-overview.webp",
+      "brand_image_id": "embedur.webp",
+      "brand_url": "https://www.embedur.ai/",
+      "links": [
+        {
+          "label": "Learn More",
+          "url": "https://www.embedur.ai/",
+          "heading": "Partner website",
+          "sub-heading": "Visit EmbedUR systems"
+        },
+        {
+          "label": "Profile",
+          "url": "embedur.md",
+          "heading": "Partner profile",
+          "sub-heading": "Read more in the DEEPCRAFT™ AI Hub"
+        }
+      ],
+      "location": "Silicon Valley, California, USA",
+      "areas_of_expertise": [
+        "Embedded systems and edge AI",
+        "Model development platforms",
+        "Silicon optimization",
+        "Vision AI at the edge"
+      ]
+    },
+    {
+      "id": "wgtech",
+      "title": "WGTech",
+      "description": "End-to-end edge AI solutions that bridge custom hardware architecture and intelligent application software, with full ownership of the technology stack from sensor integration to inference.",
+      "long_description": "Models for radar-based sensing and electronic monitoring on PSOC™ 6 and PSOC™ Edge targets—including people counting and voltage/current anomaly detection use cases.",
+      "sensors": ["Radar", "Camera"],
+      "domain": ["Radar", "Vision", "Electronic Sensing"],
+      "application": [
+        "Smart Home",
+        "Retail",
+        "Industrial IoT",
+        "Security",
+        "Building Automation"
+      ],
+      "use_case": [
+        "People counting & occupancy",
+        "Radar-based motion sensing",
+        "Vision analytics",
+        "Voltage/current anomaly detection"
+      ],
+      "kit": [],
+      "device": ["PSOC™ MCUs", "DEEPCRAFT™ Model Zoo for PSOC"],
+      "type": "Partners",
+      "thumbnail_image_id": "images/wgtech-edge-ai.webp",
+      "main_image_id": "images/wgtech-edge-ai.webp",
+      "brand_image_id": "wgtech.webp",
+      "brand_url": "https://www.wgtech.ai/",
+      "links": [
+        {
+          "label": "Learn More",
+          "url": "https://www.wgtech.ai/",
+          "heading": "Partner website",
+          "sub-heading": "Visit WGTech"
+        },
+        {
+          "label": "Profile",
+          "url": "wgtech.md",
+          "heading": "Partner profile",
+          "sub-heading": "Read more in the DEEPCRAFT™ AI Hub"
+        }
+      ],
+      "location": "Bengaluru, Karnataka, India",
+      "areas_of_expertise": [
+        "Radar and vision analytics",
+        "On-device, privacy-first AI",
+        "Electronic sensing and anomaly detection",
+        "Enterprise edge AI"
+      ]
+    }
+  ]
+}

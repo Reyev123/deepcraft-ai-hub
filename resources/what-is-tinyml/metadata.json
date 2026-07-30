@@ -1,0 +1,52 @@
+{
+    "id": "what-is-tinyml",
+    "title": "What is tinyML?",
+    "description": "A locally-stored explainer (adapted from an Imagimob blog post) on how tinyML runs machine learning on the smallest microcontrollers, its benefits, use cases, and how DEEPCRAFT enables it.",
+    "long_description": "An explainer on how tinyML runs machine learning on the smallest microcontrollers, its benefits and use cases, and how DEEPCRAFT™ enables tinyML on Infineon hardware.",
+    "sensors": [
+        "Microphone",
+        "Radar",
+        "IMU",
+        "Camera"
+    ],
+    "domain": [
+        "Audio",
+        "Radar",
+        "Motion",
+        "Vision"
+    ],
+    "application": [
+        "Consumer",
+        "Smart Home",
+        "Industrial IoT"
+    ],
+    "use_case": [
+        "Edge AI Development",
+        "Gesture Detection",
+        "Keyword Spotting",
+        "Predictive Maintenance"
+    ],
+    "kit": [
+        "PSOC™ 6 AI Kit"
+    ],
+    "device": [
+        "PSOC™ 6",
+        "PSOC™ Edge",
+        "XMC",
+        "AURIX™"
+    ],
+    "type": "Resources",
+    "thumbnail_image_id": "images/what-is-tinyml/tinyml-hero.webp",
+    "main_image_id": "images/what-is-tinyml/tinyml-hero.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+        {
+            "label": "Learn More",
+            "url": "what-is-tinyml.md",
+            "heading": "Article",
+            "sub-heading": "Read the explainer in the DEEPCRAFT™ AI Hub"
+        }
+    ],
+    "content_type": "Article"
+}

@@ -1,0 +1,49 @@
+{
+    "id": "deepcraft-ai-suite-accelerating-edge-ai-innovation",
+    "title": "DEEPCRAFT™ AI Suite: Accelerating Edge AI Innovation",
+    "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development—from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
+    "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development—from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
+    "sensors": [
+    "Microphone",
+    "Radar",
+    "IMU"
+    ],
+    "domain": [
+    "Audio",
+    "Radar",
+    "Motion"
+    ],
+    "application": [
+    "Consumer",
+    "Smart Home",
+    "Industrial IoT"
+    ],
+    "use_case": [
+    "Edge AI Development",
+    "Voice Assistant",
+    "Audio Classification"
+    ],
+    "kit": [
+    "PSOC™ Edge AI Kit",
+    "PSOC™ 6 AI Kit"
+    ],
+    "device": [
+    "PSOC™ Edge",
+    "PSOC™ 6"
+    ],
+    "type": "Resources",
+    "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+    "main_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+    {
+        "label": "Learn More",
+        "url": "https://community.infineon.com/t5/Blogs/DEEPCRAFT-AI-Suite-Accelerating-Edge-AI-innovation/ba-p/1111976",
+        "heading": "Community Blog",
+        "sub-heading": "Read the full article on the Infineon Community"
+    }
+    ],
+    "published_date": "2025-03-11",
+    "content_type": "Blog Post"
+}

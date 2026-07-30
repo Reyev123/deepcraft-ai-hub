@@ -2,7 +2,7 @@
   "title": "Partners",
   "type": "Partners",
   "description": "Trusted design partners contribute branded, benchmarked, production-ready edge AI content for Infineon hardware.",
-  "main_image_id": "/pages/getting_started/images/deepcraft-ai-hub.png",
+  "main_image_id": "deepcraft-ai-hub.png",
   "long_description": "The DEEPCRAFT™ AI Hub brings together Infineon content and contributions from trusted design partners. Partner projects are published with partner branding, benchmark data, and deployment resources so you can evaluate and integrate third-party edge AI solutions on Infineon hardware. Partner entries are identified by the partner logo and website link in each project's metadata. Browse partner content to find models and solutions optimized for Infineon platforms by ecosystem experts who bring specialized domain knowledge, deployment experience, and production-ready implementations.",
   "boxes": [
     {

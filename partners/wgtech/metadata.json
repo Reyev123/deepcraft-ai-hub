@@ -1,0 +1,49 @@
+{
+    "id": "wgtech",
+    "title": "WGTech",
+    "description": "End-to-end edge AI solutions that bridge custom hardware architecture and intelligent application software, with full ownership of the technology stack from sensor integration to inference.",
+    "long_description": "Models for radar-based sensing and electronic monitoring on PSOC™ 6 and PSOC™ Edge targets—including people counting and voltage/current anomaly detection use cases.",
+    "sensors": ["Radar", "Camera"],
+    "domain": ["Radar", "Vision", "Electronic Sensing"],
+    "application": [
+    "Smart Home",
+    "Retail",
+    "Industrial IoT",
+    "Security",
+    "Building Automation"
+    ],
+    "use_case": [
+    "People counting & occupancy",
+    "Radar-based motion sensing",
+    "Vision analytics",
+    "Voltage/current anomaly detection"
+    ],
+    "kit": [],
+    "device": ["PSOC™ MCUs", "DEEPCRAFT™ Model Zoo for PSOC"],
+    "type": "Partners",
+    "thumbnail_image_id": "wgtech-edge-ai.webp",
+    "main_image_id": "wgtech-edge-ai.webp",
+    "brand_image_id": "wgtech.webp",
+    "brand_url": "https://www.wgtech.ai/",
+    "links": [
+    {
+        "label": "Learn More",
+        "url": "https://www.wgtech.ai/",
+        "heading": "Partner website",
+        "sub-heading": "Visit WGTech"
+    },
+    {
+        "label": "Profile",
+        "url": "wgtech.md",
+        "heading": "Partner profile",
+        "sub-heading": "Read more in the DEEPCRAFT™ AI Hub"
+    }
+    ],
+    "location": "Bengaluru, Karnataka, India",
+    "areas_of_expertise": [
+    "Radar and vision analytics",
+    "On-device, privacy-first AI",
+    "Electronic sensing and anomaly detection",
+    "Enterprise edge AI"
+    ]
+}

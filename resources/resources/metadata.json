@@ -2,7 +2,7 @@
   "title": "Resources",
   "type": "Resources",
   "description": "Articles, blog posts, white papers, application notes, and other materials about the DEEPCRAFT™ AI Hub.",
-  "main_image_id": "/pages/getting_started/images/deepcraft-ai-hub.png",
+  "main_image_id": "deepcraft-ai-hub.png",
   "long_description": "Articles, blog posts, white papers, application notes, and other materials about the DEEPCRAFT™ AI Hub—its tools, Solutions, Accelerators, and model projects—are collected here. Use these resources to learn more about what you can achieve with Edge AI: real-world applications, practical deployment examples, and inspiration for what is possible on Infineon embedded hardware. Go deeper than the catalog listings to see how others have built with DEEPCRAFT™ Studio, deployed Ready Models, evaluated Model Zoo projects, and applied edge AI across consumer, industrial, and automotive use cases.",
   "boxes": [
     {

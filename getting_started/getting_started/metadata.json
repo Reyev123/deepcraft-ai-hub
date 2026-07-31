@@ -2,7 +2,7 @@
   "title": "Getting Started with DEEPCRAFT™ AI Hub",
   "type": "Getting Started",
   "description": "The centralized entry point for Infineon's Edge AI offerings — tools, ready-to-use solutions, Accelerators, and pre-trained models for PSOC™ and AURIX™ hardware.",
-  "main_image_id": "/pages/getting_started/images/deepcraft-ai-hub.png",
+  "main_image_id": "deepcraft-ai-hub.png",
   "long_description": "The DEEPCRAFT™ AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms—so you can browse, compare, and deploy AI on PSOC™ and AURIX™ hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT™ Studio.",
   "boxes": [
     {

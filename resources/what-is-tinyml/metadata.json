@@ -36,8 +36,8 @@
         "AURIX™"
     ],
     "type": "Resources",
-    "thumbnail_image_id": "images/what-is-tinyml/tinyml-hero.webp",
-    "main_image_id": "images/what-is-tinyml/tinyml-hero.webp",
+    "thumbnail_image_id": "tinyml-hero.webp",
+    "main_image_id": "tinyml-hero.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [

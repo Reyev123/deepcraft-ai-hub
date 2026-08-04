@@ -40,6 +40,13 @@
     "main_image_id": "tinyml-hero.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [],
+     "links": [
+        {
+            "label": "Learn More",
+            "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+            "heading": "Article",
+            "sub-heading": "Read the explainer in the DEEPCRAFT™ AI Hub"
+        }
+    ],
     "content_type": "Article"
 }

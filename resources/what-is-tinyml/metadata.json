@@ -1,6 +1,6 @@
 {
     "id": "what-is-tinyml",
-    "title": "What is tinyML?",
+    "title": "What is tinyML",
     "description": "A locally-stored explainer (adapted from an Imagimob blog post) on how tinyML runs machine learning on the smallest microcontrollers, its benefits, use cases, and how DEEPCRAFT enables it.",
     "long_description": "An explainer on how tinyML runs machine learning on the smallest microcontrollers, its benefits and use cases, and how DEEPCRAFT™ enables tinyML on Infineon hardware.",
     "sensors": [
@@ -43,7 +43,7 @@
      "links": [
         {
             "label": "Learn More",
-            "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+            "url": "",
             "heading": "Article",
             "sub-heading": "Read the explainer in the DEEPCRAFT™ AI Hub"
         }

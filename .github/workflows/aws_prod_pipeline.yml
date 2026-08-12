@@ -11,7 +11,7 @@ env:
 
 permissions:
   id-token: write   # This is required for requesting the JWT
-  contents: read    # This is required for actions/checkout
+  contents: write   # This is required for actions/checkout and pushing master_prod.json
 
 jobs:
   S3PackageUploadDevelopment:
@@ -39,6 +39,19 @@ jobs:
       - name: Invalidate Bucket Cache
         run: |
           aws cloudfront create-invalidation --distribution-id E6312ZA9FCXWU --paths "/*"    
+
+      - name: Publish master.json to repo root as master_prod.json
+        run: |
+          cp ./master.json ./master_prod.json
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add master_prod.json
+          if git diff --cached --quiet; then
+            echo "No changes to master_prod.json"
+          else
+            git commit -m "chore: update master_prod.json [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
 
       # Upload a file to AWS S3
       - name: Copy master.json to S3

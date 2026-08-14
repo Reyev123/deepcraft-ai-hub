@@ -13,9 +13,10 @@
   "main_image_id": "lowres_18900_baby_sleeping_in_crib.webp",
   "brand_image_id": "deepcraft.webp",
   "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "videos": [{"https://youtu.be/hlbzafZTiyc?si=1y8pK0602xiF4Wz2"}],
   "links": [{"label": "Learn More", "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-baby-cry-detection", "heading": "Product Details", "sub-heading": "Find details on features, benefits and use cases"},
 			{"label": "Try Today", "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforbabycrydetection", "heading": "Evaluation Model", "sub-heading": "Download and evaluate the Ready Model today"}],
   "metrics": [{"label": "RW Memory Usage (KB)", "value": "27", "note": "Measured on PSOC\u2122 6"},
               {"label": "RO Memory Usage (KB)", "value": "27", "note": "Measured on PSOC\u2122 6"},
-              {"label": "Inference Time (ms)", "value": "127", "note": "Measured on PSOC\u2122 6"}]
+              {"label": "Inference Time (ms)", "value": "127", "note": "Measured on PSOC\u2122 6"}]  
 }

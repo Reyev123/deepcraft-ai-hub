@@ -1,4 +1,236 @@
 {
+  "GettingStartedwithDEEPCRAFTAIHub": {
+    "title": "Getting Started with DEEPCRAFT™ AI Hub",
+    "Type": "Getting Started",
+    "description": "The centralized entry point for Infineon's Edge AI offerings — tools, ready-to-use solutions, Accelerators, and pre-trained models for PSOC™ and AURIX™ hardware.",
+    "main_image_id": "deepcraft-ai-hub.png",
+    "long_description": "The DEEPCRAFT™ AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms—so you can browse, compare, and deploy AI on PSOC™ and AURIX™ hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT™ Studio.",
+    "boxes": [
+      {
+        "heading": "What is Edge AI?",
+        "text": "Edge AI refers to running machine learning inference directly on embedded devices—microcontrollers, sensors, and local gateways—rather than sending data to the cloud. Processing happens where the data is captured: on a microphone, camera, radar sensor, or IMU inside your product. This approach brings several advantages for embedded and IoT applications:",
+        "ordered": false,
+        "steps": [
+          {
+            "term": "Low latency",
+            "text": "Decisions are made in real time, without waiting for a network round trip."
+          },
+          {
+            "term": "Privacy",
+            "text": "Sensor data stays on the device; sensitive audio, vision, and motion data does not need to leave the product."
+          },
+          {
+            "term": "Reliability",
+            "text": "Inference works even when connectivity is limited or unavailable."
+          },
+          {
+            "term": "Power efficiency",
+            "text": "Models optimized for MCUs can run continuously on battery-powered devices."
+          }
+        ]
+      },
+      {
+        "heading": "Tools",
+        "text": "The Tools section covers software for the full edge AI workflow—from model development and training to conversion and deployment on Infineon devices.",
+        "ordered": false,
+        "steps": [
+          {
+            "term": "DEEPCRAFT™ Studio",
+            "text": "Infineon's development platform for building custom Edge AI models. Bring your own sensor data or start from a Studio Accelerator. Supports classification, regression, and object detection across audio, vision, motion, and other sensor domains.",
+            "links": [
+              {
+                "label": "DEEPCRAFT™ Studio",
+                "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-studio"
+              }
+            ]
+          },
+          {
+            "term": "DEEPCRAFT™ Model Converter",
+            "text": "Converts, optimizes, and validates your own models (BYOM) for Infineon MCUs. Available with a GUI and CLI for desktop and CI/CD workflows on PSOC™ 6 and PSOC™ Edge targets.",
+            "links": [
+              {
+                "label": "DEEPCRAFT™ Model Converter",
+                "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-model-converter"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Solutions",
+        "text": "Solutions are production-ready Infineon offerings you can download and evaluate on supported hardware without building from scratch. They include DEEPCRAFT™ Ready Models for specific detection tasks (baby cry, cough, siren, snore, factory alarm, direction of arrival, gesture detection, and fall detection), and full software solutions such as DEEPCRAFT™ Voice Assistant and DEEPCRAFT™ Audio Enhancement on PSOC™ Edge. Each solution lists compatible kits and devices, performance metrics, and links to product details and evaluation downloads on Infineon.com."
+      },
+      {
+        "heading": "Accelerators",
+        "text": "Accelerators are deep learning starter projects designed for DEEPCRAFT™ Studio. Each project includes labeled data and a Studio project file (.improj) ready to open in DEEPCRAFT™ Studio for faster model development. They cover use cases such as keyword detection, fall detection, human activity recognition, battery state estimation, and vision tasks like presence or road-user detection.",
+        "ordered": false,
+        "steps": [
+          {
+            "term": "Contributing",
+            "text": "Build your Accelerator in DEEPCRAFT™ Studio, then submit it with the dedicated Pull Request tool. It validates your project layout, helps create the metadata file, and opens a pull request for Infineon review. Once merged, your Accelerator is published on the Hub and in DEEPCRAFT™ Studio.",
+            "links": [
+              {
+                "label": "Studio Accelerators Repository",
+                "url": "https://github.com/Infineon/deepcraft-studio-accelerators"
+              },
+              {
+                "label": "Pull Request Tool",
+                "url": "https://github.com/Infineon/deepcraft-studio-accelerators-pr-tool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Model Zoo for PSOC",
+        "text": "The DEEPCRAFT™ Model Zoo for PSOC contains machine learning models deployable on PSOC™ Edge and related devices. Projects span vision (YOLO, MobileNet, segmentation, pose), audio, radar, and sensor fusion. Most projects offer two paths: flash a pre-built .hex firmware with ModusToolbox™ Programmer for immediate evaluation, or integrate embedded deployment artifacts from the fw/ folder into your own ModusToolbox™ application.",
+        "ordered": false,
+        "steps": [
+          {
+            "term": "Contributing",
+            "text": "Prepare a deployment project and submit it with the dedicated Pull Request tool. After Infineon review and merge, your project is published on the AI Hub. Partners should contact Infineon alongside the pull request to coordinate branding.",
+            "links": [
+              {
+                "label": "Model Zoo for PSOC",
+                "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc"
+              },
+              {
+                "label": "Pull Request Tool",
+                "url": "https://github.com/Infineon/deepcraft-studio-accelerators-pr-tool"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Model Zoo for AURIX",
+        "text": "The DEEPCRAFT™ Model Zoo for AURIX is a collection of machine learning models and tools for developing, training, and deploying AI on AURIX™ microcontrollers—aimed at automotive and industrial workloads. Example projects include keyword detection, image classification (MobileNet, MNIST), anomaly detection, remaining useful life prediction, and AI-enhanced PID control. Models are converted to C via ONNX and validated with tools such as ONNX2C, AURIX GCC, and QEMU. Contributions are managed by Infineon Automotive and are not open for general community submission through the Hub for now.",
+        "ordered": false,
+        "links": [
+          {
+            "label": "Model Zoo for AURIX",
+            "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix"
+          }
+        ]
+      },
+      {
+        "heading": "Deploying on Infineon hardware",
+        "text": "AI Hub models and solutions are validated on Infineon evaluation kits. Each project lists compatible kits and devices in its metadata—check these before you start. On PSOC™ targets, most Model Zoo projects let you flash a pre-built .hex file with ModusToolbox™ Programmer, or integrate deployment artifacts from the project's fw/ folder. AURIX™ projects typically use the repository's Docker-based environment and AURIX™ Development Studio. To run AI Hub content on hardware, you need the matching evaluation kit — order boards from Infineon or authorized distributors:",
+        "ordered": false,
+        "steps": [
+          {
+            "text": "Vision and ML models with Arm® Ethos-U55 NPU acceleration (KIT_PSE84_EVAL).",
+            "links": [
+              {
+                "label": "PSOC™ Edge E84 Evaluation Kit",
+                "url": "https://www.infineon.com/evaluation-board/kit-pse84-eval"
+              }
+            ]
+          },
+          {
+            "text": "Compact Edge AI kit with camera, microphone, radar, and IMU sensors (KIT_PSE84_AI).",
+            "links": [
+              {
+                "label": "PSOC™ Edge E84 AI Kit",
+                "url": "https://www.infineon.com/evaluation-board/kit-pse84-ai"
+              }
+            ]
+          },
+          {
+            "text": "Audio, motion, and radar sensing for DEEPCRAFT™ Studio and Ready Models (CY8CKIT-062S2-AI).",
+            "links": [
+              {
+                "label": "PSOC™ 6 AI Evaluation Kit",
+                "url": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI"
+              }
+            ]
+          },
+          {
+            "text": "General-purpose PSOC™ 6 development platform (CY8CKIT-062-BLE).",
+            "links": [
+              {
+                "label": "PSOC™ 6-BLE Pioneer Kit",
+                "url": "https://www.infineon.com/evaluation-board/CY8CKIT-062-BLE"
+              }
+            ]
+          },
+          {
+            "text": "60 GHz radar with PSOC™ 6 for presence and entrance-counting use cases (KIT_CSK_BGT60TR13C).",
+            "links": [
+              {
+                "label": "XENSIV™ Connected Sensor Kit",
+                "url": "https://www.infineon.com/evaluation-board/KIT-CSK-BGT60TR13C"
+              }
+            ]
+          },
+          {
+            "text": "AURIX™ TC3xx development board (KIT_A2G_TC375_LITE).",
+            "links": [
+              {
+                "label": "AURIX™ TC375 Lite Kit",
+                "url": "https://www.infineon.com/evaluation-board/KIT-A2G-TC375-LITE"
+              }
+            ]
+          },
+          {
+            "text": "AURIX™ TC4xx development board (KIT_A3G_TC4D7_LITE).",
+            "links": [
+              {
+                "label": "AURIX™ TC4D7 Lite Kit",
+                "url": "https://www.infineon.com/evaluation-board/KIT-A3G-TC4D7-LITE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "Learn More",
+        "url": "https://deepcraft.infineon.com",
+        "heading": "DEEPCRAFT™ AI Hub",
+        "sub-heading": "Browse tools, solutions, Accelerators, and models in one place"
+      },
+      {
+        "label": "Purchase Kits",
+        "url": "https://www.infineon.com/product-information/psocdeveloper/purchase-kits",
+        "heading": "PSOC™ Developer Purchase Kits",
+        "sub-heading": "Overview of Edge AI kits and buying options"
+      }
+    ],
+    "sensors": [
+      "Microphone",
+      "Camera",
+      "Radar",
+      "IMU"
+    ],
+    "device": [
+      "PSOC™ Edge",
+      "PSOC™ 6",
+      "AURIX™"
+    ],
+    "kit": [
+      "PSOC™ Edge E84 Evaluation Kit",
+      "PSOC™ Edge E84 AI Kit",
+      "PSOC™ 6 AI Evaluation Kit"
+    ],
+    "domain": [
+      "Audio",
+      "Vision",
+      "Radar",
+      "Motion"
+    ],
+    "application": [
+      "Consumer",
+      "Industrial",
+      "Automotive"
+    ],
+    "use_case": [
+      "Classification",
+      "Regression",
+      "Object Detection"
+    ]
+  },
   "DEEPCRAFTModelConverter": {
     "title": "DEEPCRAFT™ Model Converter",
     "description": "Converts, optimizes and validates AI models for Infineon MCUs",
@@ -241,71 +473,6 @@
         "url": "https://www.infineon.com/deepcraft-audio-enhancement",
         "heading": "Product Details",
         "sub-heading": "Find user guides, kits, software and demos to get started"
-      }
-    ]
-  },
-  "DEEPCRAFTReadyModelforBabyCryDetection": {
-    "title": "DEEPCRAFT™ Ready Model for Baby Cry Detection",
-    "description": "Detect the sound of babies crying in the vicinity of a microphone",
-    "long_description": "The DEEPCRAFT™ Ready Model for Baby Cry Detection is a production-ready Edge AI model that detects the sound of babies crying in the vicinity of a microphone.",
-    "sensors": [
-      "Microphone"
-    ],
-    "domain": [
-      "Audio"
-    ],
-    "application": [
-      "Audio & Speaker",
-      "Clinical & Hospital Equipment",
-      "Home Health Monitoring"
-    ],
-    "use_case": [
-      "Sound Event Detection"
-    ],
-    "kit": [
-      "PSOC™ Edge Eval Kit",
-      "PSOC™ Edge AI Kit",
-      "PSOC™ 6 Pioneer Kit",
-      "PSOC™ 6 AI Kit"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge"
-    ],
-    "Type": "Solutions",
-    "thumbnail_image_id": "lowres_18900_baby_sleeping_in_crib.webp",
-    "main_image_id": "lowres_18900_baby_sleeping_in_crib.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-baby-cry-detection",
-        "heading": "Product Details",
-        "sub-heading": "Find details on features, benefits and use cases"
-      },
-      {
-        "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforbabycrydetection",
-        "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
-      }
-    ],
-    "metrics": [
-      {
-        "label": "RW Memory Usage (KB)",
-        "value": "27",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "RO Memory Usage (KB)",
-        "value": "27",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "Inference Time (ms)",
-        "value": "127",
-        "note": "Measured on PSOC™ 6"
       }
     ]
   },
@@ -4643,238 +4810,6 @@
         "label": "Scratch Pad Size (MB)",
         "value": "2.09"
       }
-    ]
-  },
-  "GettingStartedwithDEEPCRAFTAIHub": {
-    "title": "Getting Started with DEEPCRAFT™ AI Hub",
-    "Type": "Getting Started",
-    "description": "The centralized entry point for Infineon's Edge AI offerings — tools, ready-to-use solutions, Accelerators, and pre-trained models for PSOC™ and AURIX™ hardware.",
-    "main_image_id": "deepcraft-ai-hub.png",
-    "long_description": "The DEEPCRAFT™ AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms—so you can browse, compare, and deploy AI on PSOC™ and AURIX™ hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT™ Studio.",
-    "boxes": [
-      {
-        "heading": "What is Edge AI?",
-        "text": "Edge AI refers to running machine learning inference directly on embedded devices—microcontrollers, sensors, and local gateways—rather than sending data to the cloud. Processing happens where the data is captured: on a microphone, camera, radar sensor, or IMU inside your product. This approach brings several advantages for embedded and IoT applications:",
-        "ordered": false,
-        "steps": [
-          {
-            "term": "Low latency",
-            "text": "Decisions are made in real time, without waiting for a network round trip."
-          },
-          {
-            "term": "Privacy",
-            "text": "Sensor data stays on the device; sensitive audio, vision, and motion data does not need to leave the product."
-          },
-          {
-            "term": "Reliability",
-            "text": "Inference works even when connectivity is limited or unavailable."
-          },
-          {
-            "term": "Power efficiency",
-            "text": "Models optimized for MCUs can run continuously on battery-powered devices."
-          }
-        ]
-      },
-      {
-        "heading": "Tools",
-        "text": "The Tools section covers software for the full edge AI workflow—from model development and training to conversion and deployment on Infineon devices.",
-        "ordered": false,
-        "steps": [
-          {
-            "term": "DEEPCRAFT™ Studio",
-            "text": "Infineon's development platform for building custom Edge AI models. Bring your own sensor data or start from a Studio Accelerator. Supports classification, regression, and object detection across audio, vision, motion, and other sensor domains.",
-            "links": [
-              {
-                "label": "DEEPCRAFT™ Studio",
-                "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-studio"
-              }
-            ]
-          },
-          {
-            "term": "DEEPCRAFT™ Model Converter",
-            "text": "Converts, optimizes, and validates your own models (BYOM) for Infineon MCUs. Available with a GUI and CLI for desktop and CI/CD workflows on PSOC™ 6 and PSOC™ Edge targets.",
-            "links": [
-              {
-                "label": "DEEPCRAFT™ Model Converter",
-                "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-model-converter"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Solutions",
-        "text": "Solutions are production-ready Infineon offerings you can download and evaluate on supported hardware without building from scratch. They include DEEPCRAFT™ Ready Models for specific detection tasks (baby cry, cough, siren, snore, factory alarm, direction of arrival, gesture detection, and fall detection), and full software solutions such as DEEPCRAFT™ Voice Assistant and DEEPCRAFT™ Audio Enhancement on PSOC™ Edge. Each solution lists compatible kits and devices, performance metrics, and links to product details and evaluation downloads on Infineon.com."
-      },
-      {
-        "heading": "Accelerators",
-        "text": "Accelerators are deep learning starter projects designed for DEEPCRAFT™ Studio. Each project includes labeled data and a Studio project file (.improj) ready to open in DEEPCRAFT™ Studio for faster model development. They cover use cases such as keyword detection, fall detection, human activity recognition, battery state estimation, and vision tasks like presence or road-user detection.",
-        "ordered": false,
-        "steps": [
-          {
-            "term": "Contributing",
-            "text": "Build your Accelerator in DEEPCRAFT™ Studio, then submit it with the dedicated Pull Request tool. It validates your project layout, helps create the metadata file, and opens a pull request for Infineon review. Once merged, your Accelerator is published on the Hub and in DEEPCRAFT™ Studio.",
-            "links": [
-              {
-                "label": "Studio Accelerators Repository",
-                "url": "https://github.com/Infineon/deepcraft-studio-accelerators"
-              },
-              {
-                "label": "Pull Request Tool",
-                "url": "https://github.com/Infineon/deepcraft-studio-accelerators-pr-tool"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Model Zoo for PSOC",
-        "text": "The DEEPCRAFT™ Model Zoo for PSOC contains machine learning models deployable on PSOC™ Edge and related devices. Projects span vision (YOLO, MobileNet, segmentation, pose), audio, radar, and sensor fusion. Most projects offer two paths: flash a pre-built .hex firmware with ModusToolbox™ Programmer for immediate evaluation, or integrate embedded deployment artifacts from the fw/ folder into your own ModusToolbox™ application.",
-        "ordered": false,
-        "steps": [
-          {
-            "term": "Contributing",
-            "text": "Prepare a deployment project and submit it with the dedicated Pull Request tool. After Infineon review and merge, your project is published on the AI Hub. Partners should contact Infineon alongside the pull request to coordinate branding.",
-            "links": [
-              {
-                "label": "Model Zoo for PSOC",
-                "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc"
-              },
-              {
-                "label": "Pull Request Tool",
-                "url": "https://github.com/Infineon/deepcraft-studio-accelerators-pr-tool"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Model Zoo for AURIX",
-        "text": "The DEEPCRAFT™ Model Zoo for AURIX is a collection of machine learning models and tools for developing, training, and deploying AI on AURIX™ microcontrollers—aimed at automotive and industrial workloads. Example projects include keyword detection, image classification (MobileNet, MNIST), anomaly detection, remaining useful life prediction, and AI-enhanced PID control. Models are converted to C via ONNX and validated with tools such as ONNX2C, AURIX GCC, and QEMU. Contributions are managed by Infineon Automotive and are not open for general community submission through the Hub for now.",
-        "ordered": false,
-        "links": [
-          {
-            "label": "Model Zoo for AURIX",
-            "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix"
-          }
-        ]
-      },
-      {
-        "heading": "Deploying on Infineon hardware",
-        "text": "AI Hub models and solutions are validated on Infineon evaluation kits. Each project lists compatible kits and devices in its metadata—check these before you start. On PSOC™ targets, most Model Zoo projects let you flash a pre-built .hex file with ModusToolbox™ Programmer, or integrate deployment artifacts from the project's fw/ folder. AURIX™ projects typically use the repository's Docker-based environment and AURIX™ Development Studio. To run AI Hub content on hardware, you need the matching evaluation kit — order boards from Infineon or authorized distributors:",
-        "ordered": false,
-        "steps": [
-          {
-            "text": "Vision and ML models with Arm® Ethos-U55 NPU acceleration (KIT_PSE84_EVAL).",
-            "links": [
-              {
-                "label": "PSOC™ Edge E84 Evaluation Kit",
-                "url": "https://www.infineon.com/evaluation-board/kit-pse84-eval"
-              }
-            ]
-          },
-          {
-            "text": "Compact Edge AI kit with camera, microphone, radar, and IMU sensors (KIT_PSE84_AI).",
-            "links": [
-              {
-                "label": "PSOC™ Edge E84 AI Kit",
-                "url": "https://www.infineon.com/evaluation-board/kit-pse84-ai"
-              }
-            ]
-          },
-          {
-            "text": "Audio, motion, and radar sensing for DEEPCRAFT™ Studio and Ready Models (CY8CKIT-062S2-AI).",
-            "links": [
-              {
-                "label": "PSOC™ 6 AI Evaluation Kit",
-                "url": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI"
-              }
-            ]
-          },
-          {
-            "text": "General-purpose PSOC™ 6 development platform (CY8CKIT-062-BLE).",
-            "links": [
-              {
-                "label": "PSOC™ 6-BLE Pioneer Kit",
-                "url": "https://www.infineon.com/evaluation-board/CY8CKIT-062-BLE"
-              }
-            ]
-          },
-          {
-            "text": "60 GHz radar with PSOC™ 6 for presence and entrance-counting use cases (KIT_CSK_BGT60TR13C).",
-            "links": [
-              {
-                "label": "XENSIV™ Connected Sensor Kit",
-                "url": "https://www.infineon.com/evaluation-board/KIT-CSK-BGT60TR13C"
-              }
-            ]
-          },
-          {
-            "text": "AURIX™ TC3xx development board (KIT_A2G_TC375_LITE).",
-            "links": [
-              {
-                "label": "AURIX™ TC375 Lite Kit",
-                "url": "https://www.infineon.com/evaluation-board/KIT-A2G-TC375-LITE"
-              }
-            ]
-          },
-          {
-            "text": "AURIX™ TC4xx development board (KIT_A3G_TC4D7_LITE).",
-            "links": [
-              {
-                "label": "AURIX™ TC4D7 Lite Kit",
-                "url": "https://www.infineon.com/evaluation-board/KIT-A3G-TC4D7-LITE"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://deepcraft.infineon.com",
-        "heading": "DEEPCRAFT™ AI Hub",
-        "sub-heading": "Browse tools, solutions, Accelerators, and models in one place"
-      },
-      {
-        "label": "Purchase Kits",
-        "url": "https://www.infineon.com/product-information/psocdeveloper/purchase-kits",
-        "heading": "PSOC™ Developer Purchase Kits",
-        "sub-heading": "Overview of Edge AI kits and buying options"
-      }
-    ],
-    "sensors": [
-      "Microphone",
-      "Camera",
-      "Radar",
-      "IMU"
-    ],
-    "device": [
-      "PSOC™ Edge",
-      "PSOC™ 6",
-      "AURIX™"
-    ],
-    "kit": [
-      "PSOC™ Edge E84 Evaluation Kit",
-      "PSOC™ Edge E84 AI Kit",
-      "PSOC™ 6 AI Evaluation Kit"
-    ],
-    "domain": [
-      "Audio",
-      "Vision",
-      "Radar",
-      "Motion"
-    ],
-    "application": [
-      "Consumer",
-      "Industrial",
-      "Automotive"
-    ],
-    "use_case": [
-      "Classification",
-      "Regression",
-      "Object Detection"
     ]
   },
   "EmbedURsystems": {

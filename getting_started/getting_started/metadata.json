@@ -31,8 +31,8 @@
     }
   ],
   "sensors": ["Microphone", "Camera", "Radar", "IMU"],
-  "device": ["PSOC™ Edge", "PSOC™ 6", "AURIX™"],
-  "kit": ["PSOC™ Edge E84 Evaluation Kit", "PSOC™ Edge E84 AI Kit", "PSOC™ 6 AI Evaluation Kit"],
+  "device": ["PSOC™ Edge", "PSOC™ 6", "AURIX™ TC4x", "AURIX™ TC3x"],
+  "kit": ["PSOC™ Edge E84 Evaluation Kit", "PSOC™ Edge E84 AI Kit", "PSOC™ 6 AI Evaluation Kit", "AURIX™ KIT_A3G_TC487_LITE", "AURIX™ KIT_A2G_TC375_LITE"],
   "domain": ["Audio", "Vision", "Radar", "Motion"],
   "application": ["Consumer", "Industrial", "Automotive"],
   "use_case": ["Classification", "Regression", "Object Detection"]

@@ -4621,8 +4621,8 @@
   "DEEPCRAFTAISuite:AcceleratingEdgeAIInnovation": {
     "id": "deepcraft-ai-suite-accelerating-edge-ai-innovation",
     "title": "DEEPCRAFT™ AI Suite: Accelerating Edge AI Innovation",
-    "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development—from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
-    "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development—from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
+    "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
+    "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
     "sensors": [
       "Microphone",
       "Radar",

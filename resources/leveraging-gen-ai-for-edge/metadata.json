@@ -1,6 +1,6 @@
 {
     "id": "leveraging-gen-ai-for-edge",
-    "title": "Generative AI on & for the Edge",
+    "title": "Generative AI on and for the Edge",
     "description": "Generative AI is taking off and in this article series we look at how you can leverage it for building Edge AI models and running on the edge",
     "long_description": "<p>This 3-part article series looks at how to leverage Generative AI for the edge and then how to run it on the edge. The first article highlights 4 different ways you can use generative AI to help you with developing better Edge AI models. Namely it looks at how you can use it to assist you in your development journey, you can use it to help you find relevant data in big datasets, you can let it synthesise and generate new data for you and you can use it to improve your model accuracy.</p><p>In the next parts we explore how you can take them from the cloud and run them in the Edge, the impact and how this is evolving with the current advancement in hardware and computation. </p><p>LLMs and Generative AI is making a big impact across different sectors and the Edge AI sector is no different.</p>",
     "sensors": [],

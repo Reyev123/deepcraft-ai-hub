@@ -70,54 +70,6 @@
       "Object Detection"
     ]
   },
-    "Solutions": {
-    "title": "Solutions",
-    "Type": "Solutions",
-    "description": "Production-ready DEEPCRAFT™ Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
-    "thumbnail_image_id": "deepcraft_ai_suite.webp",
-    "main_image_id": "deepcraft_ai_suite.webp",
-    "brand_image_id": "deepcraft.webp",
-    "long_description": "<p>The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.</p> <p>On the cards you'll typically find information about the Edge AI solution, the performance and metrics for the solution and a link that takes you to the product pages and where you can get started with the evaluating the solution.</p>",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-        "heading": "DEEPCRAFT™ Solutions Product Pages",
-        "sub-heading": "Product details, use cases, and documentation on Infineon.com"
-      },
-      {
-        "label": "Solutions in AI Hub",
-        "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
-        "heading": "DEEPCRAFT™ Solutions in AI Hub",
-        "sub-heading": "Product details, use cases, and documentation on Infineon.com"
-      }
-    ],
-    "sensors": [
-      "Microphone",
-      "Radar",
-      "IMU",
-      "Camera"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge",
-      "AURIX™"
-    ],
-    "kit": [
-      "PSOC™ Edge E84 Evaluation Kit",
-      "PSOC™ Edge E84 AI Kit",
-      "PSOC™ 6 AI Evaluation Kit",
-      "AURIX™ TC4x",
-      "AURIX™ TC3x"
-    ],
-    "application": [
-      "Smart Home",
-      "Appliances",
-      "Industrial IoT",
-      "Home Health Monitoring"
-    ]
-  },
   "DEEPCRAFTModelConverter": {
     "title": "DEEPCRAFT™ Model Converter",
     "description": "Converts, optimizes and validates AI models for Infineon MCUs",
@@ -948,6 +900,54 @@
         "heading": "Voice Assistant",
         "sub-heading": "Build your first AI-powered voice interface today"
       }
+    ]
+  },
+  "Solutions": {
+    "title": "Solutions",
+    "Type": "Solutions",
+    "description": "Production-ready DEEPCRAFT™ Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
+    "thumbnail_image_id": "deepcraft_ai_suite.webp",
+    "main_image_id": "deepcraft_ai_suite.webp",
+    "brand_image_id": "deepcraft.webp",
+    "long_description": "<p>The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.</p> <p>On the cards you'll typically find information about the Edge AI solution, the performance and metrics for the solution and a link that takes you to the product pages and where you can get started with the evaluating the solution.</p>",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Learn More",
+        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+        "heading": "DEEPCRAFT™ Solutions Product Pages",
+        "sub-heading": "Product details, use cases, and documentation on Infineon.com"
+      },
+      {
+        "label": "Solutions in AI Hub",
+        "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
+        "heading": "DEEPCRAFT™ Solutions in AI Hub",
+        "sub-heading": "Product details, use cases, and documentation on Infineon.com"
+      }
+    ],
+    "sensors": [
+      "Microphone",
+      "Radar",
+      "IMU",
+      "Camera"
+    ],
+    "device": [
+      "PSOC™ 6",
+      "PSOC™ Edge",
+      "AURIX™"
+    ],
+    "kit": [
+      "PSOC™ Edge E84 Evaluation Kit",
+      "PSOC™ Edge E84 AI Kit",
+      "PSOC™ 6 AI Evaluation Kit",
+      "AURIX™ TC4x",
+      "AURIX™ TC3x"
+    ],
+    "application": [
+      "Smart Home",
+      "Appliances",
+      "Industrial IoT",
+      "Home Health Monitoring"
     ]
   },
   "DEEPCRAFTStudioAcceleratorforAnomalousVibrationDetection": {
@@ -4624,9 +4624,9 @@
       }
     ]
   },
-  "DEEPCRAFTAISuite:AcceleratingEdgeAIInnovation": {
+  "DEEPCRAFTAISuite-AcceleratingEdgeAIInnovation": {
     "id": "deepcraft-ai-suite-accelerating-edge-ai-innovation",
-    "title": "DEEPCRAFT™ AI Suite: Accelerating Edge AI Innovation",
+    "title": "DEEPCRAFT™ AI Suite - Accelerating Edge AI Innovation",
     "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
     "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
     "sensors": [
@@ -4673,9 +4673,9 @@
     "published_date": "2025-03-11",
     "content_type": "Blog Post"
   },
-  "GenerativeAIon&fortheEdge": {
+  "GenerativeAIonandfortheEdge": {
     "id": "leveraging-gen-ai-for-edge",
-    "title": "Generative AI on & for the Edge",
+    "title": "Generative AI on and for the Edge",
     "description": "Generative AI is taking off and in this article series we look at how you can leverage it for building Edge AI models and running on the edge",
     "long_description": "<p>This 3-part article series looks at how to leverage Generative AI for the edge and then how to run it on the edge. The first article highlights 4 different ways you can use generative AI to help you with developing better Edge AI models. Namely it looks at how you can use it to assist you in your development journey, you can use it to help you find relevant data in big datasets, you can let it synthesise and generate new data for you and you can use it to improve your model accuracy.</p><p>In the next parts we explore how you can take them from the cloud and run them in the Edge, the impact and how this is evolving with the current advancement in hardware and computation. </p><p>LLMs and Generative AI is making a big impact across different sectors and the Edge AI sector is no different.</p>",
     "sensors": [],
@@ -4720,9 +4720,9 @@
     "published_date": "2026-01-14",
     "content_type": "Blog Post"
   },
-  "TheFutureofAutonomousSystems:UnlockingthePotentialofPhysicalAIandEdgeAI": {
+  "TheFutureofAutonomousSystems-UnlockingthePotentialofPhysicalAIandEdgeAI": {
     "id": "future-of-autonomous-systems",
-    "title": "The Future of Autonomous Systems: Unlocking the Potential of Physical AI and Edge AI",
+    "title": "The Future of Autonomous Systems - Unlocking the Potential of Physical AI and Edge AI",
     "description": "Physical AI is very related to Edge AI. Find out what Physical AI is and how DEEPCRAFT™ fits into this",
     "long_description": "As technology continues to advance at a rapid pace, we're witnessing the emergence of new and exciting fields that are transforming the way we interact with machines. One such area that's gaining significant attention is Physical AI, a field that focuses on creating artificial intelligence systems that can adapt to and interact with their physical environment in real-time. In this blog post, we'll delve into the world of Physical AI, its connections to Edge AI, and how Edge AI software is supporting the development of autonomous systems. To learn more click on the article below.",
     "sensors": [
@@ -4769,9 +4769,9 @@
     "published_date": "2025-03-11",
     "content_type": "Blog Post"
   },
-  "UnlockingthePowerofEdgeAIwithDEEPCRAFT,PSOC6,andModusToolbox": {
+  "UnlockingthePowerofEdgeAIwithDEEPCRAFTPSOC6andModusToolbox": {
     "id": "unlocking-edge-ai-psoc6-deepcraft-modustoolbox",
-    "title": "Unlocking the Power of Edge AI with DEEPCRAFT™, PSOC 6, and ModusToolbox™",
+    "title": "Unlocking the Power of Edge AI with DEEPCRAFT™ PSOC 6 and ModusToolbox™",
     "description": "How DEEPCRAFT Studio, the PSOC 6 AI Evaluation Kit, and ModusToolbox work together for edge AI development.",
     "long_description": "A practical walkthrough of how DEEPCRAFT™ Studio, the PSOC™ 6 AI Evaluation Kit, and ModusToolbox™ work together for end-to-end edge AI development on Infineon hardware.",
     "sensors": [
@@ -4815,9 +4815,9 @@
     "published_date": "2024-08-14",
     "content_type": "Blog Post"
   },
-  "WhatisEdgeAI?": {
+  "WhatisEdgeAI": {
     "id": "what-is-edge-ai",
-    "title": "What is Edge AI?",
+    "title": "What is Edge AI",
     "description": "Edge AI is a discipline/field focusing on the deployment of artificial intelligence and machine learning models on devices at the edge of the network",
     "long_description": "Edge AI has been around for some time but now it's becoming more and more important but what exactly does it mean? In this short article you can learn the fundamentals of this.",
     "sensors": [

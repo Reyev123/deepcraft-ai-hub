@@ -1,6 +1,6 @@
 {
     "id": "unlocking-edge-ai-psoc6-deepcraft-modustoolbox",
-    "title": "Unlocking the Power of Edge AI with DEEPCRAFT™, PSOC 6, and ModusToolbox™",
+    "title": "Unlocking the Power of Edge AI with DEEPCRAFT\u2122, PSOC 6, and ModusToolbox\u2122",
     "description": "How DEEPCRAFT Studio, the PSOC 6 AI Evaluation Kit, and ModusToolbox work together for edge AI development.",
     "long_description": "A practical walkthrough of how DEEPCRAFT™ Studio, the PSOC™ 6 AI Evaluation Kit, and ModusToolbox™ work together for end-to-end edge AI development on Infineon hardware.",
     "sensors": [

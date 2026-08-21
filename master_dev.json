@@ -4,7 +4,9 @@
     "Type": "Getting Started",
     "description": "Edge AI is about adding AI or ML models right on the edge on small constrained devices. Infineon & DEEPCRAFT help to simplify the process of adding intelligence to your products",
     "main_image_id": "deepcraft_ai_suite.webp",
+    "brand_image_id": "deepcraft_ai_suite.webp",
     "long_description": "<p>Edge AI is the process of developing small and efficient machine learning models intended for running at the edge of the system close to the events happening. Typically you want to run these models locally, you need fast response times and they are intended to run in smaller devices. In Infineon we typically are talking about microcontrollers e.g. PSOC™, AURIX™, TRAVEO™ families.</p><p>The DEEPCRAFT™ AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms — so you can browse, compare, and deploy AI on PSOC™ and AURIX™ hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT™ Studio.</p><p>The Edge AI journey is split up into multiple steps: <br>* Data Collection: The DEEPCRAFT™ Studio helps you with data collection <br>* Model Development: You can use the DEEPCRAFT™ Studio to help you with training and the DEEPCRAFT™ Studio Accelerators to get started with an existing use-case and dataset we also may have other content under model development that is using python and other frameworks <br> * Model Deployment: after training/building a model you need to get it to a format to run on a microcontroller here you can use DEEPCRAFT™ Studio & DEEPCRAFT™ Model Converter. You can also find customer and open source models we have deployed on our hardware here on the AI Hub<p> <p> Outside of this you have solutions, if you want a solution ready to integrate directly into your application without going the process of building and preparing a model.</p>",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
         "label": "Tools",
@@ -904,7 +906,9 @@
     "Type": "Solutions",
     "description": "Production-ready DEEPCRAFT™ Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
     "main_image_id": "deepcraft_ai_suite.webp",
+    "brand_image_id": "deepcraft_ai_suite.webp",
     "long_description": "<p>The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.</p> <p>On the cards you'll typically find information about the Edge AI solution, the performance and metrics for the solution and a link that takes you to the product pages and where you can get started with the evaluating the solution.</p>",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
         "label": "Learn More",

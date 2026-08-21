@@ -36,8 +36,8 @@
         "AURIX™ TC3x"
     ],
     "type": "Resources",
-    "thumbnail_image_id": "tinyml-hero.webp",
-    "main_image_id": "tinyml-hero.webp",
+    "thumbnail_image_id": "vision.png",
+    "main_image_id": "vision.png",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
      "links": [

@@ -1,6 +1,6 @@
 {
     "id": "what-is-edge-ai",
-    "title": "What is Edge AI",
+    "title": "What is Edge AI?",
     "description": "Edge AI is a discipline/field focusing on the deployment of artificial intelligence and machine learning models on devices at the edge of the network",
     "long_description": "Edge AI has been around for some time but now it's becoming more and more important but what exactly does it mean? In this short article you can learn the fundamentals of this.",
     "sensors": [

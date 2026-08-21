@@ -1,0 +1,51 @@
+{
+    "id": "leveraging-gen-ai-for-edge",
+    "title": "Generative AI on & for the Edge",
+    "description": "Generative AI is taking off and in this article series we look at how you can leverage it for building Edge AI models and running on the edge",
+    "long_description": "<p>This 3-part article series looks at how to leverage Generative AI for the edge and then how to run it on the edge. The first article highlights 4 different ways you can use generative AI to help you with developing better Edge AI models. Namely it looks at how you can use it to assist you in your development journey, you can use it to help you find relevant data in big datasets, you can let it synthesise and generate new data for you and you can use it to improve your model accuracy.</p><p>In the next parts we explore how you can take them from the cloud and run them in the Edge, the impact and how this is evolving with the current advancement in hardware and computation. </p><p>LLMs and Generative AI is making a big impact across different sectors and the Edge AI sector is no different.</p>",
+    "sensors": [],
+    "domain": [
+    ],
+    "application": [
+    "Consumer",
+    "Smart Home",
+    "Industrial IoT"
+    ],
+    "use_case": [
+    ],
+    "kit": [
+    "PSOC™ Edge AI Kit"
+    ],
+    "device": [
+    "PSOC™ Edge"
+    ],
+    "type": "Resources",
+    "thumbnail_image_id": "hmi.png",
+    "main_image_id": "hmi.png",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+        {
+            "label": "Read Article",
+            "url": "https://www.imagimob.com/blog/4-ways-to-leverage-generative-ai-on-the-edge",
+            "heading": "Part 1",
+            "sub-heading": "4 Ways to Leverage Generative AI on the Edge"
+        },
+
+        {
+            "label": "Read Article",
+            "url": "https://www.imagimob.com/blog/generative-ai-on-the-edge-what-does-the-future-hold",
+            "heading": "Part 2",
+            "sub-heading": "Generative AI on the Edge: What Does the Future Hold?"
+        },
+
+        {
+            "label": "Read Article",
+            "url": "https://www.imagimob.com/blog/generative-ai-on-the-edge-for-deepcraft-usersexploring-whats-possible-today-and-tomorrow",
+            "heading": "Part 3",
+            "sub-heading": "Generative AI on the Edge for DEEPCRAFT™ users—exploring what’s possible today and tomorrow"
+        }
+    ],
+    "published_date": "2026-01-14",
+    "content_type": "Blog Post"
+}

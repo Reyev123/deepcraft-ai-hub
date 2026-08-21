@@ -1,0 +1,49 @@
+{
+    "id": "future-of-autonomous-systems",
+    "title": "The Future of Autonomous Systems: Unlocking the Potential of Physical AI and Edge AI",
+    "description": "Physical AI is very related to Edge AI. Find out what Physical AI is and how DEEPCRAFT™ fits into this",
+    "long_description": "As technology continues to advance at a rapid pace, we're witnessing the emergence of new and exciting fields that are transforming the way we interact with machines. One such area that's gaining significant attention is Physical AI, a field that focuses on creating artificial intelligence systems that can adapt to and interact with their physical environment in real-time. In this blog post, we'll delve into the world of Physical AI, its connections to Edge AI, and how Edge AI software is supporting the development of autonomous systems. To learn more click on the article below.",
+    "sensors": [
+    "Microphone",
+    "Radar",
+    "IMU"
+    ],
+    "domain": [
+    "Audio",
+    "Radar",
+    "Motion"
+    ],
+    "application": [
+    "Consumer",
+    "Smart Home",
+    "Industrial IoT"
+    ],
+    "use_case": [
+    "Edge AI Development",
+    "Voice Assistant",
+    "Audio Classification"
+    ],
+    "kit": [
+    "PSOC™ Edge AI Kit",
+    "PSOC™ 6 AI Kit"
+    ],
+    "device": [
+    "PSOC™ Edge",
+    "PSOC™ 6"
+    ],
+    "type": "Resources",
+    "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+    "main_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+    {
+        "label": "Learn More",
+        "url": "https://www.imagimob.com/blog/the-future-of-autonomous-systems-unlocking-the-potential-of-physical-ai-and-edge-ai",
+        "heading": "Physical AI",
+        "sub-heading": "Read the full article on the Imagimob website"
+    }
+    ],
+    "published_date": "2025-03-11",
+    "content_type": "Blog Post"
+}

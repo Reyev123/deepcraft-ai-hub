@@ -2,24 +2,24 @@
   "title": "Solutions",
   "type": "Solutions",
   "description": "Production-ready DEEPCRAFT™ Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
-  "main_image_id": "deepcraft-ai-hub.png",
-  "long_description": "The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.",
+  "main_image_id": "deepcraft_ai_suite.webp",
+  "long_description": "<p>The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.</p> <p>On the cards you'll typically find information about the Edge AI solution, the performance and metrics for the solution and a link that takes you to the product pages and where you can get started with the evaluating the solution.</p>",
   "links": [
     {
       "label": "Learn More",
       "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-      "heading": "DEEPCRAFT™ Edge AI Solutions",
+      "heading": "DEEPCRAFT™ Solutions Product Pages",
       "sub-heading": "Product details, use cases, and documentation on Infineon.com"
     },
     {
-      "label": "Try Today",
-      "url": "https://softwaretools.infineon.com/",
-      "heading": "Infineon Software Tools",
-      "sub-heading": "Download evaluation packages for Ready Models"
+      "label": "Solutions in AI Hub",
+      "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
+      "heading": "DEEPCRAFT™ Solutions in AI Hub",
+      "sub-heading": "Product details, use cases, and documentation on Infineon.com"
     }
   ],
   "sensors": ["Microphone", "Radar", "IMU", "Camera"],
-  "device": ["PSOC™ 6", "PSOC™ Edge"],
-  "kit": ["PSOC™ Edge E84 Evaluation Kit", "PSOC™ Edge E84 AI Kit", "PSOC™ 6 AI Evaluation Kit"],
+  "device": ["PSOC™ 6", "PSOC™ Edge", "AURIX™"],
+  "kit": ["PSOC™ Edge E84 Evaluation Kit", "PSOC™ Edge E84 AI Kit", "PSOC™ 6 AI Evaluation Kit", "AURIX™ TC4x", "AURIX™ TC3x"],
   "application": ["Smart Home", "Appliances", "Industrial IoT", "Home Health Monitoring"]
 }

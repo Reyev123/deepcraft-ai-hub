@@ -3,20 +3,26 @@
     "title": "Getting Started with Edge AI",
     "Type": "Getting Started",
     "description": "Edge AI is about adding AI or ML models right on the edge on small constrained devices. Infineon & DEEPCRAFT help to simplify the process of adding intelligence to your products",
-    "main_image_id": "deepcraft-ai-hub.png",
+    "main_image_id": "deepcraft_ai_suite.webp",
     "long_description": "<p>Edge AI is the process of developing small and efficient machine learning models intended for running at the edge of the system close to the events happening. Typically you want to run these models locally, you need fast response times and they are intended to run in smaller devices. In Infineon we typically are talking about microcontrollers e.g. PSOC™, AURIX™, TRAVEO™ families.</p><p>The DEEPCRAFT™ AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms — so you can browse, compare, and deploy AI on PSOC™ and AURIX™ hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT™ Studio.</p><p>The Edge AI journey is split up into multiple steps: <br>* Data Collection: The DEEPCRAFT™ Studio helps you with data collection <br>* Model Development: You can use the DEEPCRAFT™ Studio to help you with training and the DEEPCRAFT™ Studio Accelerators to get started with an existing use-case and dataset we also may have other content under model development that is using python and other frameworks <br> * Model Deployment: after training/building a model you need to get it to a format to run on a microcontroller here you can use DEEPCRAFT™ Studio & DEEPCRAFT™ Model Converter. You can also find customer and open source models we have deployed on our hardware here on the AI Hub<p> <p> Outside of this you have solutions, if you want a solution ready to integrate directly into your application without going the process of building and preparing a model.</p>",
     "links": [
       {
         "label": "Tools",
-        "url": "https://deepcraft.infineon.com",
+        "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Tools",
         "heading": "Tools",
         "sub-heading": "Tools for developing & deploying your own Edge AI models"
       },
       {
         "label": "Solutions",
-        "url": "https://deepcraft.infineon.com",
+        "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
         "heading": "Solutions",
         "sub-heading": "Pre-trained, ready to deploy, production-grade models ready for integration"
+      },
+      {
+        "label": "Product Pages",
+        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+        "heading": "DEEPCRAFT™ AI Suite Product Pages",
+        "sub-heading": "All documentation and information about full DEEPCRAFT™ AI Suite"
       },
       {
         "label": "Purchase Kits",
@@ -894,20 +900,20 @@
     "title": "Solutions",
     "Type": "Solutions",
     "description": "Production-ready DEEPCRAFT™ Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
-    "main_image_id": "deepcraft-ai-hub.png",
-    "long_description": "The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.",
+    "main_image_id": "deepcraft_ai_suite.webp",
+    "long_description": "<p>The Solutions section features fully developed models and applications you can download, evaluate on supported hardware, and integrate into your product—without training a model from scratch. Solutions skip the full model development cycle and give you field-proven models already optimized for Infineon MCUs. Each solution includes metadata for sensors, target devices, compatible kits, application domains, and performance metrics (memory usage, inference time, and power where available). Solutions are maintained by Infineon and are not open for community contribution.</p> <p>On the cards you'll typically find information about the Edge AI solution, the performance and metrics for the solution and a link that takes you to the product pages and where you can get started with the evaluating the solution.</p>",
     "links": [
       {
         "label": "Learn More",
         "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-        "heading": "DEEPCRAFT™ Edge AI Solutions",
+        "heading": "DEEPCRAFT™ Solutions Product Pages",
         "sub-heading": "Product details, use cases, and documentation on Infineon.com"
       },
       {
-        "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/",
-        "heading": "Infineon Software Tools",
-        "sub-heading": "Download evaluation packages for Ready Models"
+        "label": "Solutions in AI Hub",
+        "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
+        "heading": "DEEPCRAFT™ Solutions in AI Hub",
+        "sub-heading": "Product details, use cases, and documentation on Infineon.com"
       }
     ],
     "sensors": [
@@ -918,12 +924,15 @@
     ],
     "device": [
       "PSOC™ 6",
-      "PSOC™ Edge"
+      "PSOC™ Edge",
+      "AURIX™"
     ],
     "kit": [
       "PSOC™ Edge E84 Evaluation Kit",
       "PSOC™ Edge E84 AI Kit",
-      "PSOC™ 6 AI Evaluation Kit"
+      "PSOC™ 6 AI Evaluation Kit",
+      "AURIX™ TC4x",
+      "AURIX™ TC3x"
     ],
     "application": [
       "Smart Home",
@@ -2589,56 +2598,6 @@
       {
         "label": "GitHub",
         "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/SurfaceDetectionMicrophone",
-        "heading": "Project Repository",
-        "sub-heading": "Get more details about this project"
-      }
-    ]
-  },
-  "DEEPCRAFTStudioAcceleratorforVegetablesFruitsDetection": {
-    "title": "DEEPCRAFT™ Studio Accelerator for Vegetables Fruits Detection",
-    "description": "Detect 17 types of fruits and vegetables in camera images",
-    "long_description": "This project allows you to train a YOLOv8n-based model to identify fruits and vegetables in camera images. The dataset covers 17 produce classes and is suitable for smart kitchen, retail, and industrial IoT applications on Infineon edge devices.",
-    "algorithm": "Object Detection",
-    "sensors": [
-      "Camera"
-    ],
-    "domain": [
-      "Vision"
-    ],
-    "application": [
-      "Smart Home",
-      "Appliances",
-      "Industrial IoT"
-    ],
-    "use_case": [
-      "Object Detection"
-    ],
-    "kit": [
-      "PSOC™ Edge AI Kit"
-    ],
-    "device": [
-      "PSOC™ Edge"
-    ],
-    "Type": [
-      "Model Development"
-    ],
-    "workflow": [
-      "ML Development"
-    ],
-    "thumbnail_image_id": "kitchen.png",
-    "main_image_id": "kitchen.png",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Download",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
-        "heading": "Access Project via DEEPCRAFT™ Studio",
-        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
-      },
-      {
-        "label": "GitHub",
-        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/VegetablesFruitsDetection",
         "heading": "Project Repository",
         "sub-heading": "Get more details about this project"
       }
@@ -4656,200 +4615,6 @@
       }
     ]
   },
-  "EmbedURsystems": {
-    "id": "embedur",
-    "title": "EmbedUR systems",
-    "description": "Silicon Valley–based embedded systems and edge AI company with decades of experience bringing intelligent devices from prototype to high-volume production.",
-    "long_description": "Vision models in the DEEPCRAFT™ Model Zoo for PSOC—helping developers evaluate and deploy production-grade computer vision on PSOC™ Edge without building models from scratch.",
-    "sensors": [
-      "Camera",
-      "Microphone",
-      "Radar"
-    ],
-    "domain": [
-      "Vision",
-      "Audio",
-      "Radar"
-    ],
-    "application": [
-      "Consumer",
-      "Industrial IoT",
-      "Wearables"
-    ],
-    "use_case": [
-      "Keyword spotting & speaker detection",
-      "Audio denoising & event recognition",
-      "Vision & object classification",
-      "Radar motion & micro-motion sensing",
-      "Presence & child-presence detection"
-    ],
-    "kit": [],
-    "device": [
-      "PSOC™ MCUs",
-      "DEEPCRAFT™ Model Zoo for PSOC"
-    ],
-    "Type": "Partners",
-    "thumbnail_image_id": "embedur-ai-overview.webp",
-    "main_image_id": "embedur-ai-overview.webp",
-    "brand_image_id": "embedur.webp",
-    "brand_url": "https://www.embedur.ai/",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.embedur.ai/",
-        "heading": "Partner website",
-        "sub-heading": "Visit EmbedUR systems"
-      },
-      {
-        "label": "Profile",
-        "url": "",
-        "heading": "Partner profile",
-        "sub-heading": "Read more in the DEEPCRAFT™ AI Hub"
-      }
-    ],
-    "location": "Silicon Valley, California, USA",
-    "areas_of_expertise": [
-      "Embedded systems and edge AI",
-      "Model development platforms",
-      "Silicon optimization",
-      "Vision AI at the edge"
-    ]
-  },
-  "Partners": {
-    "title": "Partners",
-    "Type": "Partners",
-    "description": "Trusted design partners contribute branded, benchmarked, production-ready edge AI content for Infineon hardware.",
-    "main_image_id": "deepcraft-ai-hub.png",
-    "long_description": "The DEEPCRAFT™ AI Hub brings together Infineon content and contributions from trusted design partners. Partner projects are published with partner branding, benchmark data, and deployment resources so you can evaluate and integrate third-party edge AI solutions on Infineon hardware. Partner entries are identified by the partner logo and website link in each project's metadata. Browse partner content to find models and solutions optimized for Infineon platforms by ecosystem experts who bring specialized domain knowledge, deployment experience, and production-ready implementations.",
-    "boxes": [
-      {
-        "heading": "Become a Partner",
-        "text": "Infineon welcomes design partners and ecosystem contributors who have deployable edge AI content for PSOC™ and other open Infineon platforms. Approved submissions are published on the DEEPCRAFT™ AI Hub after review."
-      },
-      {
-        "heading": "What You Can Contribute",
-        "text": "Choose the repository that matches your content type:",
-        "ordered": false,
-        "steps": [
-          {
-            "term": "DEEPCRAFT™ Studio Accelerators",
-            "text": "DEEPCRAFT™ Studio starter projects with sample data and a project file (.improj) for classification, regression, or object detection workflows.",
-            "links": [
-              {
-                "label": "Studio Accelerators",
-                "url": "https://github.com/Infineon/deepcraft-studio-accelerators"
-              }
-            ]
-          },
-          {
-            "term": "DEEPCRAFT™ Model Zoo for PSOC",
-            "text": "Deployable models with pre-built firmware (.hex), embedded artifacts (fw/), documentation, and benchmarks for PSOC™ Edge and PSOC™ 6.",
-            "links": [
-              {
-                "label": "Model Zoo for PSOC",
-                "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc"
-              }
-            ]
-          },
-          {
-            "text": "The Model Zoo for AURIX is maintained by Infineon Automotive and is not open for general partner or community submissions for now. See the README and contribution guidelines in the corresponding repository for details on how to contribute.",
-            "links": [
-              {
-                "label": "Model Zoo for AURIX",
-                "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Get in Touch",
-        "text": "Interested in becoming a partner or publishing your first project? Reach out to Infineon when you open your pull request, or contact us through Infineon DEEPCRAFT™ Edge AI Solutions to discuss your content before submitting.",
-        "links": [
-          {
-            "label": "Contact — DEEPCRAFT™ Edge AI Solutions",
-            "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions"
-          }
-        ]
-      }
-    ],
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-        "heading": "DEEPCRAFT™ Edge AI Solutions",
-        "sub-heading": "Discuss partnership opportunities with Infineon"
-      }
-    ],
-    "device": [
-      "PSOC™ Edge",
-      "PSOC™ 6"
-    ],
-    "use_case": [
-      "Classification",
-      "Regression",
-      "Object Detection"
-    ]
-  },
-  "WGTech": {
-    "id": "wgtech",
-    "title": "WGTech",
-    "description": "End-to-end edge AI solutions that bridge custom hardware architecture and intelligent application software, with full ownership of the technology stack from sensor integration to inference.",
-    "long_description": "Models for radar-based sensing and electronic monitoring on PSOC™ 6 and PSOC™ Edge targets—including people counting and voltage/current anomaly detection use cases.",
-    "sensors": [
-      "Radar",
-      "Camera"
-    ],
-    "domain": [
-      "Radar",
-      "Vision",
-      "Electronic Sensing"
-    ],
-    "application": [
-      "Smart Home",
-      "Retail",
-      "Industrial IoT",
-      "Security",
-      "Building Automation"
-    ],
-    "use_case": [
-      "People counting & occupancy",
-      "Radar-based motion sensing",
-      "Vision analytics",
-      "Voltage/current anomaly detection"
-    ],
-    "kit": [],
-    "device": [
-      "PSOC™ MCUs",
-      "DEEPCRAFT™ Model Zoo for PSOC"
-    ],
-    "Type": "Partners",
-    "thumbnail_image_id": "wgtech-edge-ai.webp",
-    "main_image_id": "wgtech-edge-ai.webp",
-    "brand_image_id": "wgtech.webp",
-    "brand_url": "https://www.wgtech.ai/",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.wgtech.ai/",
-        "heading": "Partner website",
-        "sub-heading": "Visit WGTech"
-      },
-      {
-        "label": "Profile",
-        "url": "",
-        "heading": "Partner profile",
-        "sub-heading": "Read more in the DEEPCRAFT™ AI Hub"
-      }
-    ],
-    "location": "Bengaluru, Karnataka, India",
-    "areas_of_expertise": [
-      "Radar and vision analytics",
-      "On-device, privacy-first AI",
-      "Electronic sensing and anomaly detection",
-      "Enterprise edge AI"
-    ]
-  },
   "ArtificialIntelligenceattheEdge": {
     "id": "artificial-intelligence-at-the-edge-whitepaper",
     "title": "Artificial Intelligence at the Edge",
@@ -4947,61 +4712,6 @@
     ],
     "published_date": "2025-03-11",
     "content_type": "Blog Post"
-  },
-  "Resources": {
-    "title": "Resources",
-    "Type": "Resources",
-    "description": "Articles, blog posts, white papers, application notes, and other materials about the DEEPCRAFT™ AI Hub.",
-    "main_image_id": "deepcraft-ai-hub.png",
-    "long_description": "Articles, blog posts, white papers, application notes, and other materials about the DEEPCRAFT™ AI Hub—its tools, Solutions, Accelerators, and model projects—are collected here. Use these resources to learn more about what you can achieve with Edge AI: real-world applications, practical deployment examples, and inspiration for what is possible on Infineon embedded hardware. Go deeper than the catalog listings to see how others have built with DEEPCRAFT™ Studio, deployed Ready Models, evaluated Model Zoo projects, and applied edge AI across consumer, industrial, and automotive use cases.",
-    "boxes": [
-      {
-        "heading": "What you'll find here",
-        "text": "Content is grouped by type so you can quickly find the format that suits you:",
-        "ordered": false,
-        "steps": [
-          {
-            "term": "Blog posts & articles",
-            "text": "Practical walkthroughs and announcements about Edge AI on Infineon hardware."
-          },
-          {
-            "term": "White papers",
-            "text": "In-depth technical perspectives on Edge AI technologies and trends."
-          },
-          {
-            "term": "Application notes",
-            "text": "Solution-focused guides for specific sensors, kits, and use cases."
-          },
-          {
-            "term": "Tutorials & explainers",
-            "text": "Step-by-step and conceptual content to help you learn and build."
-          }
-        ]
-      },
-      {
-        "heading": "More to come",
-        "text": "Content will be added below as it becomes available. Browse the resource cards beneath this overview to explore the latest materials."
-      }
-    ],
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://deepcraft.infineon.com",
-        "heading": "DEEPCRAFT™ AI Hub",
-        "sub-heading": "Explore tools, Solutions, Accelerators, and models"
-      }
-    ],
-    "sensors": [
-      "Microphone",
-      "Radar",
-      "IMU",
-      "Camera"
-    ],
-    "application": [
-      "Consumer",
-      "Industrial",
-      "Automotive"
-    ]
   },
   "SmartentrancecountersolutionusingXENSIVKIT_CSK_BGT60TR13C60GHzradar": {
     "id": "smart-entrance-counter-radar-application-note",

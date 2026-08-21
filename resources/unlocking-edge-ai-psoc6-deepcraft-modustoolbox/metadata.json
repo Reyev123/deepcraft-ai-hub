@@ -4,29 +4,29 @@
     "description": "How DEEPCRAFT Studio, the PSOC 6 AI Evaluation Kit, and ModusToolbox work together for edge AI development.",
     "long_description": "A practical walkthrough of how DEEPCRAFT™ Studio, the PSOC™ 6 AI Evaluation Kit, and ModusToolbox™ work together for end-to-end edge AI development on Infineon hardware.",
     "sensors": [
-    "Microphone",
-    "Camera",
-    "IMU"
+        "Microphone",
+        "Camera",
+        "IMU"
     ],
     "domain": [
-    "Audio",
-    "Vision",
-    "Motion"
+        "Audio",
+        "Vision",
+        "Motion"
     ],
     "application": [
-    "Embedded Systems",
-    "Consumer",
-    "Industrial IoT"
+        "Embedded Systems",
+        "Consumer",
+        "Industrial IoT"
     ],
     "use_case": [
-    "Edge AI Development",
-    "ML Development"
+        "Edge AI Development",
+        "ML Development"
     ],
     "kit": [
-    "PSOC™ 6 AI Kit"
+        "PSOC™ 6 AI Kit"
     ],
     "device": [
-    "PSOC™ 6"
+        "PSOC™ 6"
     ],
     "type": "Resources",
     "thumbnail_image_id": "lowres_TBD_DEEPCRAFT_Studio_graph_ux.webp",

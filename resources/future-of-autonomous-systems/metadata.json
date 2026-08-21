@@ -4,32 +4,32 @@
     "description": "Physical AI is very related to Edge AI. Find out what Physical AI is and how DEEPCRAFT™ fits into this",
     "long_description": "As technology continues to advance at a rapid pace, we're witnessing the emergence of new and exciting fields that are transforming the way we interact with machines. One such area that's gaining significant attention is Physical AI, a field that focuses on creating artificial intelligence systems that can adapt to and interact with their physical environment in real-time. In this blog post, we'll delve into the world of Physical AI, its connections to Edge AI, and how Edge AI software is supporting the development of autonomous systems. To learn more click on the article below.",
     "sensors": [
-    "Microphone",
-    "Radar",
-    "IMU"
+        "Microphone",
+        "Radar",
+        "IMU"
     ],
     "domain": [
-    "Audio",
-    "Radar",
-    "Motion"
+        "Audio",
+        "Radar",
+        "Motion"
     ],
     "application": [
-    "Consumer",
-    "Smart Home",
-    "Industrial IoT"
+        "Consumer",
+        "Smart Home",
+        "Industrial IoT"
     ],
     "use_case": [
-    "Edge AI Development",
-    "Voice Assistant",
-    "Audio Classification"
+        "Edge AI Development",
+        "Voice Assistant",
+        "Audio Classification"
     ],
     "kit": [
-    "PSOC™ Edge AI Kit",
-    "PSOC™ 6 AI Kit"
+        "PSOC™ Edge AI Kit",
+        "PSOC™ 6 AI Kit"
     ],
     "device": [
-    "PSOC™ Edge",
-    "PSOC™ 6"
+        "PSOC™ Edge",
+        "PSOC™ 6"
     ],
     "type": "Resources",
     "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",

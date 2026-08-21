@@ -1,35 +1,35 @@
 {
     "id": "deepcraft-ai-suite-accelerating-edge-ai-innovation",
     "title": "DEEPCRAFT™ AI Suite: Accelerating Edge AI Innovation",
-    "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development—from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
-    "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development—from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
+    "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
+    "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
     "sensors": [
-    "Microphone",
-    "Radar",
-    "IMU"
+        "Microphone",
+        "Radar",
+        "IMU"
     ],
     "domain": [
-    "Audio",
-    "Radar",
-    "Motion"
+        "Audio",
+        "Radar",
+        "Motion"
     ],
     "application": [
-    "Consumer",
-    "Smart Home",
-    "Industrial IoT"
+        "Consumer",
+        "Smart Home",
+        "Industrial IoT"
     ],
     "use_case": [
-    "Edge AI Development",
-    "Voice Assistant",
-    "Audio Classification"
+        "Edge AI Development",
+        "Voice Assistant",
+        "Audio Classification"
     ],
     "kit": [
-    "PSOC™ Edge AI Kit",
-    "PSOC™ 6 AI Kit"
+        "PSOC™ Edge AI Kit",
+        "PSOC™ 6 AI Kit"
     ],
     "device": [
-    "PSOC™ Edge",
-    "PSOC™ 6"
+        "PSOC™ Edge",
+        "PSOC™ 6"
     ],
     "type": "Resources",
     "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",

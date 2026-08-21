@@ -7,17 +7,17 @@
     "domain": [
     ],
     "application": [
-    "Consumer",
-    "Smart Home",
-    "Industrial IoT"
+        "Consumer",
+        "Smart Home",
+        "Industrial IoT"
     ],
     "use_case": [
     ],
     "kit": [
-    "PSOC™ Edge AI Kit"
+        "PSOC™ Edge AI Kit"
     ],
     "device": [
-    "PSOC™ Edge"
+        "PSOC™ Edge"
     ],
     "type": "Resources",
     "thumbnail_image_id": "hmi.png",

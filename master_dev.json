@@ -40,12 +40,15 @@
     "device": [
       "PSOC™ Edge",
       "PSOC™ 6",
-      "AURIX™"
+      "AURIX™ TC4x",
+      "AURIX™ TC3x"
     ],
     "kit": [
       "PSOC™ Edge E84 Evaluation Kit",
       "PSOC™ Edge E84 AI Kit",
-      "PSOC™ 6 AI Evaluation Kit"
+      "PSOC™ 6 AI Evaluation Kit",
+      "AURIX™ KIT_A3G_TC487_LITE",
+      "AURIX™ KIT_A2G_TC375_LITE"
     ],
     "domain": [
       "Audio",
@@ -4615,55 +4618,6 @@
       }
     ]
   },
-  "ArtificialIntelligenceattheEdge": {
-    "id": "artificial-intelligence-at-the-edge-whitepaper",
-    "title": "Artificial Intelligence at the Edge",
-    "description": "Infineon white paper on how its Edge AI technologies, PSOC Edge MCUs, and the Imagimob/DEEPCRAFT ML platform enable power-efficient, secure, and private on-device AI across key applications.",
-    "long_description": "Infineon white paper on how Edge AI technologies, PSOC™ Edge MCUs, and the Imagimob/DEEPCRAFT™ ML platform enable power-efficient, secure, and private on-device AI across key applications.",
-    "sensors": [
-      "Microphone",
-      "Radar",
-      "Camera"
-    ],
-    "domain": [
-      "Audio",
-      "Radar",
-      "Vision"
-    ],
-    "application": [
-      "Consumer",
-      "Industrial IoT",
-      "Automotive"
-    ],
-    "use_case": [
-      "Edge AI Development",
-      "Audio Classification",
-      "Gesture Detection",
-      "Predictive Maintenance"
-    ],
-    "kit": [
-      "PSOC™ 6 AI Kit"
-    ],
-    "device": [
-      "PSOC™ Edge",
-      "PSOC™ 6"
-    ],
-    "Type": "Resources",
-    "thumbnail_image_id": "lowres_25677_DEEPCRAFT_Model_Converter_previewed_on_Laptop.webp",
-    "main_image_id": "lowres_25677_DEEPCRAFT_Model_Converter_previewed_on_Laptop.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/assets/row/public/documents/corporate/press/market-news/2024/artificial-intelligence-at-the-edge-online-media-briefing.pdf",
-        "heading": "White Paper",
-        "sub-heading": "Download the PDF from Infineon.com"
-      }
-    ],
-    "published_date": "2024-09-01",
-    "content_type": "White Paper"
-  },
   "DEEPCRAFTAISuite:AcceleratingEdgeAIInnovation": {
     "id": "deepcraft-ai-suite-accelerating-edge-ai-innovation",
     "title": "DEEPCRAFT™ AI Suite: Accelerating Edge AI Innovation",
@@ -4713,50 +4667,101 @@
     "published_date": "2025-03-11",
     "content_type": "Blog Post"
   },
-  "SmartentrancecountersolutionusingXENSIVKIT_CSK_BGT60TR13C60GHzradar": {
-    "id": "smart-entrance-counter-radar-application-note",
-    "title": "Smart entrance counter solution using XENSIV™ KIT_CSK_BGT60TR13C 60 GHz radar",
-    "description": "Application note for a radar-based people counting solution on PSOC 6 with Infineon's XENSIV 60 GHz sensor.",
-    "long_description": "Application note covering a radar-based people counting solution on PSOC™ 6 with Infineon's XENSIV™ 60 GHz sensor (KIT_CSK_BGT60TR13C).",
+  "GenerativeAIon&fortheEdge": {
+    "id": "leveraging-gen-ai-for-edge",
+    "title": "Generative AI on & for the Edge",
+    "description": "Generative AI is taking off and in this article series we look at how you can leverage it for building Edge AI models and running on the edge",
+    "long_description": "<p>This 3-part article series looks at how to leverage Generative AI for the edge and then how to run it on the edge. The first article highlights 4 different ways you can use generative AI to help you with developing better Edge AI models. Namely it looks at how you can use it to assist you in your development journey, you can use it to help you find relevant data in big datasets, you can let it synthesise and generate new data for you and you can use it to improve your model accuracy.</p><p>In the next parts we explore how you can take them from the cloud and run them in the Edge, the impact and how this is evolving with the current advancement in hardware and computation. </p><p>LLMs and Generative AI is making a big impact across different sectors and the Edge AI sector is no different.</p>",
+    "sensors": [],
+    "domain": [],
+    "application": [
+      "Consumer",
+      "Smart Home",
+      "Industrial IoT"
+    ],
+    "use_case": [],
+    "kit": [
+      "PSOC™ Edge AI Kit"
+    ],
+    "device": [
+      "PSOC™ Edge"
+    ],
+    "Type": "Resources",
+    "thumbnail_image_id": "hmi.png",
+    "main_image_id": "hmi.png",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Read Article",
+        "url": "https://www.imagimob.com/blog/4-ways-to-leverage-generative-ai-on-the-edge",
+        "heading": "Part 1",
+        "sub-heading": "4 Ways to Leverage Generative AI on the Edge"
+      },
+      {
+        "label": "Read Article",
+        "url": "https://www.imagimob.com/blog/generative-ai-on-the-edge-what-does-the-future-hold",
+        "heading": "Part 2",
+        "sub-heading": "Generative AI on the Edge: What Does the Future Hold?"
+      },
+      {
+        "label": "Read Article",
+        "url": "https://www.imagimob.com/blog/generative-ai-on-the-edge-for-deepcraft-usersexploring-whats-possible-today-and-tomorrow",
+        "heading": "Part 3",
+        "sub-heading": "Generative AI on the Edge for DEEPCRAFT™ users—exploring what’s possible today and tomorrow"
+      }
+    ],
+    "published_date": "2026-01-14",
+    "content_type": "Blog Post"
+  },
+  "TheFutureofAutonomousSystems:UnlockingthePotentialofPhysicalAIandEdgeAI": {
+    "id": "future-of-autonomous-systems",
+    "title": "The Future of Autonomous Systems: Unlocking the Potential of Physical AI and Edge AI",
+    "description": "Physical AI is very related to Edge AI. Find out what Physical AI is and how DEEPCRAFT™ fits into this",
+    "long_description": "As technology continues to advance at a rapid pace, we're witnessing the emergence of new and exciting fields that are transforming the way we interact with machines. One such area that's gaining significant attention is Physical AI, a field that focuses on creating artificial intelligence systems that can adapt to and interact with their physical environment in real-time. In this blog post, we'll delve into the world of Physical AI, its connections to Edge AI, and how Edge AI software is supporting the development of autonomous systems. To learn more click on the article below.",
     "sensors": [
-      "Radar"
+      "Microphone",
+      "Radar",
+      "IMU"
     ],
     "domain": [
-      "Radar"
+      "Audio",
+      "Radar",
+      "Motion"
     ],
     "application": [
+      "Consumer",
       "Smart Home",
-      "Retail",
-      "Building Automation",
-      "Security"
+      "Industrial IoT"
     ],
     "use_case": [
-      "People Counting",
-      "Presence Detection",
-      "Occupancy Monitoring"
+      "Edge AI Development",
+      "Voice Assistant",
+      "Audio Classification"
     ],
     "kit": [
-      "XENSIV™ KIT_CSK_BGT60TR13C",
+      "PSOC™ Edge AI Kit",
       "PSOC™ 6 AI Kit"
     ],
     "device": [
-      "PSOC™ 6",
-      "BGT60TR13C"
+      "PSOC™ Edge",
+      "PSOC™ 6"
     ],
     "Type": "Resources",
-    "thumbnail_image_id": "lowres_15876_INFIN_Icon_Presence_detection_01.webp",
-    "main_image_id": "lowres_15876_INFIN_Icon_Presence_detection_01.webp",
+    "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
+    "main_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
         "label": "Learn More",
-        "url": "https://www.infineon.com/assets/row/public/documents/24/42/infineon-an134703-smart-entrance-counter-solution-using-xensiv-kit-csk-bgt60tr13c-60-ghz-radar-applicationnotes-en.pdf",
-        "heading": "Application Note",
-        "sub-heading": "Download the PDF from Infineon.com"
+        "url": "https://www.imagimob.com/blog/the-future-of-autonomous-systems-unlocking-the-potential-of-physical-ai-and-edge-ai",
+        "heading": "Physical AI",
+        "sub-heading": "Read the full article on the Imagimob website"
       }
     ],
-    "content_type": "Application Note"
+    "published_date": "2025-03-11",
+    "content_type": "Blog Post"
   },
   "UnlockingthePowerofEdgeAIwithDEEPCRAFT,PSOC6,andModusToolbox": {
     "id": "unlocking-edge-ai-psoc6-deepcraft-modustoolbox",
@@ -4804,11 +4809,11 @@
     "published_date": "2024-08-14",
     "content_type": "Blog Post"
   },
-  "WhatistinyML": {
-    "id": "what-is-tinyml",
-    "title": "What is tinyML",
-    "description": "A locally-stored explainer (adapted from an Imagimob blog post) on how tinyML runs machine learning on the smallest microcontrollers, its benefits, use cases, and how DEEPCRAFT enables it.",
-    "long_description": "An explainer on how tinyML runs machine learning on the smallest microcontrollers, its benefits and use cases, and how DEEPCRAFT™ enables tinyML on Infineon hardware.",
+  "WhatisEdgeAI": {
+    "id": "what-is-edge-ai",
+    "title": "What is Edge AI",
+    "description": "Edge AI is a discipline/field focusing on the deployment of artificial intelligence and machine learning models on devices at the edge of the network",
+    "long_description": "Edge AI has been around for some time but now it's becoming more and more important but what exactly does it mean? In this short article you can learn the fundamentals of this.",
     "sensors": [
       "Microphone",
       "Radar",
@@ -4838,8 +4843,8 @@
     "device": [
       "PSOC™ 6",
       "PSOC™ Edge",
-      "XMC",
-      "AURIX™"
+      "AURIX™ TC4x",
+      "AURIX™ TC3x"
     ],
     "Type": "Resources",
     "thumbnail_image_id": "tinyml-hero.webp",
@@ -4849,9 +4854,9 @@
     "links": [
       {
         "label": "Learn More",
-        "url": "",
+        "url": "https://www.imagimob.com/blog/what-is-edge-ai",
         "heading": "Article",
-        "sub-heading": "Read the explainer in the DEEPCRAFT™ AI Hub"
+        "sub-heading": "Learn what Edge AI is all about"
       }
     ],
     "content_type": "Article"

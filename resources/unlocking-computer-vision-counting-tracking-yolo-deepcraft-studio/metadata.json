@@ -1,0 +1,45 @@
+{
+    "id": "unlocking-computer-vision-counting-tracking-yolo-deepcraft-studio",
+    "title": "Unlock the Power of Computer Vision: Counting and Tracking with YOLO in DEEPCRAFT™ Studio",
+    "description": "How object detection, tracking, and counting work in DEEPCRAFT™ Studio Graph UX, and how YOLO-based vision projects assign persistent IDs and count objects crossing a zone.",
+    "long_description": "DEEPCRAFT™ Studio added vision and object detection support so developers can build object tracking and counting models directly in Graph UX. Object detection locates and classifies objects in an image, but it cannot tell one instance from another across inferences. Object tracking assigns a persistent ID to each instance so its position can be followed over time, and object counting then uses a defined zone and counts an instance when it crosses that zone. A showcase project built entirely in Graph UX demonstrates YOLO-based detection, image rendering, and the path toward on-device deployment.",
+    "sensors": [
+        "Camera"
+    ],
+    "domain": [
+        "Vision"
+    ],
+    "application": [
+        "Consumer",
+        "Industrial IoT",
+        "Security",
+        "Automotive"
+    ],
+    "use_case": [
+        "Object Detection",
+        "Object Tracking",
+        "Cars Counting",
+        "People Counting"
+    ],
+    "kit": [
+        "PSOC™ Edge AI Kit"
+    ],
+    "device": [
+        "PSOC™ Edge"
+    ],
+    "type": "Resources",
+    "thumbnail_image_id": "vision.webp",
+    "main_image_id": "vision.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+        {
+            "label": "Learn More",
+            "url": "https://www.imagimob.com/blog/unlocking-the-power-of-computer-vision-counting-and-tracking-with-yolo-in-deepcraft-studio",
+            "heading": "Blog Post",
+            "sub-heading": "Read the full article on the Imagimob website"
+        }
+    ],
+    "published_date": "2026-05-20",
+    "content_type": "Blog Post"
+}

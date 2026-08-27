@@ -45,17 +45,18 @@ partners/
     wgtech-edge-ai.webp
 
 resources/
-  unlocking-edge-ai-psoc6-deepcraft-modustoolbox/
-    metadata.json
-  smart-entrance-counter-radar-application-note/
-    metadata.json
-  artificial-intelligence-at-the-edge-whitepaper/
-    metadata.json
   deepcraft-ai-suite-accelerating-edge-ai-innovation/
     metadata.json
-  what-is-tinyml/
+  future-of-autonomous-systems/
     metadata.json
-    tinyml-hero.webp
+  leveraging-gen-ai-for-edge/
+    metadata.json
+  unlocking-computer-vision-counting-tracking-yolo-deepcraft-studio/
+    metadata.json
+  what-are-deepcraft-studio-accelerators/
+    metadata.json
+  what-is-edge-ai/
+    metadata.json
 
 getting_started/
   getting-started-with-deepcraft-ai-hub/
@@ -165,15 +166,14 @@ Valid card-local example:
 
 ```text
 resources/
-  what-is-tinyml/
+  what-is-edge-ai/
     metadata.json
-    tinyml-hero.webp
 ```
 
 ```json
 {
-  "thumbnail_image_id": "tinyml-hero.webp",
-  "main_image_id": "tinyml-hero.webp"
+  "thumbnail_image_id": "vision.webp",
+  "main_image_id": "vision.webp"
 }
 ```
 
@@ -197,7 +197,7 @@ Relative links such as these are unsupported unless the linked content is separa
 
 ```json
 { "url": "embedur.md" }
-{ "url": "what-is-tinyml.md" }
+{ "url": "what-is-edge-ai.md" }
 ```
 
 Either:
@@ -224,7 +224,7 @@ Do not assume cloning the repository makes Markdown files publicly reachable.
 2. Convert every item in its `resources` array into a separate directory.
 3. Save each item as `<resource-id>/metadata.json`.
 4. Normalize image IDs to shared-image filenames or card-local filenames.
-5. Replace relative article links such as `what-is-tinyml.md` with valid published URLs, or omit them until Markdown publishing is supported.
+5. Replace relative article links such as `what-is-edge-ai.md` with valid published URLs, or omit them until Markdown publishing is supported.
 6. Remove `resources/resources.page.json` or convert it into a normal card at `resources/resources-overview/metadata.json` if it must appear in the catalog.
 
 ### `getting_started`

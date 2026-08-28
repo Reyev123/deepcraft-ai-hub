@@ -72,7 +72,10 @@
   },
   "Solutions": {
     "title": "Solutions",
-    "Type": "Solutions",
+    "Type": [
+      "Getting Started",
+      "Solutions"
+    ],
     "description": "Production-ready DEEPCRAFT™ Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
     "thumbnail_image_id": "deepcraft_ai_suite.webp",
     "main_image_id": "deepcraft_ai_suite.webp",
@@ -2757,9 +2760,9 @@
       "ML Development",
       "ML Deployment"
     ],
-    "thumbnail_image_id": "lowres_24816_ADAS_and_autonomous_driving.webp",
-    "main_image_id": "lowres_24816_ADAS_and_autonomous_driving.webp",
-    "brand_image_id": "deepcraft.webp",
+    "thumbnail_image_id": "lowres_24816_ADAS_and_autonomous_driving.png",
+    "main_image_id": "lowres_24816_ADAS_and_autonomous_driving.png",
+    "brand_image_id": "deepcraft.png",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
@@ -2811,9 +2814,9 @@
       "ML Development",
       "ML Deployment"
     ],
-    "thumbnail_image_id": "lowres_24521_ATV_Software.webp",
-    "main_image_id": "lowres_24521_ATV_Software.webp",
-    "brand_image_id": "deepcraft.webp",
+    "thumbnail_image_id": "lowres_24521_ATV_Software.png",
+    "main_image_id": "lowres_24521_ATV_Software.png",
+    "brand_image_id": "deepcraft.png",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
@@ -2862,9 +2865,9 @@
       "ML Development",
       "ML Deployment"
     ],
-    "thumbnail_image_id": "lowres_24521_ATV_Software.webp",
-    "main_image_id": "lowres_24521_ATV_Software.webp",
-    "brand_image_id": "deepcraft.webp",
+    "thumbnail_image_id": "lowres_24521_ATV_Software.png",
+    "main_image_id": "lowres_24521_ATV_Software.png",
+    "brand_image_id": "deepcraft.png",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
@@ -2912,9 +2915,9 @@
       "ML Development",
       "ML Deployment"
     ],
-    "thumbnail_image_id": "lowres_24638_Car_access.webp",
-    "main_image_id": "lowres_24638_Car_access.webp",
-    "brand_image_id": "deepcraft.webp",
+    "thumbnail_image_id": "lowres_24638_Car_access.png",
+    "main_image_id": "lowres_24638_Car_access.png",
+    "brand_image_id": "deepcraft.png",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
@@ -2963,9 +2966,9 @@
       "ML Development",
       "ML Deployment"
     ],
-    "thumbnail_image_id": "lowres_24842_Urban_e-Mobility.webp",
-    "main_image_id": "lowres_24842_Urban_e-Mobility.webp",
-    "brand_image_id": "deepcraft.webp",
+    "thumbnail_image_id": "lowres_24842_Urban_e-Mobility.png",
+    "main_image_id": "lowres_24842_Urban_e-Mobility.png",
+    "brand_image_id": "deepcraft.png",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
@@ -3017,9 +3020,9 @@
       "ML Development",
       "ML Deployment"
     ],
-    "thumbnail_image_id": "lowres_24521_ATV_Software.webp",
-    "main_image_id": "lowres_24521_ATV_Software.webp",
-    "brand_image_id": "deepcraft.webp",
+    "thumbnail_image_id": "lowres_24521_ATV_Software.png",
+    "main_image_id": "lowres_24521_ATV_Software.png",
+    "brand_image_id": "deepcraft.png",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "links": [
       {
@@ -4798,6 +4801,7 @@
     "device": [
       "PSOC™ Edge"
     ],
+    "Type": "Resources",
     "thumbnail_image_id": "vision.webp",
     "main_image_id": "vision.webp",
     "brand_image_id": "deepcraft.webp",
@@ -4811,8 +4815,7 @@
       }
     ],
     "published_date": "2026-05-20",
-    "content_type": "Blog Post",
-    "Type": "Resources"
+    "content_type": "Blog Post"
   },
   "WhatareDEEPCRAFTStudioAccelerators?": {
     "id": "what-are-deepcraft-studio-accelerators",
@@ -4905,6 +4908,7 @@
       "AURIX™ TC3x",
       "PSOC™ Edge"
     ],
+    "Type": "Resources",
     "thumbnail_image_id": "lowres_TBD_DEEPCRAFT_Studio_graph_ux.webp",
     "main_image_id": "lowres_TBD_DEEPCRAFT_Studio_graph_ux.webp",
     "brand_image_id": "deepcraft.webp",
@@ -4918,8 +4922,7 @@
       }
     ],
     "published_date": "2026-08-18",
-    "content_type": "Blog Post",
-    "Type": "Resources"
+    "content_type": "Blog Post"
   },
   "WhatisEdgeAI": {
     "id": "what-is-edge-ai",

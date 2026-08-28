@@ -1,6 +1,6 @@
 {
   "title": "Solutions",
-  "type": "Solutions",
+  "type": ["Getting Started", "Solutions"],
   "description": "Production-ready DEEPCRAFT\u2122 Ready Models and edge AI software solutions from Infineon — the fastest way to production in the Hub.",
   "thumbnail_image_id": "deepcraft_ai_suite.webp",
   "main_image_id": "deepcraft_ai_suite.webp",

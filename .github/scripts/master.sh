@@ -138,6 +138,7 @@ def normalize_metadata(obj, repo_url, base_title_prefix, module_title_prefix):
 def sanitize_key_from_title(title):
     sanitized = title.replace('™', '').replace('\\u2122', '')
     sanitized = re.sub(r'\s+', '', sanitized)
+    sanitized = re.sub(r'["\\\x00-\x1F?:]', '', sanitized)
     return sanitized
 
 

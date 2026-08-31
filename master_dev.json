@@ -4772,7 +4772,7 @@
     "published_date": "2025-03-11",
     "content_type": "Blog Post"
   },
-  "UnlockthePowerofComputerVision:CountingandTrackingwithYOLOinDEEPCRAFTStudio": {
+  "UnlockthePowerofComputerVisionCountingandTrackingwithYOLOinDEEPCRAFTStudio": {
     "id": "unlocking-computer-vision-counting-tracking-yolo-deepcraft-studio",
     "title": "Unlock the Power of Computer Vision: Counting and Tracking with YOLO in DEEPCRAFT™ Studio",
     "description": "How object detection, tracking, and counting work in DEEPCRAFT™ Studio Graph UX, and how YOLO-based vision projects assign persistent IDs and count objects crossing a zone.",
@@ -4817,7 +4817,7 @@
     "published_date": "2026-05-20",
     "content_type": "Blog Post"
   },
-  "WhatareDEEPCRAFTStudioAccelerators?": {
+  "WhatareDEEPCRAFTStudioAccelerators": {
     "id": "what-are-deepcraft-studio-accelerators",
     "title": "What are DEEPCRAFT™ Studio Accelerators?",
     "description": "An introduction to DEEPCRAFT™ Studio Accelerators: ready-made Studio projects with sample data, a preprocessor, and a model architecture you can adapt to your own Edge AI use case.",

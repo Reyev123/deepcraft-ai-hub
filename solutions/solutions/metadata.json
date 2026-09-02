@@ -22,7 +22,7 @@
     }
   ],
   "sensors": ["Microphone", "Radar", "IMU", "Camera"],
-  "device": ["PSOC™ 6", "PSOC™ Edge", "AURIX™"],
-  "kit": ["PSOC™ Edge E84 Evaluation Kit", "PSOC™ Edge E84 AI Kit", "PSOC™ 6 AI Evaluation Kit", "AURIX™ TC4x", "AURIX™ TC3x"],
+  "device": ["PSOC™ 6", "PSOC™ Edge", "AURIX™ TC4x", "AURIX™ TC3x"],
+  "kit": ["PSOC™ Edge Eval Kit", "PSOC™ Edge AI Kit", "PSOC™ 6 AI Kit"],
   "application": ["Smart Home", "Appliances", "Industrial IoT", "Home Health Monitoring"]
 }

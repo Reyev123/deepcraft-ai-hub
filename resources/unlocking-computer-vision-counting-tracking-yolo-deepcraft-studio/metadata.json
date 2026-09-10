@@ -10,10 +10,12 @@
         "Vision"
     ],
     "application": [
-        "Consumer",
+        "ADAS",
+        "Automotive",
         "Industrial IoT",
-        "Security",
-        "Automotive"
+        "Safety Monitoring",
+        "Smart Home",
+        "Smart Manufacturing"
     ],
     "use_case": [
         "Object Detection",

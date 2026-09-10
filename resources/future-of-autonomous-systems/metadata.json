@@ -14,9 +14,11 @@
         "Motion"
     ],
     "application": [
-        "Consumer",
+        "Automotive",
+        "Humanoid Robot",
         "Smart Home",
-        "Industrial IoT"
+        "Industrial IoT",
+        "Smart Manufacturing"
     ],
     "use_case": [
         "Edge AI Development",

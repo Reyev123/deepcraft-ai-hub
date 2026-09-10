@@ -4,7 +4,7 @@
   "long_description": "The DEEPCRAFT\u2122 Ready Model for Siren Detection is a production-ready Edge AI model that detects the sound of emergency vehicle sirens in the vicinity of a microphone.",
   "sensors": ["Microphone"],
   "domain": ["Audio"],
-  "application": ["Alarm & Security", "AR Devices / Smart Glasses", "Humanoid Robot", "Security Camera & Video Doorbell"],
+  "application": ["ADAS", "Automotive", "Humanoid Robot", "Safety Monitoring", "Wearables"],
   "use_case": ["Sound Event Detection"],
   "kit": ["PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
   "device": ["PSOC\u2122 6"],

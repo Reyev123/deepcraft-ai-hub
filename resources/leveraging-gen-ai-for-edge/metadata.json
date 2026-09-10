@@ -7,9 +7,13 @@
     "domain": [
     ],
     "application": [
-        "Consumer",
+        "Appliances",
+        "Automotive",
+        "Healthcare",
         "Smart Home",
-        "Industrial IoT"
+        "Industrial IoT",
+        "Smart Manufacturing",
+        "Wearables"
     ],
     "use_case": [
     ],

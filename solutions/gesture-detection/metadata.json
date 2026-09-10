@@ -4,7 +4,7 @@
   "long_description": "The DEEPCRAFT\u2122 Ready Model for Gesture Detection detects five different gestures in the vicinity of a radar sensor.",
   "sensors": ["Radar"],
   "domain": ["Radar"],
-  "application": ["Collaborative Robot (cobot)","Commercial Building Automation","Commercial, Residential and Industrial Lighting","Domestic Robot","Drone & Multicopter","Humanoid Robot"],
+  "application": ["Appliances", "Commercial Building Automation", "Games", "Humanoid Robot", "Industrial IoT", "Smart Home", "Smart Manufacturing"],
   "use_case": ["Gesture Detection"],
   "kit": ["KIT_CSK_BGT60TR13C","PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
   "device": ["PSOC\u2122 6", "PSOC\u2122 Edge","BGT60TR13C"],

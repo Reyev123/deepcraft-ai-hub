@@ -16,9 +16,12 @@
         "Vision"
     ],
     "application": [
-        "Consumer",
+        "Appliances",
+        "Automotive",
         "Smart Home",
-        "Industrial IoT"
+        "Industrial IoT",
+        "Smart Manufacturing",
+        "Wearables"
     ],
     "use_case": [
         "Edge AI Development",

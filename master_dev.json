@@ -1008,6 +1008,56 @@
       }
     ]
   },
+  "DEEPCRAFTStudioAcceleratorforArcFaultDetection": {
+    "title": "DEEPCRAFT™ Studio Accelerator for Arc Fault Detection",
+    "description": "Detect residential AC arc faults from electrical current using a CNN binary classifier.",
+    "long_description": "This project allows you to develop a model that is capable of classifying whether AC load current contains an arc fault, based on a single current waveform captured with a Hall-effect probe on an oscilloscope (supplied at 200 kHz), and is imagined to be incorporated into residential and appliance arc-fault monitoring. The current project only differentiates between arc and non-arc on simulated faults and many household appliances but is easily scalable to include more loads, sockets, and wiring types.",
+    "algorithm": "Classification",
+    "sensors": [
+      "Current"
+    ],
+    "domain": [
+      "Electronic Sensing"
+    ],
+    "application": [
+      "Appliances",
+      "Smart Home",
+      "Safety Monitoring"
+    ],
+    "use_case": [
+      "Arc Fault Detection"
+    ],
+    "kit": [
+      "PSOC™ 6 AI Kit"
+    ],
+    "device": [
+      "PSOC™ 6"
+    ],
+    "Type": [
+      "Model Development"
+    ],
+    "workflow": [
+      "ML Development"
+    ],
+    "thumbnail_image_id": "electrical.webp",
+    "main_image_id": "electrical.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Download",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "Access Project via DEEPCRAFT™ Studio",
+        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
+      },
+      {
+        "label": "GitHub",
+        "heading": "Project Repository",
+        "sub-heading": "Get more details about this project",
+        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/ArcFaultDetection"
+      }
+    ]
+  },
   "DEEPCRAFTStudioAcceleratorforBabyCryDetection(StudioAccelerator)": {
     "title": "DEEPCRAFT™ Studio Accelerator for Baby Cry Detection (Studio Accelerator)",
     "description": "Use a microphone to detect if a baby is crying in the vicinity",
@@ -1580,6 +1630,60 @@
       }
     ]
   },
+  "DEEPCRAFTStudioAcceleratorforFallDetection(Wrist-worn)": {
+    "title": "DEEPCRAFT™ Studio Accelerator for Fall Detection (Wrist-worn)",
+    "description": "Detect falls in less active individuals, such as elderly people, using a wrist-worn accelerometer.",
+    "long_description": "This project allows you to build models to detect a fall using an IMU (Inertial Measurement Unit - accelerometer and gyroscope) mounted on the wrist.",
+    "algorithm": "Classification",
+    "sensors": [
+      "IMU"
+    ],
+    "domain": [
+      "Vibration",
+      "Sensing"
+    ],
+    "application": [
+      "Wearables",
+      "Healthcare",
+      "Safety Monitoring"
+    ],
+    "use_case": [
+      "Fall Detection"
+    ],
+    "kit": [
+      "PSOC™ 6 Pioneer Kit",
+      "PSOC™ 6 AI Kit",
+      "PSOC™ Edge AI Kit"
+    ],
+    "device": [
+      "PSOC™ 6",
+      "PSOC™ Edge"
+    ],
+    "Type": [
+      "Model Development"
+    ],
+    "workflow": [
+      "ML Development"
+    ],
+    "thumbnail_image_id": "wearables.png",
+    "main_image_id": "wearables.png",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Download",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "Access Project via DEEPCRAFT™ Studio",
+        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/FallDetectionWristIMU",
+        "heading": "Project Repository",
+        "sub-heading": "Get more details about this project"
+      }
+    ]
+  },
   "DEEPCRAFTStudioAcceleratorforGesturesDetection(CAPSENSE)": {
     "title": "DEEPCRAFT™ Studio Accelerator for Gestures Detection (CAPSENSE)",
     "description": "CAPSENSE-based gestures detection model detects up, down, left and right gestures",
@@ -2052,6 +2156,58 @@
       }
     ]
   },
+  "DEEPCRAFTStudioAcceleratorforLawnSurfaceDetection": {
+    "title": "DEEPCRAFT™ Studio Accelerator for Lawn Surface Detection",
+    "description": "Classify mowable grass, soil, road, and flowers for automower navigation.",
+    "long_description": "This project allows you to train a YOLO-based model to identify mowable grass, bare soil, road surfaces, and flowers in an image/video. This model is suitable for autonomous lawn mowers and garden monitoring applications.",
+    "algorithm": "Object Detection",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Appliances",
+      "Domestic Robot",
+      "Smart Home"
+    ],
+    "use_case": [
+      "Object Detection",
+      "Surface Detection"
+    ],
+    "kit": [
+      "PSOC™ Edge AI Kit",
+      "PSOC™ Edge Eval Kit"
+    ],
+    "device": [
+      "PSOC™ Edge"
+    ],
+    "Type": [
+      "Model Development"
+    ],
+    "workflow": [
+      "ML Development"
+    ],
+    "thumbnail_image_id": "iot_smart_home.webp",
+    "main_image_id": "iot_smart_home.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Download",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "Access Project via DEEPCRAFT™ Studio",
+        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
+      },
+      {
+        "label": "GitHub",
+        "heading": "Project Repository",
+        "sub-heading": "Get more details about this project",
+        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/LawnSurfaceDetection"
+      }
+    ]
+  },
   "DEEPCRAFTStudioAcceleratorforMotorLoadImbalanceDetection": {
     "title": "DEEPCRAFT™ Studio Accelerator for Motor Load Imbalance Detection",
     "description": "Detect if the load of an electric motor is balanced or not",
@@ -2463,9 +2619,9 @@
   },
   "DEEPCRAFTStudioAcceleratorforSurfaceImageClassification": {
     "title": "DEEPCRAFT™ Studio Accelerator for Surface Image Classification",
-    "description": "Project to build a model that classifies surfaces from images.",
+    "description": "Project to build a model that classifies road surfaces from images.",
     "long_description": "The Surface Image Classification Project is a real-time road surface classification system powered by a deep learning backend for classifying different road surface conditions.",
-    "algorithm": "Classification",
+    "algorithm": "Image Classification",
     "sensors": [
       "Camera"
     ],
@@ -2473,8 +2629,7 @@
       "Vision"
     ],
     "application": [
-      "Automotive",
-      "Road Monitoring"
+      "Automotive"
     ],
     "use_case": [
       "Road Navigation",

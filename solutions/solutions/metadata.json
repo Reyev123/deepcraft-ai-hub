@@ -9,16 +9,10 @@
   "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
   "links": [
     {
-      "label": "Learn More",
+      "label": "Product Pages",
       "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-      "heading": "DEEPCRAFT™ Solutions Product Pages",
-      "sub-heading": "Product details, use cases, and documentation on Infineon.com"
-    },
-    {
-      "label": "Solutions in AI Hub",
-      "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
-      "heading": "DEEPCRAFT™ Solutions in AI Hub",
-      "sub-heading": "Product details, use cases, and documentation on Infineon.com"
+      "heading": "DEEPCRAFT™ AI Suite Product Pages",
+      "sub-heading": "All documentation and information about full DEEPCRAFT™ AI Suite"
     }
   ],
   "sensors": ["Microphone", "Radar", "IMU", "Camera"],

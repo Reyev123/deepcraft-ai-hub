@@ -1,8 +1,8 @@
 {
     "id": "deepcraft-ai-suite-accelerating-edge-ai-innovation",
-    "title": "DEEPCRAFT™ AI Suite - Accelerating Edge AI Innovation",
-    "description": "How Infineon's DEEPCRAFT AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT Studio to deploying Ready Models and voice interfaces on PSOC Edge.",
-    "long_description": "How Infineon's DEEPCRAFT™ AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT™ Studio to deploying Ready Models and voice interfaces on PSOC™ Edge.",
+    "title": "DEEPCRAFT\u2122 AI Suite - Accelerating Edge AI Innovation",
+    "description": "How Infineon's DEEPCRAFT\u2122 AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT\u2122 Studio to deploying Ready Models and voice interfaces on PSOC\u2122 Edge.",
+    "long_description": "How Infineon's DEEPCRAFT\u2122 AI Suite simplifies every stage of Edge AI development: from data collection and model training in DEEPCRAFT\u2122 Studio to deploying Ready Models and voice interfaces on PSOC\u2122 Edge.",
     "sensors": [
         "Microphone",
         "Radar",
@@ -11,7 +11,7 @@
     "domain": [
         "Audio",
         "Radar",
-        "Motion"
+        "Motion and Vibration"
     ],
     "application": [
         "Appliances",
@@ -27,12 +27,13 @@
         "Audio Classification"
     ],
     "kit": [
-        "PSOC™ Edge AI Kit",
-        "PSOC™ 6 AI Kit"
+        "PSOC\u2122 Edge AI Kit",
+        "PSOC\u2122 6 AI Kit"
     ],
     "device": [
-        "PSOC™ Edge",
-        "PSOC™ 6"
+        "PSOC\u2122 Edge",
+        "PSOC\u2122 6",
+        "XENSIVE\u2122 BGT60TR13C"
     ],
     "type": "Resources",
     "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",

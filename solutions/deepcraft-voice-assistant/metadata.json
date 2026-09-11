@@ -3,7 +3,7 @@
   "description": "Build natural voice interfaces for edge devices",
   "long_description": "Edge AI solution that enables natural voice interfaces to run locally on edge devices, optimized for power and performance on Infineon PSOC\u2122 Edge MCUs.",
   "sensors": ["Microphone"],
-  "domain": ["Audio","Voice"],
+  "domain": ["Audio"],
   "application": ["Smart Home", "Appliances", "Smart Manufacturing", "Industrial IoT"],
   "use_case": ["Voice Recognition"],
   "kit": ["PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit"],

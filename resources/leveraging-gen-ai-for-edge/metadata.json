@@ -18,10 +18,10 @@
     "use_case": [
     ],
     "kit": [
-        "PSOC™ Edge AI Kit"
+        "PSOC\u2122 Edge AI Kit"
     ],
     "device": [
-        "PSOC™ Edge"
+        "PSOC\u2122 Edge"
     ],
     "type": "Resources",
     "thumbnail_image_id": "hmi.webp",
@@ -47,7 +47,7 @@
             "label": "Read Article",
             "url": "https://www.imagimob.com/blog/generative-ai-on-the-edge-for-deepcraft-usersexploring-whats-possible-today-and-tomorrow",
             "heading": "Part 3",
-            "sub-heading": "Generative AI on the Edge for DEEPCRAFT™ users—exploring what’s possible today and tomorrow"
+            "sub-heading": "Generative AI on the Edge for DEEPCRAFT\u2122 users—exploring what’s possible today and tomorrow"
         }
     ],
     "published_date": "2026-01-14",

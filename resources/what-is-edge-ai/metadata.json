@@ -7,13 +7,28 @@
         "Microphone",
         "Radar",
         "IMU",
-        "Camera"
+        "Camera",
+        "Capacitive Sensing",
+        "Current",
+        "Inductive Sensing",
+        "Accelerometer",
+        "Gyroscope",
+        "Magnetometer",
+        "Temperature",
+        "Humidity",
+        "Pressure",
+        "Vibration",
+        "Voltage"
     ],
     "domain": [
         "Audio",
         "Radar",
-        "Motion",
-        "Vision"
+        "Motion and Vibration",
+        "Vision",
+        "Electrical Signals",
+        "Touch",
+        "Temperature and Humidity",
+        "Pressure"
     ],
     "application": [
         "Appliances",
@@ -21,6 +36,10 @@
         "Smart Home",
         "Industrial IoT",
         "Smart Manufacturing",
+        "Healthcare",
+        "Humanoid Robot",
+        "Industrial IoT",
+        "Safety Monitoring",
         "Wearables"
     ],
     "use_case": [
@@ -30,13 +49,24 @@
         "Predictive Maintenance"
     ],
     "kit": [
-        "PSOC™ 6 AI Kit"
+        "PSOC\u2122 6 AI Kit",
+        "PSOC\u2122 Edge AI Kit",
+        "AURIX\u2122 KIT_A2G_TC375_LITE",
+        "AURIX\u2122 KIT_A3G_TC4D7_LITE",
+        "AURIX\u2122 TC4x STD Triboard",
+        "AURIX\u2122 TC3x STD Triboard",
+        "PSOC\u2122 4100S Max Pioneer Kit",
+        "PSOC\u2122 C3 Motor Control Kit",
+        "PSOC\u2122 6 Pioneer Kit",
+        "PSOC\u2122 Edge Eval Kit",
+        "XENSIVE\u2122 KIT_CSK_BGT60TR13C"
     ],
     "device": [
-        "PSOC™ 6",
-        "PSOC™ Edge",
-        "AURIX™ TC4x",
-        "AURIX™ TC3x"
+        "PSOC\u2122 6",
+        "PSOC\u2122 Edge",
+        "AURIX\u2122 TC4x",
+        "AURIX\u2122 TC3x",
+        "XENSIVE\u2122 BGT60TR13C"
     ],
     "type": "Resources",
     "thumbnail_image_id": "vision.webp",

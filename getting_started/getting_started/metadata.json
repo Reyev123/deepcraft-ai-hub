@@ -1,30 +1,30 @@
 {
   "title": "Getting Started with Edge AI",
   "type": "Getting Started",
-  "description": "Edge AI is about adding AI or ML models right on the edge on small constrained devices. Infineon & DEEPCRAFT help to simplify the process of adding intelligence to your products",
+  "description": "Edge AI is about adding AI or ML models right on the edge on small constrained devices. Infineon & DEEPCRAFT\u2122 help to simplify the process of adding intelligence to your products",
   "thumbnail_image_id": "deepcraft_ai_suite.webp",
   "main_image_id": "deepcraft_ai_suite.webp",
   "brand_image_id": "deepcraft.webp",
-  "long_description": "<p>Edge AI is the process of developing small and efficient machine learning models intended for running at the edge of the system close to the events happening. Typically you want to run these models locally, you need fast response times and they are intended to run in smaller devices. In Infineon we typically are talking about microcontrollers e.g. PSOC™, AURIX™, TRAVEO™ families.</p><p>The DEEPCRAFT™ AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms — so you can browse, compare, and deploy AI on PSOC™ and AURIX™ hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT™ Studio.</p><p>The Edge AI journey is split up into multiple steps: <br>* Data Collection: The DEEPCRAFT™ Studio helps you with data collection <br>* Model Development: You can use the DEEPCRAFT™ Studio to help you with training and the DEEPCRAFT™ Studio Accelerators to get started with an existing use-case and dataset we also may have other content under model development that is using python and other frameworks <br> * Model Deployment: after training/building a model you need to get it to a format to run on a microcontroller here you can use DEEPCRAFT™ Studio & DEEPCRAFT™ Model Converter. You can also find customer and open source models we have deployed on our hardware here on the AI Hub<p> <p> Outside of this you have solutions, if you want a solution ready to integrate directly into your application without going the process of building and preparing a model.</p>",
+  "long_description": "<p>Edge AI is the process of developing small and efficient machine learning models intended for running at the edge of the system close to the events happening. Typically you want to run these models locally, you need fast response times and they are intended to run in smaller devices. In Infineon we typically are talking about microcontrollers e.g. PSOC\u2122, AURIX\u2122, TRAVEO\u2122 families.</p><p>The DEEPCRAFT\u2122 AI Hub brings together tools, solutions, Accelerators, and pre-trained models for Infineon embedded platforms — so you can browse, compare, and deploy AI on PSOC\u2122 and AURIX\u2122 hardware from one place. Each entry includes metadata such as supported sensors, target devices, kits, and application domains. Use the Hub to find the right starting point for your project, then follow the linked resources to download software, flash firmware, or open a project in DEEPCRAFT\u2122 Studio.</p><p>The Edge AI journey is split up into multiple steps: <br>* Data Collection: The DEEPCRAFT\u2122 Studio helps you with data collection <br>* Model Development: You can use the DEEPCRAFT\u2122 Studio to help you with training and the DEEPCRAFT\u2122 Studio Accelerators to get started with an existing use-case and dataset we also may have other content under model development that is using python and other frameworks <br> * Model Deployment: after training/building a model you need to get it to a format to run on a microcontroller here you can use DEEPCRAFT\u2122 Studio & DEEPCRAFT\u2122 Model Converter. You can also find customer and open source models we have deployed on our hardware here on the AI Hub<p> <p> Outside of this you have solutions, if you want a solution ready to integrate directly into your application without going the process of building and preparing a model.</p>",
   "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
   "links": [
     {
       "label": "Product Pages",
       "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-      "heading": "DEEPCRAFT™ AI Suite Product Pages",
-      "sub-heading": "All documentation and information about full DEEPCRAFT™ AI Suite"
+      "heading": "DEEPCRAFT\u2122 AI Suite Product Pages",
+      "sub-heading": "All documentation and information about full DEEPCRAFT\u2122 AI Suite"
     },
     {
       "label": "Purchase Kits",
       "url": "https://www.infineon.com/product-information/psocdeveloper/purchase-kits",
-      "heading": "PSOC™ Developer Purchase Kits",
+      "heading": "PSOC\u2122 Developer Purchase Kits",
       "sub-heading": "Overview of Edge AI kits and buying options"
     }
   ],
   "sensors": ["Microphone", "Camera", "Radar", "IMU"],
-  "device": ["PSOC™ Edge", "PSOC™ 6", "AURIX™ TC4x", "AURIX™ TC3x"],
-  "kit": ["PSOC™ Edge Eval Kit", "PSOC™ Edge AI Kit", "PSOC™ 6 AI Kit", "AURIX™ KIT_A3G_TC4D7_LITE", "AURIX™ KIT_A2G_TC375_LITE"],
-  "domain": ["Audio", "Vision", "Radar", "Motion"],
+  "device": ["PSOC\u2122 Edge", "PSOC\u2122 6", "AURIX\u2122 TC4x", "AURIX\u2122 TC3x"],
+  "kit": ["PSOC\u2122 Edge Eval Kit", "PSOC\u2122 Edge AI Kit", "PSOC\u2122 6 AI Kit", "AURIX\u2122 KIT_A3G_TC4D7_LITE", "AURIX\u2122 KIT_A2G_TC375_LITE"],
+  "domain": ["Audio", "Vision", "Radar", "Motion and Vibration"],
   "application": ["Industrial IoT", "Automotive", "Appliances", "Healthcare", "Smart Home", "Wearables"],
   "use_case": ["Classification", "Regression", "Object Detection"]
 }

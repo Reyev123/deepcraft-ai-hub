@@ -16,7 +16,7 @@
     }
   ],
   "sensors": ["Microphone", "Radar", "IMU", "Camera"],
-  "device": ["PSOC\u2122 6", "PSOC\u2122 Edge", "AURIX\u2122 TC4x", "AURIX\u2122 TC3x", "XENSIVE\u2122 Radar BGT60TR13C"],
-  "kit": ["PSOC\u2122 Edge Eval Kit", "PSOC\u2122 Edge AI Kit", "PSOC\u2122 6 AI Kit", "XENSIVE\u2122 KIT_CSK_BGT60TR13C"],
+  "device": ["PSOC\u2122 6", "PSOC\u2122 Edge", "AURIX\u2122 TC4x", "AURIX\u2122 TC3x", "XENSIV\u2122 Radar BGT60TR13C"],
+  "kit": ["PSOC\u2122 Edge Eval Kit", "PSOC\u2122 Edge AI Kit", "PSOC\u2122 6 AI Kit", "XENSIV\u2122 KIT_CSK_BGT60TR13C"],
   "application": ["Smart Home", "Appliances", "Healthcare", "Industrial IoT"]
 }

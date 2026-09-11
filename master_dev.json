@@ -92,13 +92,13 @@
       "PSOC™ Edge",
       "AURIX™ TC4x",
       "AURIX™ TC3x",
-      "XENSIVE™ Radar BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "kit": [
       "PSOC™ Edge Eval Kit",
       "PSOC™ Edge AI Kit",
       "PSOC™ 6 AI Kit",
-      "XENSIVE™ KIT_CSK_BGT60TR13C"
+      "XENSIV™ KIT_CSK_BGT60TR13C"
     ],
     "application": [
       "Smart Home",
@@ -160,12 +160,12 @@
       "PSOC™ 6 Pioneer Kit",
       "PSOC™ 6 AI Kit",
       "PSOC™ Edge Eval Kit",
-      "XENSIVE™ KIT_CSK_BGT60TR13C"
+      "XENSIV™ KIT_CSK_BGT60TR13C"
     ],
     "device": [
       "PSOC™ 6",
       "PSOC™ Edge",
-      "XENSIVE™ Radar BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Tools",
     "thumbnail_image_id": "lowres_25677_DEEPCRAFT_Model_Converter_previewed_on_Laptop.webp",
@@ -240,7 +240,7 @@
       "PSOC™ 4100S Max Pioneer Kit",
       "PSOC™ C3 Motor Control Kit",
       "PSOC™ 6 Pioneer Kit",
-      "XENSIVE™ KIT_CSK_BGT60TR13C",
+      "XENSIV™ KIT_CSK_BGT60TR13C",
       "PSOC™ 6 AI Kit",
       "PSOC™ Edge Eval Kit"
     ],
@@ -251,7 +251,7 @@
       "AURIX™ TC4x",
       "AURIX™ TC3x",
       "PSOC™ Edge",
-      "XENSIVE™ Radar BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Tools",
     "thumbnail_image_id": "lowres_25775_Convertible_laptop_computer_objectdetection.webp",
@@ -678,7 +678,7 @@
       "Gesture Detection"
     ],
     "kit": [
-      "XENSIVE™ KIT_CSK_BGT60TR13C",
+      "XENSIV™ KIT_CSK_BGT60TR13C",
       "PSOC™ Edge Eval Kit",
       "PSOC™ Edge AI Kit",
       "PSOC™ 6 Pioneer Kit",
@@ -687,7 +687,7 @@
     "device": [
       "PSOC™ 6",
       "PSOC™ Edge",
-      "XENSIVE™ Radar BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Solutions",
     "thumbnail_image_id": "20135_cropped.webp",
@@ -2039,7 +2039,7 @@
   "DEEPCRAFTStudioAcceleratorforHumanBreathDetection(DPS)": {
     "title": "DEEPCRAFT™ Studio Accelerator for Human Breath Detection (DPS)",
     "description": "Classification-based project, which should recognize breathing vs gentle blowing.",
-    "long_description": "This project uses Infineon XENSIV Digital Barometric Pressure and Temperature sensor to distinguish between different types of human breath: fast, focused airflow and involuntary warm exhalation. This system could help in monitoring breathing presence for medical and personal assistance devices.",
+    "long_description": "This project uses Infineon XENSIV™ Digital Barometric Pressure and Temperature sensor to distinguish between different types of human breath: fast, focused airflow and involuntary warm exhalation. This system could help in monitoring breathing presence for medical and personal assistance devices.",
     "algorithm": "Classification",
     "sensors": [
       "DPS"
@@ -3948,7 +3948,7 @@
     ],
     "device": [
       "PSOC™ 6",
-      "XENSIVE™ Radar BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Model Deployment",
     "workflow": [
@@ -4856,7 +4856,7 @@
     "device": [
       "PSOC™ Edge",
       "PSOC™ 6",
-      "XENSIVE™ BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Resources",
     "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
@@ -4959,7 +4959,7 @@
     "device": [
       "PSOC™ Edge",
       "PSOC™ 6",
-      "XENSIVE™ BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Resources",
     "thumbnail_image_id": "lowres_24562_Woman_looking_into_her_smart_fridge.webp",
@@ -5082,7 +5082,7 @@
       "PSOC™ 4100S Max Pioneer Kit",
       "PSOC™ C3 Motor Control Kit",
       "PSOC™ 6 Pioneer Kit",
-      "XENSIVE™ KIT_CSK_BGT60TR13C",
+      "XENSIV™ KIT_CSK_BGT60TR13C",
       "PSOC™ 6 AI Kit",
       "PSOC™ Edge Eval Kit"
     ],
@@ -5093,7 +5093,7 @@
       "AURIX™ TC4x",
       "AURIX™ TC3x",
       "PSOC™ Edge",
-      "XENSIVE™ BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Resources",
     "thumbnail_image_id": "lowres_TBD_DEEPCRAFT_Studio_graph_ux.webp",
@@ -5172,14 +5172,14 @@
       "PSOC™ C3 Motor Control Kit",
       "PSOC™ 6 Pioneer Kit",
       "PSOC™ Edge Eval Kit",
-      "XENSIVE™ KIT_CSK_BGT60TR13C"
+      "XENSIV™ KIT_CSK_BGT60TR13C"
     ],
     "device": [
       "PSOC™ 6",
       "PSOC™ Edge",
       "AURIX™ TC4x",
       "AURIX™ TC3x",
-      "XENSIVE™ BGT60TR13C"
+      "XENSIV™ Radar BGT60TR13C"
     ],
     "Type": "Resources",
     "thumbnail_image_id": "vision.webp",

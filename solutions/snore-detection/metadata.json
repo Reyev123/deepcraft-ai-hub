@@ -4,7 +4,7 @@
   "long_description": "The DEEPCRAFT\u2122 Ready Model for Snore Detection is a production-ready Edge AI model that detects the sound of a person snoring in the vicinity of a microphone.",
   "sensors": ["Microphone"],
   "domain": ["Audio"],
-  "application": ["Clinical & Hospital Equipment","Healthcare Wearable & Consumable","Home Health Monitoring","Smart Watch & Wristband"],
+  "application": ["Healthcare", "Smart Home", "Wearables"],
   "use_case": ["Sound Event Detection"],
   "kit": ["PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
   "device": ["PSOC\u2122 6"],

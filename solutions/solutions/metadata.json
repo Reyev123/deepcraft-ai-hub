@@ -9,20 +9,14 @@
   "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
   "links": [
     {
-      "label": "Learn More",
+      "label": "Product Pages",
       "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-      "heading": "DEEPCRAFT™ Solutions Product Pages",
-      "sub-heading": "Product details, use cases, and documentation on Infineon.com"
-    },
-    {
-      "label": "Solutions in AI Hub",
-      "url": "https://aem.ifxdevjourney.com/psocdeveloper/ai-hub?tab=Solutions",
-      "heading": "DEEPCRAFT™ Solutions in AI Hub",
-      "sub-heading": "Product details, use cases, and documentation on Infineon.com"
+      "heading": "DEEPCRAFT\u2122 AI Suite Product Pages",
+      "sub-heading": "All documentation and information about full DEEPCRAFT\u2122 AI Suite"
     }
   ],
   "sensors": ["Microphone", "Radar", "IMU", "Camera"],
-  "device": ["PSOC™ 6", "PSOC™ Edge", "AURIX™ TC4x", "AURIX™ TC3x"],
-  "kit": ["PSOC™ Edge Eval Kit", "PSOC™ Edge AI Kit", "PSOC™ 6 AI Kit"],
-  "application": ["Smart Home", "Appliances", "Industrial IoT", "Home Health Monitoring"]
+  "device": ["PSOC\u2122 6", "PSOC\u2122 Edge", "AURIX\u2122 TC4x", "AURIX\u2122 TC3x", "XENSIVE\u2122 Radar BGT60TR13C"],
+  "kit": ["PSOC\u2122 Edge Eval Kit", "PSOC\u2122 Edge AI Kit", "PSOC\u2122 6 AI Kit", "XENSIVE\u2122 KIT_CSK_BGT60TR13C"],
+  "application": ["Smart Home", "Appliances", "Healthcare", "Industrial IoT"]
 }

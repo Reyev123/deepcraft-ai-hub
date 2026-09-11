@@ -4,7 +4,7 @@
   "long_description": "The DEEPCRAFT\u2122 Ready Model for Direction of Arrival (Sound) is a production-ready Edge AI model that detects the direction of an incoming sound based on a 4 microphone array and outputs one of the 8 cardinal directions.",
   "sensors": ["Microphone"],
   "domain": ["Audio"],
-  "application": ["Residential Aircon","Alarm & Security","Collaborative Robot (cobot)","Domestic Robot","Humanoid Robot","Security Camera & Video Doorbell","Smart Thermostat"],
+  "application": ["Appliances", "Commercial Building Automation", "Humanoid Robot", "Industrial IoT", "Safety Monitoring", "Smart Home", "Smart Manufacturing"],
   "use_case": ["Sound Event Detection"],
   "kit": ["PSOC\u2122 Edge Eval Kit","PSOC\u2122 Edge AI Kit"],
   "device": ["PSOC\u2122 Edge"],

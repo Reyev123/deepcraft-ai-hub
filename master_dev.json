@@ -2455,6 +2455,58 @@
       }
     ]
   },
+  "DEEPCRAFTStudioAcceleratorforRoadSignsClassification": {
+    "title": "DEEPCRAFT™ Studio Accelerator for Road Signs Classification",
+    "description": "Classify traffic signs from an image.",
+    "long_description": "This project allows you to train an image classification model to identify 43 German traffic sign classes from the GTSRB dataset in an image/video. This model is suitable for ADAS and driver assistance applications.",
+    "algorithm": "Image Classification",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "ADAS",
+      "Automotive"
+    ],
+    "use_case": [
+      "Traffic Sign Recognition",
+      "Driver Assistance",
+      "Image Classification"
+    ],
+    "kit": [
+      "PSOC™ Edge AI Kit",
+      "PSOC™ Edge Eval Kit"
+    ],
+    "device": [
+      "PSOC™ Edge"
+    ],
+    "Type": [
+      "Model Development"
+    ],
+    "workflow": [
+      "ML Development"
+    ],
+    "thumbnail_image_id": "automotive_environment.webp",
+    "main_image_id": "automotive_environment.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Download",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "Access Project via DEEPCRAFT™ Studio",
+        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
+      },
+      {
+        "label": "GitHub",
+        "heading": "Project Repository",
+        "sub-heading": "Get more details about this project",
+        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/RoadSignsClassification"
+      }
+    ]
+  },
   "DEEPCRAFTStudioAcceleratorforRoadUsersDetection": {
     "title": "DEEPCRAFT™ Studio Accelerator for Road Users Detection",
     "description": "Recognize if there are people, trains, cars, busses, bicycles, motorbikes in an image",

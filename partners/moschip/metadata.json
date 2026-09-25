@@ -8,7 +8,7 @@
   "use_case": ["Edge AI","AI Infrastructure","PSOC\u2122 Support","GenAI Solutions","Hardware Design","DEEPCRAFT\u2122 Ready Model Services"],
   "kit": ["PSOC\u2122 6 AI Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 6","PSOC\u2122 Edge"],
-  "type": "Partner",
+  "type": "Partners",
   "thumbnail_image_id": "moschip.webp",
   "main_image_id": "moschip.webp",
   "brand_image_id": "moschip.webp",

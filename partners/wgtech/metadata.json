@@ -8,7 +8,7 @@
   "use_case": ["Tools", "Edge AI Services", "Embedded Vision", "Edge AI Models"],
   "kit": ["PSOC\u2122 6 AI Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 Edge Eval Kit"],
   "device": ["PSOC\u2122 6","PSOC\u2122 Edge"],
-  "type": "Partner",
+  "type": "Partners",
   "thumbnail_image_id": "wgtech-trademark-logo-final-April2024.webp",
   "main_image_id": "wgtech-trademark-logo-final-April2024.webp",
   "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",

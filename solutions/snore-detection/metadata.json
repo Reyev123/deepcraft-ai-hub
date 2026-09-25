@@ -2,20 +2,67 @@
   "title": "DEEPCRAFT\u2122 Ready Model for Snore Detection",
   "description": "Detect the sound of a person snoring in the vicinity of a microphone",
   "long_description": "The DEEPCRAFT\u2122 Ready Model for Snore Detection is a production-ready Edge AI model that detects the sound of a person snoring in the vicinity of a microphone.",
-  "sensors": ["Microphone"],
-  "domain": ["Audio"],
-  "application": ["Healthcare", "Smart Home", "Wearables"],
-  "use_case": ["Sound Event Detection"],
-  "kit": ["PSOC\u2122 6 Pioneer Kit", "PSOC\u2122 6 AI Kit"],
-  "device": ["PSOC\u2122 6"],
+  "sensors": [
+    "Microphone"
+  ],
+  "domain": [
+    "Audio"
+  ],
+  "application": [
+    "Healthcare",
+    "Smart Home",
+    "Wearables"
+  ],
+  "use_case": [
+    "Sound Event Detection"
+  ],
+  "kit": [
+    "PSOC\u2122 6 Pioneer Kit",
+    "PSOC\u2122 6 AI Kit"
+  ],
+  "device": [
+    "PSOC\u2122 6"
+  ],
   "type": "Solutions",
   "thumbnail_image_id": "lowres_20098_Woman_sleeping_smart_watch.webp",
   "main_image_id": "lowres_20098_Woman_sleeping_smart_watch.webp",
   "brand_image_id": "deepcraft.webp",
   "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-  "links": [{"label": "Learn More", "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-snore-detection", "heading": "Product Details", "sub-heading": "Find details on features, benefits and use cases"},
-			{"label": "Try Today", "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforsnoredetectionevaluation", "heading": "Evaluation Model", "sub-heading": "Download and evaluate the Ready Model today"}],
-  "metrics": [{"label": "RW Memory Usage (KB)", "value": "24", "note": "Measured on PSOC\u2122 6"},
-              {"label": "RO Memory Usage (KB)", "value": "53", "note": "Measured on PSOC\u2122 6"},
-              {"label": "Inference Time (ms)", "value": "23", "note": "Measured on PSOC\u2122 6"}]
+  "links": [
+    {
+      "label": "Learn More",
+      "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-baby-cry-detection",
+      "heading": "Product Details",
+      "sub-heading": "Find details on features, benefits and use cases"
+    },
+    {
+      "label": "Get Started",
+      "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+      "heading": "DEEPCRAFT™ Studio",
+      "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+    },
+    {
+      "label": "Try Today",
+      "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
+      "heading": "Evaluation Model",
+      "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "RW Memory Usage (KiB)",
+      "value": "108",
+      "note": "Measured on PSOC\u2122 6 (float32)| ml-middleware and TFLM excluded"
+    },
+    {
+      "label": "RO Memory Usage (KiB)",
+      "value": "62",
+      "note": "Measured on PSOC\u2122 6 (float32)| ml-middleware and TFLM excluded"
+    },
+    {
+      "label": "Inference Time (ms)",
+      "value": "23",
+      "note": "Measured on PSOC\u2122 6 (float32)| ml-middleware and TFLM excluded"
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "title": "MosChip\u00ae Technologies",
+  "description": "We bring together world-class silicon and product engineering talent & solutions to solve complex technology challenges - at speed & scale",
+  "long_description": "MosChip Technologies Limited is a leading silicon and product engineering services company with over two decades of experience delivering end-to-end product design and development – from concept to complete systems. As a trusted partner for silicon, product, and AI/ML engineering, we combine domain expertise with a global delivery model to help businesses accelerate innovation and transformation.",
+  "sensors": ["Microphone","Camera","Text"],
+  "domain": ["Audio", "Vision", "Other"],
+  "application": ["Industrial IoT","Automotive","Smart Manufacturing","Smart Home","Healthcare","Commercial Building Automation"],
+  "use_case": ["Edge AI","AI Infrastructure","PSOC\u2122 Support","GenAI Solutions","Hardware Design","DEEPCRAFT\u2122 Ready Model Services"],
+  "kit": ["PSOC\u2122 6 AI Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 Edge Eval Kit"],
+  "device": ["PSOC\u2122 6","PSOC\u2122 Edge"],
+  "type": "Partner",
+  "thumbnail_image_id": "moschip.webp",
+  "main_image_id": "moschip.webp",
+  "brand_image_id": "moschip.webp",
+  "brand_url": "https://moschip.com/",
+  "videos": [{"title": "MosChip Technologies Overview", "description": "MosChip\u00ae Technologies is a leading silicon and product engineering company with 26 years of expertise in ASIC design, embedded systems, digital, and AI engineering.", "link":"https://youtu.be/2Mv0n9fyPyw?si=xp7kyATaCD5qC9gw"}],
+  "links": [{"label": "Learn more", "url": "https://moschip.com/product-engineering-services/ai-engineering/", "heading": "MosChip's AI Services", "sub-heading": "From edge inference to agentic intelligence – we build trusted, real-time AI systems for smarter, adaptive, and personalized product experiences"},
+            {"label": "Learn more", "url": "https://moschip.com/success-stories/", "heading": "MosChip's Latest success stories", "sub-heading": "Learn how MosChip has converted product challenges to engineering triumphs"},
+            {"label": "Contact Us", "url": "https://moschip.com/contact-us/", "heading": "Contact Us", "sub-heading": "Reach out to us to take the next step and turn your ideas into a reality"}]
+}

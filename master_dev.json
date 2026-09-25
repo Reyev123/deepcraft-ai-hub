@@ -5350,5 +5350,141 @@
       }
     ],
     "content_type": "Article"
+  },
+  "MosChip®Technologies": {
+    "title": "MosChip® Technologies",
+    "description": "We bring together world-class silicon and product engineering talent & solutions to solve complex technology challenges - at speed & scale",
+    "long_description": "MosChip Technologies Limited is a leading silicon and product engineering services company with over two decades of experience delivering end-to-end product design and development – from concept to complete systems. As a trusted partner for silicon, product, and AI/ML engineering, we combine domain expertise with a global delivery model to help businesses accelerate innovation and transformation.",
+    "sensors": [
+      "Microphone",
+      "Camera",
+      "Text"
+    ],
+    "domain": [
+      "Audio",
+      "Vision",
+      "Other"
+    ],
+    "application": [
+      "Industrial IoT",
+      "Automotive",
+      "Smart Manufacturing",
+      "Smart Home",
+      "Healthcare",
+      "Commercial Building Automation"
+    ],
+    "use_case": [
+      "Edge AI",
+      "AI Infrastructure",
+      "PSOC™ Support",
+      "GenAI Solutions",
+      "Hardware Design",
+      "DEEPCRAFT™ Ready Model Services"
+    ],
+    "kit": [
+      "PSOC™ 6 AI Kit",
+      "PSOC™ Edge AI Kit",
+      "PSOC™ Edge Eval Kit"
+    ],
+    "device": [
+      "PSOC™ 6",
+      "PSOC™ Edge"
+    ],
+    "Type": "Partner",
+    "thumbnail_image_id": "moschip.webp",
+    "main_image_id": "moschip.webp",
+    "brand_image_id": "moschip.webp",
+    "brand_url": "https://moschip.com/",
+    "videos": [
+      {
+        "title": "MosChip Technologies Overview",
+        "description": "MosChip® Technologies is a leading silicon and product engineering company with 26 years of expertise in ASIC design, embedded systems, digital, and AI engineering.",
+        "link": "https://youtu.be/2Mv0n9fyPyw?si=xp7kyATaCD5qC9gw"
+      }
+    ],
+    "links": [
+      {
+        "label": "Learn more",
+        "url": "https://moschip.com/product-engineering-services/ai-engineering/",
+        "heading": "MosChip's AI Services",
+        "sub-heading": "From edge inference to agentic intelligence – we build trusted, real-time AI systems for smarter, adaptive, and personalized product experiences"
+      },
+      {
+        "label": "Learn more",
+        "url": "https://moschip.com/success-stories/",
+        "heading": "MosChip's Latest success stories",
+        "sub-heading": "Learn how MosChip has converted product challenges to engineering triumphs"
+      },
+      {
+        "label": "Contact Us",
+        "url": "https://moschip.com/contact-us/",
+        "heading": "Contact Us",
+        "sub-heading": "Reach out to us to take the next step and turn your ideas into a reality"
+      }
+    ]
+  },
+  "WGTech": {
+    "title": "WGTech",
+    "description": "Intelligence at the Edge, Integrated Without Compromise",
+    "long_description": "Every day, WGTech redefines the possibilities of Edge AI. We deliver end-to-end products and solutions through complete vertical integration—from custom hardware architecture to our intelligent application software, WGDeepInsight. By owning the entire technology stack, we ensure unmatched performance, reliability, and adaptability for the world’s most demanding environments.",
+    "sensors": [
+      "Camera",
+      "Microphone",
+      "Radar",
+      "Electrical Signals"
+    ],
+    "domain": [
+      "Vision",
+      "Audio",
+      "Radar",
+      "Electrical Signals"
+    ],
+    "application": [
+      "Safety Monitoring",
+      "Smart Manufacturing",
+      "Commercial Building Automation",
+      "Healthcare"
+    ],
+    "use_case": [
+      "Tools",
+      "Edge AI Services",
+      "Embedded Vision",
+      "Edge AI Models"
+    ],
+    "kit": [
+      "PSOC™ 6 AI Kit",
+      "PSOC™ Edge AI Kit",
+      "PSOC™ Edge Eval Kit"
+    ],
+    "device": [
+      "PSOC™ 6",
+      "PSOC™ Edge"
+    ],
+    "Type": "Partner",
+    "thumbnail_image_id": "wgtech-trademark-logo-final-April2024.webp",
+    "main_image_id": "wgtech-trademark-logo-final-April2024.webp",
+    "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
+    "brand_url": "https://www.wgtech.ai/",
+    "videos": [
+      {
+        "title": "An example of WGTech's capabilities",
+        "description": "This video showcases WG Tech’s AI-powered fall and falling detection system, designed to provide real-time safety monitoring and early intervention for senior citizens in care homes, hospitals, and residential environments. Using advanced pose estimation, movement trajectory analysis, and temporal deep learning, the system can detect both ongoing and completed fall events",
+        "link": "https://youtu.be/HrSdjP7pRuY?si=PHe8lDtTAuDINo_R"
+      }
+    ],
+    "links": [
+      {
+        "label": "Learn more",
+        "url": "https://www.wgtech.ai/contact",
+        "heading": "Try Today",
+        "sub-heading": "To find out how WGTech can help you with your Edge AI development"
+      },
+      {
+        "label": "Learn More",
+        "url": "https://www.wgtech.ai/solutions/privacy-solutions",
+        "heading": "Project Details - WGTech Solutions",
+        "sub-heading": "Learn more about the project and take the next step"
+      }
+    ]
   }
 }

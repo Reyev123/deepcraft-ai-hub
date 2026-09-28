@@ -369,7 +369,7 @@
       },
       {
         "label": "Try Today",
-        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
+        "url": "https://developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
         "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
@@ -448,7 +448,7 @@
       },
       {
         "label": "Try Today",
-        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
+        "url": "https://developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
         "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
@@ -532,7 +532,7 @@
       },
       {
         "label": "Try Today",
-        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
+        "url": "https://developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
         "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
@@ -609,7 +609,7 @@
       },
       {
         "label": "Try Today",
-        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
+        "url": "https://developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
         "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
@@ -684,7 +684,7 @@
       },
       {
         "label": "Try Today",
-        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
+        "url": "https://developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
         "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
@@ -4883,7 +4883,7 @@
       }
     ]
   },
-  "EdgeAISolutions@WgTech": {
+  "EdgeAISolutionsWgTech": {
     "title": "Edge AI Solutions @ WgTech",
     "description": "A comprehensive portfolio of production-ready Edge AI solutions for Vision Intelligence, Electrical Analytics, and Privacy-Preserving Radar Sensing.",
     "long_description": "The DEEPCRAFT™ based Edge AI Solutions Portfolio offers a range of production-ready AI models designed for deployment on edge devices. Our solutions span computer vision for inspection, detection, and analytics; electrical intelligence for voltage, current, and power anomaly detection; and privacy-preserving radar applications for people counting, occupancy monitoring, and motion sensing. Built to operate efficiently on resource-constrained hardware, these AI solutions enable real-time decision making, improved operational efficiency, predictive maintenance, enhanced safety, and privacy-focused sensing across environments.",

@@ -1,19 +1,36 @@
 {
-  "title": "WGTech",
-  "description": "Intelligence at the Edge, Integrated Without Compromise",
-  "long_description": "Every day, WGTech redefines the possibilities of Edge AI. We deliver end-to-end products and solutions through complete vertical integration—from custom hardware architecture to our intelligent application software, WGDeepInsight. By owning the entire technology stack, we ensure unmatched performance, reliability, and adaptability for the world’s most demanding environments.",
-  "sensors": ["Camera","Microphone","Radar","Electrical Signals"],
-  "domain": ["Vision","Audio","Radar","Electrical Signals"],
-  "application": ["Safety Monitoring","Smart Manufacturing","Commercial Building Automation","Healthcare"],
-  "use_case": ["Tools", "Edge AI Services", "Embedded Vision", "Edge AI Models"],
-  "kit": ["PSOC\u2122 6 AI Kit","PSOC\u2122 Edge AI Kit","PSOC\u2122 Edge Eval Kit"],
-  "device": ["PSOC\u2122 6","PSOC\u2122 Edge"],
+  "title": "Edge AI Solutions @ WgTech",
+  "description": "A comprehensive portfolio of production-ready Edge AI solutions for Vision Intelligence, Electrical Analytics, and Privacy-Preserving Radar Sensing.",
+  "long_description": "The DEEPCRAFT\u2122 based Edge AI Solutions Portfolio offers a range of production-ready AI models designed for deployment on edge devices. Our solutions span computer vision for inspection, detection, and analytics; electrical intelligence for voltage, current, and power anomaly detection; and privacy-preserving radar applications for people counting, occupancy monitoring, and motion sensing. Built to operate efficiently on resource-constrained hardware, these AI solutions enable real-time decision making, improved operational efficiency, predictive maintenance, enhanced safety, and privacy-focused sensing across environments.",
+  "sensors": ["Camera", "Voltage", "Current", "Radar" ],
+  "domain": ["Vision", "Electrical Signals", "Radar" ],
+  "application": ["Industrial IoT", "Appliances", "Automotive", "Healthcare", "Smart Home", "Safety Monitoring", "Smart Manufacturing" ],
+  "use_case": ["Visual Inspection", "Object Detection", "People Counting", "Occupancy Monitoring", "Electrical Anomaly Detection", "Power Quality Monitoring", "Predictive Maintenance", "Privacy-Preserving Analytics", "Power Electronics"],
+  "kit": [ "PSOC\u2122 6 AI Kit", "PSOC\u2122 Edge AI Kit"],
+  "device": [ "PSOC\u2122 6", "PSOC\u2122 Edge", "XENSIV\u2122 Radar BGT60TR13C" ],
   "type": "Partners",
   "thumbnail_image_id": "wgtech-trademark-logo-final-April2024.webp",
   "main_image_id": "wgtech-trademark-logo-final-April2024.webp",
   "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
   "brand_url": "https://www.wgtech.ai/",
-  "videos": [{"title": "An example of WGTech's capabilities", "description": "This video showcases WG Tech’s AI-powered fall and falling detection system, designed to provide real-time safety monitoring and early intervention for senior citizens in care homes, hospitals, and residential environments. Using advanced pose estimation, movement trajectory analysis, and temporal deep learning, the system can detect both ongoing and completed fall events", "link":"https://youtu.be/HrSdjP7pRuY?si=PHe8lDtTAuDINo_R"}],
-  "links": [{"label": "Learn more", "url": "https://www.wgtech.ai/contact", "heading": "Try Today", "sub-heading": "To find out how WGTech can help you with your Edge AI development"},
-            {"label": "Learn More", "url": "https://www.wgtech.ai/solutions/privacy-solutions", "heading": "Project Details - WGTech Solutions", "sub-heading": "Learn more about the project and take the next step"}]
+  "videos": [
+    {
+      "title": "DEEPCRAFT\u2122 Multi-Modal Edge AI Demo",
+      "description": "Explore Vision AI, Electrical Anomaly Detection, and Radar-based Privacy AI running on Edge AI hardware.",
+      "link": "https://www.youtube.com/playlist?list=PLfcLQhWoTSqI"
+    }
+  ],
+  "links": [
+    {
+      "label": "Learn More",
+      "url": "https://www.wgtech.ai/solutions/privacy-solutions",
+      "heading": "Edge AI Solutions",
+      "sub-heading": "Discover real-world Vision AI, Radar AI, and Electrical Intelligence solutions for smart industries."
+    },
+    {
+      "label": "About WgTech",
+      "url": "https://www.wgtech.ai/",
+      "heading": "Discover WgTech", "sub-heading": "Learn more about our innovative Vision based AI, radar, and Edge AI solutions across multiple industries"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "DEEPCRAFT\u2122 Ready Model for Cough Detection",
   "description": "Detect the sound of coughing in the vicinity of a microphone",
-  "long_description": "The DEEPCRAFT\u2122 Ready Model for Cough Detection is a production-ready Edge AI model that detects the sound of coughing in the vicinity of a microphone.",
+  "long_description": "Enable smarter health and wellness monitoring with the DEEPCRAFT\u2122 Ready Model for Cough Detection. Designed for seamless edge deployment, it reliably detects coughing sounds in real time, empowering microphone-equipped devices with instant audio event recognition.",
   "sensors": [
     "Microphone"
   ],
@@ -32,18 +32,25 @@
   "main_image_id": "lowres_21409_Woman_healthcare_medical.webp",
   "brand_image_id": "deepcraft.webp",
   "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "videos": [
+    {
+      "title": "Evaluation",
+      "description": "Watch how to evaluate the Cough Detection Ready Model with the ModusToolbox\u2122 code example.",
+      "link": "https://youtu.be/WOM4A7eSshM?si=z5mvvoTnoOQW6ofR&t=75"
+    }
+  ],
   "links": [
     {
       "label": "Learn More",
-      "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-baby-cry-detection",
+      "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-cough-detection",
       "heading": "Product Details",
       "sub-heading": "Find details on features, benefits and use cases"
     },
     {
       "label": "Get Started",
       "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
-      "heading": "DEEPCRAFT™ Studio",
-      "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+      "heading": "DEEPCRAFT\u2122 Studio",
+      "sub-heading": "Install DEEPCRAFT\u2122 Studio to evaluate and run this Ready Model"
     },
     {
       "label": "Try Today",

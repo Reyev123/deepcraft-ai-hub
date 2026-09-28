@@ -315,7 +315,7 @@
   "DEEPCRAFTReadyModelforBabyCryDetection": {
     "title": "DEEPCRAFT™ Ready Model for Baby Cry Detection",
     "description": "Detect the sound of babies crying in the vicinity of a microphone",
-    "long_description": "The DEEPCRAFT™ Ready Model for Baby Cry Detection is a production-ready Edge AI model that detects the sound of babies crying in the vicinity of a microphone.",
+    "long_description": "Accelerate your smart sensing applications with the DEEPCRAFT™ Ready Model for Baby Cry Detection. Designed for seamless edge deployment, it reliably detects baby crying events in real time, helping create more responsive and intelligent products.",
     "sensors": [
       "Microphone"
     ],
@@ -349,9 +349,9 @@
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
     "videos": [
       {
-        "title": "Deploying Baby Cry",
-        "description": "This video shows you how to deploy the Baby Cry Ready Model using the library from IDC",
-        "link": "https://youtu.be/hlbzafZTiyc?si=1y8pK0602xiF4Wz2"
+        "title": "Evaluation",
+        "description": "Watch how to evaluate the Baby Cry Detection Ready Model with the ModusToolbox™ code example.",
+        "link": "https://youtu.be/hlbzafZTiyc?si=msWQsFWOqNeSj9ry&t=78"
       }
     ],
     "links": [
@@ -362,34 +362,40 @@
         "sub-heading": "Find details on features, benefits and use cases"
       },
       {
+        "label": "Get Started",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "DEEPCRAFT™ Studio",
+        "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+      },
+      {
         "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforbabycrydetection",
+        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
+        "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
     ],
     "metrics": [
       {
-        "label": "RW Memory Usage (KB)",
-        "value": "27",
-        "note": "Measured on PSOC™ 6"
+        "label": "RW Memory Usage (KiB)",
+        "value": "73",
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       },
       {
-        "label": "RO Memory Usage (KB)",
-        "value": "27",
-        "note": "Measured on PSOC™ 6"
+        "label": "RO Memory Usage (KiB)",
+        "value": "32",
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       },
       {
         "label": "Inference Time (ms)",
         "value": "127",
-        "note": "Measured on PSOC™ 6"
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       }
     ]
   },
   "DEEPCRAFTReadyModelforCoughDetection": {
     "title": "DEEPCRAFT™ Ready Model for Cough Detection",
     "description": "Detect the sound of coughing in the vicinity of a microphone",
-    "long_description": "The DEEPCRAFT™ Ready Model for Cough Detection is a production-ready Edge AI model that detects the sound of coughing in the vicinity of a microphone.",
+    "long_description": "Enable smarter health and wellness monitoring with the DEEPCRAFT™ Ready Model for Cough Detection. Designed for seamless edge deployment, it reliably detects coughing sounds in real time, empowering microphone-equipped devices with instant audio event recognition.",
     "sensors": [
       "Microphone"
     ],
@@ -420,6 +426,13 @@
     "main_image_id": "lowres_21409_Woman_healthcare_medical.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "videos": [
+      {
+        "title": "Evaluation",
+        "description": "Watch how to evaluate the Cough Detection Ready Model with the ModusToolbox™ code example.",
+        "link": "https://youtu.be/WOM4A7eSshM?si=z5mvvoTnoOQW6ofR&t=75"
+      }
+    ],
     "links": [
       {
         "label": "Learn More",
@@ -428,237 +441,40 @@
         "sub-heading": "Find details on features, benefits and use cases"
       },
       {
+        "label": "Get Started",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "DEEPCRAFT™ Studio",
+        "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+      },
+      {
         "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforcoughdetectionevaluation",
+        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
+        "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
     ],
     "metrics": [
       {
-        "label": "RW Memory Usage (KB)",
-        "value": "27",
-        "note": "Measured on PSOC™ 6"
+        "label": "RW Memory Usage (KiB)",
+        "value": "128",
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       },
       {
-        "label": "RO Memory Usage (KB)",
-        "value": "82",
-        "note": "Measured on PSOC™ 6"
+        "label": "RO Memory Usage (KiB)",
+        "value": "85",
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       },
       {
         "label": "Inference Time (ms)",
         "value": "150",
-        "note": "Measured on PSOC™ 6"
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       }
     ]
   },
-  "DEEPCRAFTReadyModelforDirectionofArrival(Sound)": {
-    "title": "DEEPCRAFT™ Ready Model for Direction of Arrival (Sound)",
-    "description": "Detect the direction of an incoming sound based on a 4 microphone array",
-    "long_description": "The DEEPCRAFT™ Ready Model for Direction of Arrival (Sound) is a production-ready Edge AI model that detects the direction of an incoming sound based on a 4 microphone array and outputs one of the 8 cardinal directions.",
-    "sensors": [
-      "Microphone"
-    ],
-    "domain": [
-      "Audio"
-    ],
-    "application": [
-      "Appliances",
-      "Commercial Building Automation",
-      "Humanoid Robot",
-      "Industrial IoT",
-      "Safety Monitoring",
-      "Smart Home",
-      "Smart Manufacturing"
-    ],
-    "use_case": [
-      "Sound Event Detection"
-    ],
-    "kit": [
-      "PSOC™ Edge Eval Kit",
-      "PSOC™ Edge AI Kit"
-    ],
-    "device": [
-      "PSOC™ Edge"
-    ],
-    "Type": "Solutions",
-    "thumbnail_image_id": "lowres_21871_EmergencyComp.webp",
-    "main_image_id": "lowres_21871_EmergencyComp.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-direction-of-arrival-Sound",
-        "heading": "Product Details",
-        "sub-heading": "Find details on features, benefits and use cases"
-      },
-      {
-        "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelfordirectionofarrivalsoundevaluation",
-        "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
-      }
-    ],
-    "metrics": [
-      {
-        "label": "RW Memory Usage (KB)",
-        "value": "826",
-        "note": "Measured on Cortex-A72"
-      },
-      {
-        "label": "RO Memory Usage (KB)",
-        "value": "186",
-        "note": "Measured on Cortex-A72"
-      },
-      {
-        "label": "Inference Time (ms)",
-        "value": "82",
-        "note": "Measured on Cortex-A72"
-      }
-    ]
-  },
-  "DEEPCRAFTReadyModelforFactoryAlarmDetection": {
-    "title": "DEEPCRAFT™ Ready Model for Factory Alarm Detection",
-    "description": "Detect the sound of alarms and sirens in a factory",
-    "long_description": "The DEEPCRAFT™ Ready Model for Factory Alarm Detection is a production-ready Edge AI model that detects the sound of alarms and sirens in a factory.",
-    "sensors": [
-      "Microphone"
-    ],
-    "domain": [
-      "Audio"
-    ],
-    "application": [
-      "Commercial Building Automation",
-      "Humanoid Robot",
-      "Industrial IoT",
-      "Safety Monitoring",
-      "Smart Manufacturing"
-    ],
-    "use_case": [
-      "Sound Event Detection"
-    ],
-    "kit": [
-      "PSOC™ Edge Eval Kit",
-      "PSOC™ Edge AI Kit",
-      "PSOC™ 6 Pioneer Kit",
-      "PSOC™ 6 AI Kit"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge"
-    ],
-    "Type": "Solutions",
-    "thumbnail_image_id": "lowres_23208_fire_alarm.webp",
-    "main_image_id": "lowres_23208_fire_alarm.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-factory-alarm-detection",
-        "heading": "Product Details",
-        "sub-heading": "Find details on features, benefits and use cases"
-      },
-      {
-        "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforfactoryalarmdetectionevaluation",
-        "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
-      }
-    ],
-    "metrics": [
-      {
-        "label": "RW Memory Usage (KB)",
-        "value": "32",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "RO Memory Usage (KB)",
-        "value": "27",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "Inference Time (ms)",
-        "value": "144",
-        "note": "Measured on PSOC™ 6"
-      }
-    ]
-  },
-  "DEEPCRAFTReadyModelforFallDetection": {
-    "title": "DEEPCRAFT™ Ready Model for Fall Detection",
-    "description": "Detect a person falling via a wrist-worn device",
-    "long_description": "The DEEPCRAFT™ Ready Model for Fall Detection is a production-ready Edge AI model that detects a person falling via a wrist-worn device.",
-    "sensors": [
-      "IMU"
-    ],
-    "domain": [
-      "Motion and Vibration"
-    ],
-    "application": [
-      "Healthcare",
-      "Humanoid Robot",
-      "Wearables"
-    ],
-    "use_case": [
-      "Motion Detection"
-    ],
-    "kit": [
-      "PSOC™ Edge Eval Kit",
-      "PSOC™ Edge AI Kit",
-      "PSOC™ 6 Pioneer Kit",
-      "PSOC™ 6 AI Kit"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge"
-    ],
-    "Type": "Solutions",
-    "thumbnail_image_id": "lowres_20099_fallen_woman_with_smart_speaker.webp",
-    "main_image_id": "lowres_20099_fallen_woman_with_smart_speaker.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Learn More",
-        "url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models/deepcraft-ready-model-for-fall-detection",
-        "heading": "Product Details",
-        "sub-heading": "Find details on features, benefits and use cases"
-      },
-      {
-        "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforfalldetectionevaluation",
-        "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
-      }
-    ],
-    "metrics": [
-      {
-        "label": "RW Memory Usage (KB)",
-        "value": "6",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "RO Memory Usage (KB)",
-        "value": "15",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "Inference Time (ms)",
-        "value": "1",
-        "note": "Measured on PSOC™ 6"
-      },
-      {
-        "label": "Active Power (mW)",
-        "value": "0.0396",
-        "note": "Measured on PSOC™ 6"
-      }
-    ]
-  },
-  "DEEPCRAFTReadyModelforGestureDetection": {
-    "title": "DEEPCRAFT™ Ready Model for Gesture Detection",
+  "DEEPCRAFTReadyModelforGestureClassification": {
+    "title": "DEEPCRAFT™ Ready Model for Gesture Classification",
     "description": "Detect five different gestures in the vicinity of a radar sensor",
-    "long_description": "The DEEPCRAFT™ Ready Model for Gesture Detection detects five different gestures in the vicinity of a radar sensor.",
+    "long_description": "Unlock intuitive, touchless user experiences with the DEEPCRAFT™ Ready Model for Gesture Classification. Designed for seamless edge deployment, it reliably recognizes five distinct gestures using a radar sensor, enabling natural human-machine interaction in smart devices and embedded applications.",
     "sensors": [
       "Radar"
     ],
@@ -694,6 +510,13 @@
     "main_image_id": "20135_cropped.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "videos": [
+      {
+        "title": "Evaluation",
+        "description": "Watch how to evaluate the Gesture Classification Ready Model with the ModusToolbox™ code example.",
+        "link": "https://youtu.be/D_A99_z4lX0?si=mjdE7xlWcLn1Q802&t=124"
+      }
+    ],
     "links": [
       {
         "label": "Learn More",
@@ -702,34 +525,40 @@
         "sub-heading": "Find details on features, benefits and use cases"
       },
       {
+        "label": "Get Started",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "DEEPCRAFT™ Studio",
+        "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+      },
+      {
         "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforgestureclassificationevaluation",
+        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
+        "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
     ],
     "metrics": [
       {
-        "label": "RW Memory Usage (KB)",
-        "value": "3",
-        "note": "Measured on PSOC™ 6"
+        "label": "RW Memory Usage (KiB)",
+        "value": "104",
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       },
       {
-        "label": "RO Memory Usage (KB)",
-        "value": "45",
-        "note": "Measured on PSOC™ 6"
+        "label": "RO Memory Usage (KiB)",
+        "value": "26",
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       },
       {
         "label": "Inference Time (ms)",
         "value": "8",
-        "note": "Measured on PSOC™ 6"
+        "note": "Measured on PSOC™ 6 (int8x8) | ml-middleware and TFLM excluded"
       }
     ]
   },
   "DEEPCRAFTReadyModelforSirenDetection": {
     "title": "DEEPCRAFT™ Ready Model for Siren Detection",
-    "description": "detects the sound of emergency vehicle sirens in the vicinity of a microphone",
-    "long_description": "The DEEPCRAFT™ Ready Model for Siren Detection is a production-ready Edge AI model that detects the sound of emergency vehicle sirens in the vicinity of a microphone.",
+    "description": "Detect the sound of emergency vehicle sirens in the vicinity of a microphone",
+    "long_description": "Strengthen situational awareness with the DEEPCRAFT™ Ready Model for Siren Detection. Designed for smooth edge deployment, it reliably detects emergency vehicle sirens in real time, enabling microphone-equipped devices to respond intelligently to critical events and changing environments.",
     "sensors": [
       "Microphone"
     ],
@@ -758,6 +587,13 @@
     "main_image_id": "lowres_24710_siren_detection.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "videos": [
+      {
+        "title": "Evaluation",
+        "description": "Watch how to evaluate the Siren Detection Ready Model with the ModusToolbox™ code example.",
+        "link": "https://youtu.be/Zb3OxRsrm64?si=qJV56vraWtSAVstV&t=70"
+      }
+    ],
     "links": [
       {
         "label": "Learn More",
@@ -766,34 +602,40 @@
         "sub-heading": "Find details on features, benefits and use cases"
       },
       {
+        "label": "Get Started",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "DEEPCRAFT™ Studio",
+        "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+      },
+      {
         "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforsirendetectionevaluation",
+        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
+        "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
     ],
     "metrics": [
       {
-        "label": "RW Memory Usage (KB)",
-        "value": "60",
-        "note": "Measured on PSOC™ 6"
+        "label": "RW Memory Usage (KiB)",
+        "value": "162",
+        "note": "Measured on PSOC™ 6 (float32)| ml-middleware and TFLM excluded"
       },
       {
-        "label": "RO Memory Usage (KB)",
-        "value": "51",
-        "note": "Measured on PSOC™ 6"
+        "label": "RO Memory Usage (KiB)",
+        "value": "55",
+        "note": "Measured on PSOC™ 6 (float32)| ml-middleware and TFLM excluded"
       },
       {
         "label": "Inference Time (ms)",
         "value": "20",
-        "note": "Measured on PSOC™ 6"
+        "note": "Measured on PSOC™ 6 (float32)| ml-middleware and TFLM excluded"
       }
     ]
   },
   "DEEPCRAFTReadyModelforSnoreDetection": {
     "title": "DEEPCRAFT™ Ready Model for Snore Detection",
     "description": "Detect the sound of a person snoring in the vicinity of a microphone",
-    "long_description": "The DEEPCRAFT™ Ready Model for Snore Detection is a production-ready Edge AI model that detects the sound of a person snoring in the vicinity of a microphone.",
+    "long_description": "Promote better sleep insights with the DEEPCRAFT™ Ready Model for Snore Detection. Designed for edge deployment, it reliably identifies snoring sounds in real time, enabling smart devices to support sleep monitoring and wellness-focused applications with intelligent on-device audio recognition.",
     "sensors": [
       "Microphone"
     ],
@@ -820,6 +662,13 @@
     "main_image_id": "lowres_20098_Woman_sleeping_smart_watch.webp",
     "brand_image_id": "deepcraft.webp",
     "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "videos": [
+      {
+        "title": "Deployment",
+        "description": "Watch how to deploy the Snore Detection Ready Model using DEEPCRAFT™ Studio and ModusToolbox™.",
+        "link": "https://youtu.be/xs_y2T4lxbI?si=BtlbBK5V-4x82Zgt"
+      }
+    ],
     "links": [
       {
         "label": "Learn More",
@@ -828,27 +677,33 @@
         "sub-heading": "Find details on features, benefits and use cases"
       },
       {
+        "label": "Get Started",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "DEEPCRAFT™ Studio",
+        "sub-heading": "Install DEEPCRAFT™ Studio to evaluate and run this Ready Model"
+      },
+      {
         "label": "Try Today",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftreadymodelforsnoredetectionevaluation",
+        "url": "https: //developer.imagimob.com/deepcraft-ready-models/getting-started",
         "heading": "Evaluation Model",
-        "sub-heading": "Download and evaluate the Ready Model today"
+        "sub-heading": "Visit the Developer Portal to learn how to obtain and evaluate this Ready Model"
       }
     ],
     "metrics": [
       {
-        "label": "RW Memory Usage (KB)",
-        "value": "24",
-        "note": "Measured on PSOC™ 6"
+        "label": "RW Memory Usage (KiB)",
+        "value": "108",
+        "note": "Measured on PSOC™ 6 (float32)| ml-middleware and TFLM excluded"
       },
       {
-        "label": "RO Memory Usage (KB)",
-        "value": "53",
-        "note": "Measured on PSOC™ 6"
+        "label": "RO Memory Usage (KiB)",
+        "value": "62",
+        "note": "Measured on PSOC™ 6 (float32)| ml-middleware and TFLM excluded"
       },
       {
         "label": "Inference Time (ms)",
         "value": "23",
-        "note": "Measured on PSOC™ 6"
+        "note": "Measured on PSOC™ 6 (float32)| ml-middleware and TFLM excluded"
       }
     ]
   },
@@ -1149,6 +1004,58 @@
         "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/BatteryStateOfHealthEstimation",
         "heading": "Project Repository",
         "sub-heading": "Get more details about this project"
+      }
+    ]
+  },
+  "DEEPCRAFTStudioAcceleratorforBirdandDroneDetection": {
+    "title": "DEEPCRAFT™ Studio Accelerator for Bird and Drone Detection",
+    "description": "Detect birds and drones in an image.",
+    "long_description": "This project allows you to train a YOLO-based model to identify the presence of birds and drones in an image/video. This model is suitable for safety monitoring, privacy, and airspace awareness applications.",
+    "algorithm": "Object Detection",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Safety Monitoring",
+      "Industrial IoT"
+    ],
+    "use_case": [
+      "Object Detection",
+      "Bird Detection",
+      "Drone Detection"
+    ],
+    "kit": [
+      "PSOC™ Edge AI Kit",
+      "PSOC™ Edge Eval Kit"
+    ],
+    "device": [
+      "PSOC™ Edge"
+    ],
+    "Type": [
+      "Model Development"
+    ],
+    "workflow": [
+      "ML Development"
+    ],
+    "thumbnail_image_id": "vision.webp",
+    "main_image_id": "vision.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Download",
+        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
+        "heading": "Access Project via DEEPCRAFT™ Studio",
+        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
+      },
+      {
+        "label": "GitHub",
+        "heading": "Project Repository",
+        "sub-heading": "Get more details about this project",
+        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/BirdDroneDetection"
       }
     ]
   },
@@ -4976,6 +4883,77 @@
       }
     ]
   },
+  "EdgeAISolutions@WgTech": {
+    "title": "Edge AI Solutions @ WgTech",
+    "description": "A comprehensive portfolio of production-ready Edge AI solutions for Vision Intelligence, Electrical Analytics, and Privacy-Preserving Radar Sensing.",
+    "long_description": "The DEEPCRAFT™ based Edge AI Solutions Portfolio offers a range of production-ready AI models designed for deployment on edge devices. Our solutions span computer vision for inspection, detection, and analytics; electrical intelligence for voltage, current, and power anomaly detection; and privacy-preserving radar applications for people counting, occupancy monitoring, and motion sensing. Built to operate efficiently on resource-constrained hardware, these AI solutions enable real-time decision making, improved operational efficiency, predictive maintenance, enhanced safety, and privacy-focused sensing across environments.",
+    "sensors": [
+      "Camera",
+      "Voltage",
+      "Current",
+      "Radar"
+    ],
+    "domain": [
+      "Vision",
+      "Electrical Signals",
+      "Radar"
+    ],
+    "application": [
+      "Industrial IoT",
+      "Appliances",
+      "Automotive",
+      "Healthcare",
+      "Smart Home",
+      "Safety Monitoring",
+      "Smart Manufacturing"
+    ],
+    "use_case": [
+      "Visual Inspection",
+      "Object Detection",
+      "People Counting",
+      "Occupancy Monitoring",
+      "Electrical Anomaly Detection",
+      "Power Quality Monitoring",
+      "Predictive Maintenance",
+      "Privacy-Preserving Analytics",
+      "Power Electronics"
+    ],
+    "kit": [
+      "PSOC™ 6 AI Kit",
+      "PSOC™ Edge AI Kit"
+    ],
+    "device": [
+      "PSOC™ 6",
+      "PSOC™ Edge",
+      "XENSIV™ Radar BGT60TR13C"
+    ],
+    "Type": "Partners",
+    "thumbnail_image_id": "wgtech-trademark-logo-final-April2024.webp",
+    "main_image_id": "wgtech-trademark-logo-final-April2024.webp",
+    "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
+    "brand_url": "https://www.wgtech.ai/",
+    "videos": [
+      {
+        "title": "DEEPCRAFT™ Multi-Modal Edge AI Demo",
+        "description": "Explore Vision AI, Electrical Anomaly Detection, and Radar-based Privacy AI running on Edge AI hardware.",
+        "link": "https://www.youtube.com/playlist?list=PLfcLQhWoTSqI"
+      }
+    ],
+    "links": [
+      {
+        "label": "Learn More",
+        "url": "https://www.wgtech.ai/solutions/privacy-solutions",
+        "heading": "Edge AI Solutions",
+        "sub-heading": "Discover real-world Vision AI, Radar AI, and Electrical Intelligence solutions for smart industries."
+      },
+      {
+        "label": "About WgTech",
+        "url": "https://www.wgtech.ai/",
+        "heading": "Discover WgTech",
+        "sub-heading": "Learn more about our innovative Vision based AI, radar, and Edge AI solutions across multiple industries"
+      }
+    ]
+  },
   "MosChipTechnologies": {
     "title": "MosChip® Technologies",
     "description": "We bring together world-class silicon and product engineering talent & solutions to solve complex technology challenges - at speed & scale",
@@ -5045,70 +5023,6 @@
         "url": "https://moschip.com/contact-us/",
         "heading": "Contact Us",
         "sub-heading": "Reach out to us to take the next step and turn your ideas into a reality"
-      }
-    ]
-  },
-  "WGTech": {
-    "title": "WGTech",
-    "description": "Intelligence at the Edge, Integrated Without Compromise",
-    "long_description": "Every day, WGTech redefines the possibilities of Edge AI. We deliver end-to-end products and solutions through complete vertical integration—from custom hardware architecture to our intelligent application software, WGDeepInsight. By owning the entire technology stack, we ensure unmatched performance, reliability, and adaptability for the world’s most demanding environments.",
-    "sensors": [
-      "Camera",
-      "Microphone",
-      "Radar",
-      "Electrical Signals"
-    ],
-    "domain": [
-      "Vision",
-      "Audio",
-      "Radar",
-      "Electrical Signals"
-    ],
-    "application": [
-      "Safety Monitoring",
-      "Smart Manufacturing",
-      "Commercial Building Automation",
-      "Healthcare"
-    ],
-    "use_case": [
-      "Tools",
-      "Edge AI Services",
-      "Embedded Vision",
-      "Edge AI Models"
-    ],
-    "kit": [
-      "PSOC™ 6 AI Kit",
-      "PSOC™ Edge AI Kit",
-      "PSOC™ Edge Eval Kit"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge"
-    ],
-    "Type": "Partners",
-    "thumbnail_image_id": "wgtech-trademark-logo-final-April2024.webp",
-    "main_image_id": "wgtech-trademark-logo-final-April2024.webp",
-    "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
-    "brand_url": "https://www.wgtech.ai/",
-    "videos": [
-      {
-        "title": "An example of WGTech's capabilities",
-        "description": "This video showcases WG Tech’s AI-powered fall and falling detection system, designed to provide real-time safety monitoring and early intervention for senior citizens in care homes, hospitals, and residential environments. Using advanced pose estimation, movement trajectory analysis, and temporal deep learning, the system can detect both ongoing and completed fall events",
-        "link": "https://youtu.be/HrSdjP7pRuY?si=PHe8lDtTAuDINo_R"
-      }
-    ],
-    "links": [
-      {
-        "label": "Learn more",
-        "url": "https://www.wgtech.ai/contact",
-        "heading": "Try Today",
-        "sub-heading": "To find out how WGTech can help you with your Edge AI development"
-      },
-      {
-        "label": "Learn More",
-        "url": "https://www.wgtech.ai/solutions/privacy-solutions",
-        "heading": "Project Details - WGTech Solutions",
-        "sub-heading": "Learn more about the project and take the next step"
       }
     ]
   },

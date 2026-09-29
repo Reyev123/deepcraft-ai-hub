@@ -15,9 +15,9 @@
   "brand_url": "https://www.wgtech.ai/",
   "videos": [
     {
-      "title": "DEEPCRAFT\u2122 Multi-Modal Edge AI Demo",
-      "description": "Explore Vision AI, Electrical Anomaly Detection, and Radar-based Privacy AI running on Edge AI hardware.",
-      "link": "https://www.youtube.com/playlist?list=PLfcLQhWoTSqI"
+      "title": "Entrance Exit Detection - mmWave Radar with PSOC\u2122 6 AI Model",
+      "description": "This application demonstrates how to accurately count people entering and exiting a room or designated area using an AI model running on PSOC\u2122 6 and leveraging Infineon's XENSIV\u2122 60GHz radar sensor. Optimized for low-power edge devices, it enables real-time people counting for smart buildings, retail stores, offices, and public spaces.",
+      "link": "https://www.youtube.com/shorts/Cl_InHIRspY"
     }
   ],
   "links": [

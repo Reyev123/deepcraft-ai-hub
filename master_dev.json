@@ -2895,11 +2895,13 @@
     ],
     "kit": [
       "AURIX™ KIT_A2G_TC375_LITE",
-      "AURIX™ KIT_A3G_TC4D7_LITE"
+      "AURIX™ KIT_A3G_TC4D7_LITE",
+      "TRAVEO™ T2G Body EntryLite Kit KIT_T2G-B-E_LITE"
     ],
     "device": [
       "AURIX™ TC3x",
-      "AURIX™ TC4x"
+      "AURIX™ TC4x",
+      "TRAVEO™ T2G body entry"
     ],
     "Type": [
       "Model Development, Model Deployment"
@@ -2949,11 +2951,13 @@
     ],
     "kit": [
       "AURIX™ KIT_A2G_TC375_LITE",
-      "AURIX™ KIT_A3G_TC4D7_LITE"
+      "AURIX™ KIT_A3G_TC4D7_LITE",
+      "TRAVEO™ T2G Body EntryLite Kit KIT_T2G-B-E_LITE"
     ],
     "device": [
       "AURIX™ TC3x",
-      "AURIX™ TC4x"
+      "AURIX™ TC4x",
+      "TRAVEO™ T2G body entry"
     ],
     "Type": [
       "Model Development, Model Deployment"
@@ -2979,111 +2983,11 @@
       }
     ]
   },
-  "HandwrittenDigitClassification": {
-    "title": "Handwritten Digit Classification",
-    "description": "Handwritten digit classification model using MLPs and CNNs",
-    "long_description": "This model is designed for handwritten digit classification tasks using convolutional neural networks (CNNs). It is implemented in TensorFlow and optimized for AURIX™ TC3x and TC4x automotive MCUs.",
-    "algorithm": "Classification",
-    "sensors": [
-      "Camera"
-    ],
-    "domain": [
-      "Vision"
-    ],
-    "application": [
-      "Smart Manufacturing",
-      "Industrial IoT",
-      "Automotive"
-    ],
-    "use_case": [
-      "Object Classification"
-    ],
-    "kit": [
-      "AURIX™ KIT_A2G_TC375_LITE",
-      "AURIX™ KIT_A3G_TC4D7_LITE"
-    ],
-    "device": [
-      "AURIX™ TC3x",
-      "AURIX™ TC4x"
-    ],
-    "Type": [
-      "Model Development, Model Deployment"
-    ],
-    "workflow": [
-      "ML Development",
-      "ML Deployment"
-    ],
-    "thumbnail_image_id": "lowres_24521_ATV_Software.webp",
-    "main_image_id": "lowres_24521_ATV_Software.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Model Zoo",
-        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
-        "heading": "Model Zoo for AURIX™",
-        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
-      },
-      {
-        "label": "GitHub",
-        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/MNISTimageClassification"
-      }
-    ]
-  },
-  "KeywordDetection": {
-    "title": "Keyword Detection",
-    "description": "This model detects a specific keyword in audio streams.",
-    "long_description": "Keyword detection using a CNN model. It is implemented in TensorFlow and optimized for AURIX™ TC3x and TC4x automotive MCUs.",
-    "algorithm": "Classification",
-    "sensors": [
-      "Microphone"
-    ],
-    "domain": [
-      "Audio"
-    ],
-    "application": [
-      "Automotive"
-    ],
-    "use_case": [
-      "Wake Word Detection"
-    ],
-    "kit": [
-      "AURIX™ KIT_A2G_TC375_LITE",
-      "AURIX™ KIT_A3G_TC4D7_LITE"
-    ],
-    "device": [
-      "AURIX™ TC3x",
-      "AURIX™ TC4x"
-    ],
-    "Type": [
-      "Model Development, Model Deployment"
-    ],
-    "workflow": [
-      "ML Development",
-      "ML Deployment"
-    ],
-    "thumbnail_image_id": "lowres_24638_Car_access.webp",
-    "main_image_id": "lowres_24638_Car_access.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Model Zoo",
-        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
-        "heading": "Model Zoo for AURIX™",
-        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
-      },
-      {
-        "label": "GitHub",
-        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/KeywordDetection"
-      }
-    ]
-  },
-  "MobileNetforWeatherClassification": {
-    "title": "MobileNet for Weather Classification",
+  "CNNforWeatherClassification": {
+    "title": "CNN for Weather Classification",
     "description": "Weather classification model designed for embedded hardware",
-    "long_description": "MobileNet is a lightweight deep learning model designed for efficient on-device vision applications. It has been optimized for speed and low power consumption, making it suitable for embedded hardware. The model has been pretrained and adapted for weather classification (presence of rain drops).",
-    "algorithm": "Classification",
+    "long_description": "This CNN has been optimized for weather classification (presence of rain drops). The model is quantized using post-training quantization for efficient inference.",
+    "algorithm": "Image Classification",
     "sensors": [
       "Camera"
     ],
@@ -3125,7 +3029,258 @@
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/ClassificationMobilenet"
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/Quantization_CNNClassificationRainDrops"
+      }
+    ]
+  },
+  "HandwrittenDigitClassification": {
+    "title": "Handwritten Digit Classification",
+    "description": "Handwritten digit classification model using MLPs and CNNs",
+    "long_description": "This model is designed for handwritten digit classification tasks using convolutional neural networks (CNNs). It is implemented in TensorFlow and optimized for AURIX™ TC3x and TC4x automotive MCUs.",
+    "algorithm": "Classification",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Smart Manufacturing",
+      "Industrial IoT",
+      "Automotive"
+    ],
+    "use_case": [
+      "Object Classification"
+    ],
+    "kit": [
+      "AURIX™ KIT_A2G_TC375_LITE",
+      "AURIX™ KIT_A3G_TC4D7_LITE",
+      "TRAVEO™ T2G Body EntryLite Kit KIT_T2G-B-E_LITE"
+    ],
+    "device": [
+      "AURIX™ TC3x",
+      "AURIX™ TC4x",
+      "TRAVEO™ T2G body entry"
+    ],
+    "Type": [
+      "Model Development, Model Deployment"
+    ],
+    "workflow": [
+      "ML Development",
+      "ML Deployment"
+    ],
+    "thumbnail_image_id": "lowres_24521_ATV_Software.webp",
+    "main_image_id": "lowres_24521_ATV_Software.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Model Zoo",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
+        "heading": "Model Zoo for AURIX™",
+        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/MNISTimageClassification"
+      }
+    ]
+  },
+  "In-CabinMonitoringwithMiniDMSModel": {
+    "title": "In-Cabin Monitoring with MiniDMS Model",
+    "description": "This example demonstrates in-cabin driver monitoring using the MiniDMS model.",
+    "long_description": "This example demonstrates in-cabin driver monitoring using the MiniDMS model. The system uses a camera to observe the driver and classify their behavior, helping to ensure safety and attention while driving.",
+    "algorithm": "Image Classification",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Automotive"
+    ],
+    "use_case": [
+      "Driver Monitoring"
+    ],
+    "kit": [
+      "AURIX™ KIT_A3G_TC4D7_LITE"
+    ],
+    "device": [
+      "AURIX™ TC4x"
+    ],
+    "Type": [
+      "Model Development, Model Deployment"
+    ],
+    "workflow": [
+      "ML Development",
+      "ML Deployment"
+    ],
+    "thumbnail_image_id": "automotive_in-cabin.webp",
+    "main_image_id": "automotive_in-cabin.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Model Zoo",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
+        "heading": "Model Zoo for AURIX™",
+        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/DriverMonitoringSystem"
+      }
+    ]
+  },
+  "KeywordDetection": {
+    "title": "Keyword Detection",
+    "description": "This model detects a specific keyword in audio streams.",
+    "long_description": "Keyword detection using a CNN model. It is implemented in TensorFlow and optimized for AURIX™ TC3x and TC4x automotive MCUs.",
+    "algorithm": "Classification",
+    "sensors": [
+      "Microphone"
+    ],
+    "domain": [
+      "Audio"
+    ],
+    "application": [
+      "Automotive"
+    ],
+    "use_case": [
+      "Wake Word Detection"
+    ],
+    "kit": [
+      "AURIX™ KIT_A2G_TC375_LITE",
+      "AURIX™ KIT_A3G_TC4D7_LITE",
+      "TRAVEO™ T2G Body EntryLite Kit KIT_T2G-B-E_LITE"
+    ],
+    "device": [
+      "AURIX™ TC3x",
+      "AURIX™ TC4x",
+      "TRAVEO™ T2G body entry"
+    ],
+    "Type": [
+      "Model Development, Model Deployment"
+    ],
+    "workflow": [
+      "ML Development",
+      "ML Deployment"
+    ],
+    "thumbnail_image_id": "lowres_24638_Car_access.webp",
+    "main_image_id": "lowres_24638_Car_access.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Model Zoo",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
+        "heading": "Model Zoo for AURIX™",
+        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/KeywordDetection"
+      }
+    ]
+  },
+  "MobileNetforTrafficObjectDetectionClassification": {
+    "title": "MobileNet for Traffic Object Detection Classification",
+    "description": "Traffic object classification model designed for embedded hardware",
+    "long_description": "MobileNet is a lightweight deep learning model designed for efficient on-device vision applications. It has been optimized for speed and low power consumption, making it suitable for embedded hardware. The model has been pretrained and adapted for detecting various traffic objects, including vehicles, pedestrians, and cyclists.",
+    "algorithm": "Image Classification",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Automotive",
+      "ADAS"
+    ],
+    "use_case": [
+      "Traffic Object Detection"
+    ],
+    "kit": [
+      "AURIX™ KIT_A2G_TC375_LITE",
+      "AURIX™ KIT_A3G_TC4D7_LITE"
+    ],
+    "device": [
+      "AURIX™ TC3x",
+      "AURIX™ TC4x"
+    ],
+    "Type": [
+      "Model Development, Model Deployment"
+    ],
+    "workflow": [
+      "ML Development",
+      "ML Deployment"
+    ],
+    "thumbnail_image_id": "lowres_24842_Urban_e-Mobility.webp",
+    "main_image_id": "lowres_24842_Urban_e-Mobility.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Model Zoo",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
+        "heading": "Model Zoo for AURIX™",
+        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/MobileNetV3ClassificationTrafficObjects"
+      }
+    ]
+  },
+  "MobileNetforWeatherClassification": {
+    "title": "MobileNet for Weather Classification",
+    "description": "Weather classification model designed for embedded hardware",
+    "long_description": "MobileNet is a lightweight deep learning model designed for efficient on-device vision applications. It has been optimized for speed and low power consumption, making it suitable for embedded hardware. The model has been pretrained and adapted for weather classification (presence of rain drops).",
+    "algorithm": "Image Classification",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Automotive",
+      "ADAS"
+    ],
+    "use_case": [
+      "Rain Drop Classification"
+    ],
+    "kit": [
+      "AURIX™ KIT_A2G_TC375_LITE",
+      "AURIX™ KIT_A3G_TC4D7_LITE"
+    ],
+    "device": [
+      "AURIX™ TC3x",
+      "AURIX™ TC4x"
+    ],
+    "Type": [
+      "Model Development, Model Deployment"
+    ],
+    "workflow": [
+      "ML Development",
+      "ML Deployment"
+    ],
+    "thumbnail_image_id": "lowres_24842_Urban_e-Mobility.webp",
+    "main_image_id": "lowres_24842_Urban_e-Mobility.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Model Zoo",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
+        "heading": "Model Zoo for AURIX™",
+        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/MobileNetV3ClassificationRainDrops"
       }
     ]
   },
@@ -3153,11 +3308,13 @@
     ],
     "kit": [
       "AURIX™ KIT_A2G_TC375_LITE",
-      "AURIX™ KIT_A3G_TC4D7_LITE"
+      "AURIX™ KIT_A3G_TC4D7_LITE",
+      "TRAVEO™ T2G Body EntryLite Kit KIT_T2G-B-E_LITE"
     ],
     "device": [
       "AURIX™ TC3x",
-      "AURIX™ TC4x"
+      "AURIX™ TC4x",
+      "TRAVEO™ T2G body entry"
     ],
     "Type": [
       "Model Development, Model Deployment"
@@ -3180,6 +3337,58 @@
       {
         "label": "GitHub",
         "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/RemainingUsefulLifePrediction"
+      }
+    ]
+  },
+  "VehicleTracker": {
+    "title": "Vehicle Tracker",
+    "description": "Online multi-target vehicle tracking model for embedded hardware",
+    "long_description": "RNN-based online multi-target vehicle tracker implementing Milan et al. 2017 with domain adaptations for CARLA synthetic data. Stage 1: RNN motion model (64 hidden units, 61.5 KB). Stage 2: LSTM data association model (aurix mode, 86.0 KB). Trained on CARLA simulator data (5 vehicle classes, 8 towns, 86,014 annotations). Designed for deployment on AURIX TC4Dx embedded MCU.",
+    "algorithm": "Regression",
+    "sensors": [
+      "Camera"
+    ],
+    "domain": [
+      "Vision"
+    ],
+    "application": [
+      "Automotive",
+      "ADAS"
+    ],
+    "use_case": [
+      "Vehicle Tracking"
+    ],
+    "kit": [
+      "AURIX™ KIT_A2G_TC375_LITE",
+      "AURIX™ KIT_A3G_TC4D7_LITE",
+      "TRAVEO™ T2G Body EntryLite Kit KIT_T2G-B-E_LITE"
+    ],
+    "device": [
+      "AURIX™ TC3x",
+      "AURIX™ TC4x",
+      "TRAVEO™ T2G body entry"
+    ],
+    "Type": [
+      "Model Development, Model Deployment"
+    ],
+    "workflow": [
+      "ML Development",
+      "ML Deployment"
+    ],
+    "thumbnail_image_id": "automotive_environment.webp",
+    "main_image_id": "automotive_environment.webp",
+    "brand_image_id": "deepcraft.webp",
+    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+    "links": [
+      {
+        "label": "Model Zoo",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix",
+        "heading": "Model Zoo for AURIX™",
+        "sub-heading": "Find your tools & Learn about getting started with developing Edge AI for AURIX™"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Infineon/deepcraft-model-zoo-for-aurix/tree/main/VehicleTracker"
       }
     ]
   },
@@ -4842,6 +5051,12 @@
         "url": "https://www.wgtech.ai/",
         "heading": "Discover WgTech",
         "sub-heading": "Learn more about our innovative Vision based AI, radar, and Edge AI solutions across multiple industries"
+      },
+      {
+        "label": "Contact Us",
+        "url": "https://www.wgtech.ai/contact",
+        "heading": "Contact Us",
+        "sub-heading": "Reach out to us to take the next step and turn your ideas into a reality"
       }
     ]
   },

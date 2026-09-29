@@ -855,60 +855,6 @@
       }
     ]
   },
-  "DEEPCRAFTStudioAcceleratorforBabyCryDetection(StudioAccelerator)": {
-    "title": "DEEPCRAFT™ Studio Accelerator for Baby Cry Detection (Studio Accelerator)",
-    "description": "Use a microphone to detect if a baby is crying in the vicinity",
-    "long_description": "This Studio Accelerator allows you to build a baby cry detector that can be used on any supported (Infineon) MCU with a microphone for smart home and baby monitoring applications.",
-    "algorithm": "Classification",
-    "sensors": [
-      "Microphone"
-    ],
-    "domain": [
-      "Audio"
-    ],
-    "application": [
-      "Smart Home",
-      "Appliances",
-      "Wearables",
-      "Automotive",
-      "Healthcare"
-    ],
-    "use_case": [
-      "Baby Cry Detection",
-      "Baby Care"
-    ],
-    "kit": [
-      "PSOC™ 6 Pioneer Kit",
-      "PSOC™ 6 AI Kit",
-      "PSOC™ Edge AI Kit"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge"
-    ],
-    "Type": "Model Development",
-    "workflow": [
-      "ML Development"
-    ],
-    "thumbnail_image_id": "lowres_18900_baby_sleeping_in_crib.webp",
-    "main_image_id": "lowres_18900_baby_sleeping_in_crib.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Download",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
-        "heading": "Access Project via DEEPCRAFT™ Studio",
-        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
-      },
-      {
-        "label": "GitHub",
-        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/BabyCryDetection",
-        "heading": "Project Repository",
-        "sub-heading": "Get more details about this project"
-      }
-    ]
-  },
   "DEEPCRAFTStudioAcceleratorforBatteryStateofChargeEstimation": {
     "title": "DEEPCRAFT™ Studio Accelerator for Battery State of Charge Estimation",
     "description": "In this project, we build a regression model to estimate Li-Ion battery state",
@@ -2615,59 +2561,6 @@
         "heading": "Project Repository",
         "sub-heading": "Get more details about this project",
         "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/SafetyVestHelmetDetection"
-      }
-    ]
-  },
-  "DEEPCRAFTStudioAcceleratorforSirenDetection(StudioAccelerator)": {
-    "title": "DEEPCRAFT™ Studio Accelerator for Siren Detection (Studio Accelerator)",
-    "description": "Use a microphone to detect if you have an emergency vehicle siren in the vicinity",
-    "long_description": "This Studio Accelerator allows you to build an emergency vehicle siren detector that can be used on any supported (Infineon) MCU with a microphone. This model is suitable for applications with wearables, in automotive use-cases and safety monitoring.",
-    "algorithm": "Classification",
-    "sensors": [
-      "Microphone"
-    ],
-    "domain": [
-      "Audio"
-    ],
-    "application": [
-      "Wearables",
-      "Smart Home",
-      "Appliances",
-      "Healthcare",
-      "Safety Monitoring"
-    ],
-    "use_case": [
-      "Emergency Vehicle Siren Detection"
-    ],
-    "kit": [
-      "PSOC™ 6 Pioneer Kit",
-      "PSOC™ 6 AI Kit",
-      "PSOC™ Edge AI Kit"
-    ],
-    "device": [
-      "PSOC™ 6",
-      "PSOC™ Edge"
-    ],
-    "Type": "Model Development",
-    "workflow": [
-      "ML Development"
-    ],
-    "thumbnail_image_id": "lowres_24710_siren_detection.webp",
-    "main_image_id": "lowres_24710_siren_detection.webp",
-    "brand_image_id": "deepcraft.webp",
-    "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
-    "links": [
-      {
-        "label": "Download",
-        "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio",
-        "heading": "Access Project via DEEPCRAFT™ Studio",
-        "sub-heading": "Download and install DEEPCRAFT™ Studio to fully access this project and start developing your Edge AI product"
-      },
-      {
-        "label": "GitHub",
-        "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/SirenDetection",
-        "heading": "Project Repository",
-        "sub-heading": "Get more details about this project"
       }
     ]
   },

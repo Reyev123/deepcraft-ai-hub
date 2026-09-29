@@ -31,6 +31,12 @@
       "label": "About WgTech",
       "url": "https://www.wgtech.ai/",
       "heading": "Discover WgTech", "sub-heading": "Learn more about our innovative Vision based AI, radar, and Edge AI solutions across multiple industries"
+    },
+    {
+      "label": "Contact Us",
+      "url": "https://www.wgtech.ai/contact",
+      "heading": "Contact Us",
+      "sub-heading": "Reach out to us to take the next step and turn your ideas into a reality"
     }
   ]
 }

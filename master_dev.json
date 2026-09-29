@@ -83,9 +83,7 @@
     ],
     "sensors": [
       "Microphone",
-      "Radar",
-      "IMU",
-      "Camera"
+      "Radar"
     ],
     "device": [
       "PSOC™ 6",
@@ -491,7 +489,7 @@
       "Smart Manufacturing"
     ],
     "use_case": [
-      "Gesture Detection"
+      "Gesture Classification"
     ],
     "kit": [
       "XENSIV™ KIT_CSK_BGT60TR13C",
@@ -4827,9 +4825,9 @@
     "brand_url": "https://www.wgtech.ai/",
     "videos": [
       {
-        "title": "DEEPCRAFT™ Multi-Modal Edge AI Demo",
-        "description": "Explore Vision AI, Electrical Anomaly Detection, and Radar-based Privacy AI running on Edge AI hardware.",
-        "link": "https://www.youtube.com/playlist?list=PLfcLQhWoTSqI"
+        "title": "Entrance Exit Detection - mmWave Radar with PSOC™ 6 AI Model",
+        "description": "This application demonstrates how to accurately count people entering and exiting a room or designated area using an AI model running on PSOC™ 6 and leveraging Infineon's XENSIV™ 60GHz radar sensor. Optimized for low-power edge devices, it enables real-time people counting for smart buildings, retail stores, offices, and public spaces.",
+        "link": "https://www.youtube.com/shorts/Cl_InHIRspY"
       }
     ],
     "links": [
@@ -4849,8 +4847,8 @@
   },
   "MosChipTechnologies": {
     "title": "MosChip® Technologies",
-    "description": "Full-stack Edge AI and product engineering for Infineon PSoC™ Edge platforms",
-    "long_description": "<p>MosChip Technologies is an Infineon Associated Partner helping OEMs build intelligent, secure and connected edge products on Infineon PSoC™ Edge platforms.</p><p>Our services cover platform enablement and integration, hardware support for rapid prototypes, BSPs, firmware and middleware, and Edge AI model development, customization, optimization, integration and deployment. We work across embedded vision, audio, sensor fusion and on-device inference, and can extend solutions through IoT, cloud, mobile applications, automation and production lifecycle engineering.</p><p>MosChip also develops reference designs and solution accelerators for connected healthcare, smart home, wearables and industrial products. Representative work includes a smart medication box on PSoC™ Edge E84 using on-device face recognition, DEEPCRAFT™ voice keyword spotting, proximity sensing, BLE synchronization and an Android caregiver application.</p><p>Our Infineon platform experience includes PSoC™ Edge, ModusToolbox™ software and DEEPCRAFT™ Edge AI. Customers can engage MosChip from proof of concept and model porting through product integration, validation and production readiness.</p>",
+    "description": "Full-stack Edge AI and product engineering for Infineon PSOC™ Edge platforms",
+    "long_description": "<p>MosChip Technologies is an Infineon Associated Partner helping OEMs build intelligent, secure and connected edge products on Infineon PSOC™ Edge platforms.</p><p>Our services cover platform enablement and integration, hardware support for rapid prototypes, BSPs, firmware and middleware, and Edge AI model development, customization, optimization, integration and deployment. We work across embedded vision, audio, sensor fusion and on-device inference, and can extend solutions through IoT, cloud, mobile applications, automation and production lifecycle engineering.</p><p>MosChip also develops reference designs and solution accelerators for connected healthcare, smart home, wearables and industrial products. Representative work includes a smart medication box on PSOC™ Edge E84 using on-device face recognition, DEEPCRAFT™ voice keyword spotting, proximity sensing, BLE synchronization and an Android caregiver application.</p><p>Our Infineon platform experience includes PSOC™ Edge, ModusToolbox™ software and DEEPCRAFT™ Edge AI. Customers can engage MosChip from proof of concept and model porting through product integration, validation and production readiness.</p>",
     "sensors": [
       "Microphone",
       "Camera",
@@ -4900,15 +4898,15 @@
     ],
     "links": [
       {
-        "label": "Learn more",
+        "label": "Learn More",
         "url": "https://moschip.com/product-engineering-services/ai-engineering/",
         "heading": "MosChip's AI Services",
         "sub-heading": "From edge inference to agentic intelligence – we build trusted, real-time AI systems for smarter, adaptive, and personalized product experiences"
       },
       {
-        "label": "Learn more",
+        "label": "Learn More",
         "url": "https://moschip.com/success-stories/",
-        "heading": "MosChip's Latest success stories",
+        "heading": "MosChip's Latest Success Stories",
         "sub-heading": "Learn how MosChip has converted product challenges to engineering triumphs"
       },
       {

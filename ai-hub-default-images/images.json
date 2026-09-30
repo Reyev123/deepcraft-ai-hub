@@ -1,0 +1,118 @@
+[
+  {
+    "name": "animal_monitoring.png",
+    "tags": ["animal", "monitoring", "wildlife", "nature"]
+  },
+  {
+    "name": "audio.png",
+    "tags": ["audio", "microphone", "voice", "music", "noise"]
+  },
+  {
+    "name": "automotive_environment.png",
+    "tags": ["automotive", "environment", "weather", "traffic", "city", "street"]
+  },
+  {
+    "name": "automotive_in_cabin.png",
+    "tags": ["automotive", "vehicle", "in-cabin"]
+  },
+  {
+    "name": "automotive_machine_maintenance.png",
+    "tags": ["vehicle", "automotive", "machinery", "predictive maintenance"]
+  },
+  {
+    "name": "bathroom.png",
+    "tags": ["bathroom", "smart home", "shower", "toilet", "sink", "bath", "appliances"]
+  },
+  {
+    "name": "bedroom.png",
+    "tags": ["bedroom", "smart home", "sleep"]
+  },
+  {
+    "name": "city.png",
+    "tags": ["city", "traffic", "parking", "building", "street"]
+  },
+  {
+    "name": "electrical.png",
+    "tags": ["electronics", "power", "voltage", "current"]
+  },
+  {
+    "name": "environment_nature_monitoring.png",
+    "tags": ["environment", "nature", "monitoring", "wildlife", "weather", "forest"]
+  },
+  {
+    "name": "health.png",
+    "tags": ["health", "monitoring"]
+  },
+  {
+    "name": "hmi.png",
+    "tags": ["human machine interface", "camera", "radar", "touch", "microphone"]
+  },
+  {
+    "name": "industrial_assembly_line_hmi.png",
+    "tags": [ "industrial", "machinery", "assembly line", "human machine interface"]
+  },
+  {
+    "name": "industrial_big_machinery.png",
+    "tags": [ "industrial", "machinery", "assembly line"]
+  },
+  {
+    "name": "industrial_maintenance.png",
+    "tags": ["industrial", "safety", "predictive maintenance", "machinery", "equipment"]
+  },
+  {
+    "name": "industrial_setting_safety.png",
+    "tags": ["industrial", "manufacturing", "safety", "quality", "human machine interface"]
+  },
+  {
+    "name": "iot_smart_home.png",
+    "tags": ["smart home", "appliances", "security"]
+  },
+  {
+    "name": "kitchen.png",
+    "tags": ["kitchen", "smart home", "appliances"]
+  },
+  {
+    "name": "living_room.png",
+    "tags": ["living room","smart home", "pets", "appliances"]
+  },
+  {
+    "name": "motion.png",
+    "tags": ["motion", "accelerometer", "gyroscope", "magnetometer", "vibration"]
+  },
+  {
+    "name": "office.png",
+    "tags": ["office", "workplace", "computer", "appliances"]
+  },
+  {
+    "name": "radar.png",
+    "tags": ["radar"]
+  },
+  {
+    "name": "security_monitoring.png",
+    "tags": ["security", "monitoring", "smart home", "parking", "door", "window", "alarm"]
+  },
+  {
+    "name": "shop_store.png",
+    "tags": ["shop", "commercial", "food", "clothing", "appliances", "grocery", "pharmacy"]
+  },
+  {
+    "name": "sport.png",
+    "tags": ["sport"]
+  },
+  {
+    "name": "vision.png",
+    "tags": ["vision", "camera", "security", "monitoring"]
+  },
+  {
+    "name": "wearables.png",
+    "tags": ["wearable", "device", "health", "sport"]
+  },
+  {
+    "name": "work_site_setting.png",
+    "tags": ["industrial", "construction", "logistics", "work site"]
+  },
+  {
+    "name": "workshop.png",
+    "tags": ["workshop", "workplace", "tools", "appliances", "equipment"]
+  }
+]

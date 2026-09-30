@@ -1,0 +1,19 @@
+{
+  "title": "Radar Entrance Counter",
+  "description": "Detect and count people entering or exiting a space using radar sensors and PSOC\u2122 6 processing",
+  "long_description": "This project demonstrates an entrance counter system built with Infineon's XENSIV\u2122 60 GHz radar sensor (BGT60TR13C) and PSOC\u2122 6. By processing radar reflections, the system detects human entry and exit events in real time, enabling accurate people counting, occupancy monitoring, and smart building automation.",
+  "sensors": ["Radar"],
+  "domain": ["Radar"],
+  "application": ["Commercial Building Automation", "Smart Home", "Safety Monitoring"],
+  "use_case": ["Entrance Counting", "People Counting", "Entry and Exit Detection", "Occupancy Monitoring"],
+  "kit": ["PSOC\u2122 6 AI Kit"],
+  "device": ["PSOC\u2122 6", "XENSIV\u2122 Radar BGT60TR13C"],
+  "type": "Model Deployment",
+	"workflow": ["ML Deployment"],
+  "thumbnail_image_id": "lowres-GettyImages-Smarthomepanel.webp",
+  "main_image_id": "lowres-GettyImages-Smarthomepanel.webp",
+  "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
+  "brand_url": "https://www.wgtech.ai/",
+  "links": [{"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-model-zoo-for-psoc/tree/main/RadarEntranceCounter", "heading": "Try Today", "sub-heading": "Deploy the pre-trained model to your PSOC\u2122 6 AI Eval Kit"},
+   {"label": "Learn More", "url": "https://www.wgtech.ai/solutions/privacy-solutions", "heading": "Project Details - WGTech Solutions", "sub-heading": "Learn more about the project and take the next step"}]
+}

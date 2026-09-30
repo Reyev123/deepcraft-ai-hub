@@ -1,0 +1,19 @@
+{
+  "title": "Motor Degradation Estimation",
+  "description": "Estimate induction-motor degradation from three-phase currents and voltages, with no extra sensors.",
+  "long_description": "This project allows you to train a regression model that estimates insulation-related degradation (0 = healthy, 1 = failure) over an induction motor's lifetime from three-phase currents and voltages sampled at 4 kHz. Data comes from a single 11 kW motor that was thermally overloaded until insulation failure. The model is suitable for predictive-maintenance applications where only the motor terminals can be instrumented; transferring it to other motors typically requires additional data and domain adaptation.",
+  "algorithm": "Regression",
+  "sensors": ["Current", "Voltage"],
+  "domain": ["Electrical Signals"],
+  "application": ["Appliances", "Automotive", "Industrial IoT", "Safety Monitoring"],
+  "use_case": ["Fault Detection", "Predictive Maintenance"],
+  "kit": ["PSOC\u2122 Edge AI Kit", "PSOC\u2122 C3 Motor Control Kit"],
+  "device": ["PSOC\u2122 Edge", "PSOC\u2122 C3"],
+  "type": ["Model Development"],
+  "workflow": ["ML Development"],
+  "thumbnail_image_id": "automotive_machine_maintenance.webp",
+  "main_image_id": "automotive_machine_maintenance.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [{"label": "Download", "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio", "heading": "Access Project via DEEPCRAFT\u2122 Studio", "sub-heading": "Download and install DEEPCRAFT\u2122 Studio to fully access this project and start developing your Edge AI product"}, {"label": "GitHub", "heading": "Project Repository", "sub-heading": "Get more details about this project", "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/MotorDegradationEstimation"}]
+}

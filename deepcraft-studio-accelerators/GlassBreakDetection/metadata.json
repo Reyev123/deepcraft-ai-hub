@@ -1,0 +1,20 @@
+{
+  "title": "Glass Break Detection",
+  "description": "This project uses a microphone to detect glass breaking sounds.",
+  "long_description": "This machine learning project focuses on developing a glass break detection model that can accurately identify glass break events by analyzing audio signals. Such models play a critical role in modern security infrastructures, where they enhance situational awareness and enable rapid response. Glass break detection can be deployed home security, commercial and retail buildings and in vehicles.",
+  "algorithm": "Classification",
+  "sensors": ["Microphone"],
+  "domain": ["Audio"],
+  "application": ["Smart Home", "Safety Monitoring", "Automotive", "Commercial Building Automation"],
+  "use_case": ["Intrusion Detection","Smart Security Monitoring","Audio Event Detection"],
+  "kit": ["PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "type": "Model Development",
+  "workflow": ["ML Development"],
+  "thumbnail_image_id": "iot_smart_home.webp",
+  "main_image_id": "iot_smart_home.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "links": [{"label": "Download", "url": "https://softwaretools.infineon.com/assets/com.ifx.tb.tool.deepcraftstudio","heading": "Access Project via DEEPCRAFT\u2122 Studio", "sub-heading": "Download and install DEEPCRAFT\u2122 Studio to fully access this project and start developing your Edge AI product"},
+            {"label": "GitHub", "url": "https://github.com/Infineon/deepcraft-studio-accelerators/tree/main/GlassBreakDetection","heading": "Project Repository", "sub-heading": "Get more details about this project"}]
+}

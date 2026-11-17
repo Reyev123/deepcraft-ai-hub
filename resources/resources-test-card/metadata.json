@@ -1,0 +1,21 @@
+{
+  "id": "resources-test-card",
+  "title": "Resources Test Card",
+  "description": "This is a test of resources cards creation and push to repo.",
+  "long_description": "<p>This is a test of resources cards creation and push to repo.</p> <ul> <li>item 1</li> <li>item 2</li> </ul>",
+  "sensors": ["Camera", "Microphone", "Radar"],
+  "domain": ["Audio", "Radar", "Vision"],
+  "application": ["Appliances", "Automotive"],
+  "use_case": ["Audio Event Detection", "Home Sounds Detection", "Occupancy Monitoring", "Person Segmentation"],
+  "kit": ["PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "type": "Resources",
+  "content_type": "Article",
+  "thumbnail_image_id": "iot_smart_home.webp",
+  "main_image_id": "iot_smart_home.webp",
+  "brand_image_id": "deepcraft.webp",
+  "brand_url": "https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions",
+  "videos": [{"title": "Resource Video Test", "description": "This is a video test", "link": "https://www.youtube.com/watch?v=bor0qLifjz4"}],
+  "links": [{"label": "Learn More", "url": "https://www.infineon.com/our-stories/empowering-robots", "heading": "We Turn Intelligence Into Motion. From Robots To Physical AI.", "sub-heading": "Your hand switches from a gentle grip on an egg to a firm hold on a box without a second thought. A robot needs tactile sensing, motor control and power working together to do the same. The AI model supplies the intelligence, and thousands of chips turn it into motion."}],
+  "published_date": "2026-11-16"
+}

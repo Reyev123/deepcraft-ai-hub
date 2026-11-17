@@ -1,0 +1,18 @@
+{
+  "title": "Partners123 TEST",
+  "description": "This is just a test",
+  "long_description": "This is just a test",
+  "sensors": ["Microphone"],
+  "domain": ["Audio"],
+  "application": ["Appliances"],
+  "use_case": ["Edge AI"],
+  "kit": ["PSOC\u2122 Edge AI Kit"],
+  "device": ["PSOC\u2122 Edge"],
+  "type": "Partners",
+  "thumbnail_image_id": "wgtech-trademark-logo-final-April2024.webp",
+  "main_image_id": "wgtech-trademark-logo-final-April2024.webp",
+  "brand_image_id": "wgtech-trademark-logo-final-April2024.webp",
+  "brand_url": "https://www.infineon.com",
+  "videos": [{"title": "Video Testsss", "description": "This is just a test", "link": "https://www.youtube.com/watch?v=bor0qLifjz4&t=300s"}],
+  "links": [{"label": "Learn More", "url": "https://www.infineon.com", "heading": "Infineon Link", "sub-heading": "This is a test"}, {"label": "Contact Us", "url": "https://www.infineon.com/contact", "heading": "Contact Us", "sub-heading": "Reach out to us to take the next step and turn your ideas into a reality"}]
+}
